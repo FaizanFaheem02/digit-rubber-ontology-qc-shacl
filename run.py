@@ -19,7 +19,6 @@ SPARQL_FILES = [
     "classes_missing_all_dates.sparql",
     "classes_missing_de_labels.sparql",
     "classes_with_underscore.sparql",
-    "classes_missing_en_lables.sparql",
 ]
 
 raw_data = ONTOLOGY_PATH.read_text(encoding="utf-8")
