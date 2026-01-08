@@ -5862,7 +5862,7 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000117>GROUP:  Role Branch</obo:IAO_0000117>
         <obo:IAO_0000119>OBI</obo:IAO_0000119>
         <obo:IAO_0000232>Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">evaluant_ role</rdfs:label>
+        <rdfs:label xml:lang="en">evaluant role</rdfs:label>
         <digitrubber3:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</digitrubber3:preliminary_broad_class_assigned>
     </owl:Class>
     
