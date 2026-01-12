@@ -59,7 +59,7 @@ for sparql_file in SPARQL_FILES:
                     str(label) if label else ""
                 ])
 
-        # -For SELECT
+        # For SELECT
         else:
             writer.writerow([str(v) for v in result.vars])
 
