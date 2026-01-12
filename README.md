@@ -14,7 +14,7 @@ All results are written to the output_files/ directory.
 - Missing definitions 
 - Missing creation date
 - Missing last update date on
-- Missing both creation **and** update dates
+- Missing both creation and update dates
 - Missing German (de) labels (Digit Rubber classes already have English labels)
 - Labels containing underscores
 - Missing curation status 
