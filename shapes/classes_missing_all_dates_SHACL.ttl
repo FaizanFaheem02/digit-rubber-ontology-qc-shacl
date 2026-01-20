@@ -13,12 +13,7 @@
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (
-                STRSTARTS(
-                  STR(?this),
-                  "http://purl.obolibrary.org/obo/DIGITRUBBER_"
-                )
-              )
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
             }
         """ ;
     ] ;
