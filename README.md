@@ -4,7 +4,9 @@ This repository provides SHACL-based quality control checks for the DigitRubber 
 
 ## How to Run
 
-pip install -r requirements.txt<br>
+python -m venv venv<br>
+.\venv\Scripts\Activate.ps1<br>
+python -m pip install -r requirements.txt<br>
 python shacl_validation.py
 
 Currently, the script runs SHACL validation for one shape file. Support for running multiple shapes via configurable file paths will be added soon.
