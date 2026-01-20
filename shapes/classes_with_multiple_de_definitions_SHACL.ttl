@@ -1,0 +1,32 @@
+@prefix : <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClassMoreThanOneGermanDefinitionShape
+    a sh:NodeShape ;
+    sh:targetClass owl:Class ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message
+          "Class '{$label}' has {$count} German definitions (obo:IAO_0000115)." ;
+
+        sh:select """
+            SELECT ?this ?label (COUNT(?def) AS ?count)
+            WHERE {
+              ?this rdf:type owl:Class .
+
+              OPTIONAL { ?this rdfs:label ?label }
+
+              ?this obo:IAO_0000115 ?def .
+              FILTER (LANG(?def) = "de")
+            }
+            GROUP BY ?this ?label
+            HAVING (COUNT(?def) > 1)
+        """ ;
+    ] ;
+
+    sh:severity sh:Violation .

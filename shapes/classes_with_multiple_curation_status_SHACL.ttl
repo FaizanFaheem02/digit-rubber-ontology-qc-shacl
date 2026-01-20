@@ -1,0 +1,25 @@
+@prefix : <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+:ClassMoreThanOneCurationStatusShape
+    a sh:NodeShape ;
+
+    sh:targetSubjectsOf obo:IAO_0000114 ;
+
+    sh:severity sh:Violation ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message
+          "Class has more than one curation status (obo:IAO_0000114)." ;
+
+        sh:select """
+            SELECT $this
+            WHERE {
+              $this obo:IAO_0000114 ?status .
+            }
+            GROUP BY $this
+            HAVING (COUNT(DISTINCT ?status) > 1)
+        """ ;
+    ] .

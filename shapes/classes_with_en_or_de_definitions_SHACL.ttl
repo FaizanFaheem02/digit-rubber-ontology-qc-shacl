@@ -1,0 +1,61 @@
+@prefix : <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClassMissingEnglishOrGermanDefinitionShape
+    a sh:NodeShape ;
+    sh:targetClass owl:Class ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+
+        sh:message
+          "DigitRubber class '{$label}' is missing a {$missingLang} definition (obo:IAO_0000115)." ;
+
+        sh:select """
+            SELECT ?this ?label ?missingLang
+            WHERE {
+              ?this rdf:type owl:Class .
+              OPTIONAL { ?this rdfs:label ?label }
+
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+
+              {
+                SELECT ?this
+                       (COUNT(?enDef) AS ?enCount)
+                       (COUNT(?deDef) AS ?deCount)
+                WHERE {
+                  OPTIONAL {
+                    ?this obo:IAO_0000115 ?enDef .
+                    FILTER (LANG(?enDef) = "en")
+                  }
+                  OPTIONAL {
+                    ?this obo:IAO_0000115 ?deDef .
+                    FILTER (LANG(?deDef) = "de")
+                  }
+                }
+                GROUP BY ?this
+              }
+
+              # must have at least one definition
+              FILTER ( (?enCount + ?deCount) > 0 )
+
+              # exactly one language missing
+              FILTER (
+                (?enCount = 0 && ?deCount > 0)
+                ||
+                (?deCount = 0 && ?enCount > 0)
+              )
+
+              BIND(
+                IF(?enCount = 0, "en", "de")
+                AS ?missingLang
+              )
+            }
+        """ ;
+    ] ;
+
+    sh:severity sh:Violation .

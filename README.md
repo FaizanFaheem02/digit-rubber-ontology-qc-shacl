@@ -1,27 +1,32 @@
 # DigitRubber Ontology – Quality Control Checks
 
-This repository provides SPARQL-based quality control checks for the DigitRubber ontology. It analyzes the ontology and exports CSV reports for common ontology quality issues. The ontology is not modified, all checks are read-only. 
+This repository provides SHACL-based quality control checks for the DigitRubber ontology. It validates the ontology against a set of SHACL shapes and exports CSV tables in ordeer to report common ontology quality issues. The ontology is not modified, all checks are read-only. 
 
 ## How to Run
 
 pip install -r requirements.txt<br>
-python run.py
+python shacl_validation.py
 
-All results are written to the output_files/ directory.
+Currently, the script runs SHACL validation for one shape file. Support for running multiple shapes via configurable file paths will be added soon.
 
-## Implemented Quality Checks (SPARQL-based)
+## Implemented Quality Checks (SHACL-based)
 
-- Missing definitions 
-- Missing creation date
-- Missing last update date on
 - Missing both creation and update dates
-- Missing German (de) labels (Digit Rubber classes already have English labels)
+- Missing creation date
+- Missing German (de) labels
+- Missing definitons 
+- Missing last updated on dates
+- Missing English or German definitions 
+- Multiple creation dates
+- Multiple curation status
+- Multiple German (de) definitions
+- Multiple English (en) definitions
+- Multiple last updated on
 - Labels containing underscores
-- Missing curation status 
-- Duplicate class labels (e.g. same label used by different partners)
+- Missing curation status
 
 ## Project Folder Structure
 - ontology/        → Active DigitRubber ontology
-- sparql/          → SPARQL quality checks
+- shapes/          → SHACL-based quality checks
 - output_files/    → CSV reports
-- run.py           → Executes all checks
+- shacl_validation.py    → Executes SHACL-based quality control checks
