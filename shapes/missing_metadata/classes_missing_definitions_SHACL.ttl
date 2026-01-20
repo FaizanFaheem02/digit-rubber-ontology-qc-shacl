@@ -3,10 +3,10 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix obo:  <http://purl.obolibrary.org/obo/> .
 
-:DigitRubberClassMissingGermanLabelShape
+:DigitRubberClassMissingDefinitionShape
     a sh:NodeShape ;
-
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -16,23 +16,18 @@
             }
         """ ;
     ] ;
-
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$thisLabel}' is missing a German (de) label." ;
+        sh:message
+          "DIGITRUBBER class '{$classId}' ('{$label}') is missing a definition (obo:IAO_0000115)." ;
         sh:select """
-            SELECT ?this ?thisLabel WHERE {
-              ?this rdf:type owl:Class .
+            SELECT ?this ?label
+                   (STRAFTER(STR(?this), "#") AS ?classId)
+            WHERE {
+              OPTIONAL { ?this rdfs:label ?label .
+                FILTER ( LANG(?label) = "en" ) }
 
-              OPTIONAL {
-                ?this rdfs:label ?thisLabel .
-                FILTER ( LANG(?thisLabel) = "en" )
-              }
-
-              FILTER NOT EXISTS {
-                ?this rdfs:label ?l .
-                FILTER ( LANG(?l) = "de" )
-              }
+              FILTER NOT EXISTS { ?this obo:IAO_0000115 ?definition }
             }
         """ ;
     ] ;

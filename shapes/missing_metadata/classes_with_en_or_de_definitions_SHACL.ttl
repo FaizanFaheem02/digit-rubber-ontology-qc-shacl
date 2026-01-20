@@ -28,32 +28,20 @@
                        (COUNT(?enDef) AS ?enCount)
                        (COUNT(?deDef) AS ?deCount)
                 WHERE {
-                  OPTIONAL {
-                    ?this obo:IAO_0000115 ?enDef .
-                    FILTER (LANG(?enDef) = "en")
-                  }
-                  OPTIONAL {
-                    ?this obo:IAO_0000115 ?deDef .
-                    FILTER (LANG(?deDef) = "de")
-                  }
+                  OPTIONAL { ?this obo:IAO_0000115 ?enDef .
+                    FILTER (LANG(?enDef) = "en") }
+
+                  OPTIONAL { ?this obo:IAO_0000115 ?deDef .
+                    FILTER (LANG(?deDef) = "de") }
                 }
                 GROUP BY ?this
               }
 
-              # must have at least one definition
               FILTER ( (?enCount + ?deCount) > 0 )
 
-              # exactly one language missing
-              FILTER (
-                (?enCount = 0 && ?deCount > 0)
-                ||
-                (?deCount = 0 && ?enCount > 0)
-              )
+              FILTER ((?enCount = 0 && ?deCount > 0) || (?deCount = 0 && ?enCount > 0))
 
-              BIND(
-                IF(?enCount = 0, "en", "de")
-                AS ?missingLang
-              )
+              BIND( IF(?enCount = 0, "en", "de") AS ?missingLang )
             }
         """ ;
     ] ;

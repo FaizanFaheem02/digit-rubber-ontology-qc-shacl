@@ -25,18 +25,13 @@
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)
             WHERE {
-              OPTIONAL {
-                ?this rdfs:label ?label .
-                FILTER ( LANG(?label) = "en" )
-              }
+              
+              OPTIONAL { ?this rdfs:label ?label .
+                FILTER ( LANG(?label) = "en" ) }
 
-              FILTER NOT EXISTS {
-                ?this oboInOwl:creation_date ?creationDate .
-              }
+              FILTER NOT EXISTS { ?this oboInOwl:creation_date ?creationDate }
 
-              FILTER NOT EXISTS {
-                ?this pav:lastUpdateOn ?lastUpdateOn .
-              }
+              FILTER NOT EXISTS { ?this pav:lastUpdateOn ?lastUpdateOn }
             }
         """ ;
     ] ;

@@ -3,9 +3,9 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix obo:  <http://purl.obolibrary.org/obo/> .
+@prefix pav:  <http://purl.org/pav/> .
 
-:DigitRubberClassMissingDefinitionShape
+:DigitRubberClassMissingLastUpdateOnShape
     a sh:NodeShape ;
     sh:target [
         a sh:SPARQLTarget ;
@@ -19,19 +19,14 @@
     sh:sparql [
         a sh:SPARQLConstraint ;
         sh:message
-          "DIGITRUBBER class '{$classId}' ('{$label}') is missing a definition (obo:IAO_0000115)." ;
+          "DIGITRUBBER class '{$classId}' ('{$label}') is missing pav:lastUpdateOn." ;
         sh:select """
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)
             WHERE {
-              OPTIONAL {
-                ?this rdfs:label ?label .
-                FILTER ( LANG(?label) = "en" )
-              }
-
-              FILTER NOT EXISTS {
-                ?this obo:IAO_0000115 ?definition .
-              }
+              OPTIONAL { ?this rdfs:label ?label .
+                FILTER ( LANG(?label) = "en" ) }
+              FILTER NOT EXISTS { ?this pav:lastUpdateOn ?lastUpdateOn }
             }
         """ ;
     ] ;

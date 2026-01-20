@@ -10,7 +10,7 @@ data_graph = Graph()
 data_graph.parse( "ontology/digitrubber-edit.owl", format="xml")
 
 shacl_graph = Graph()
-shacl_graph.parse( "shapes/classes_without_curation_status_SHACL.ttl", format="turtle")
+shacl_graph.parse( "shapes/missing_metadata/classes_missing_definitions_SHACL.ttl", format="turtle")
 
 conforms, results_graph, results_text = validate(
     data_graph=data_graph,
