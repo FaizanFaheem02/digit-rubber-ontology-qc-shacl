@@ -1,17 +1,26 @@
 from pyshacl import validate
 from rdflib import Graph, XSD
+from rdflib.namespace import RDF
 import rdflib.term
 import csv
 from rdflib import Namespace
+from pathlib import Path
+
+
+root_dir = Path(__file__).resolve().parent
+shapes_dir = root_dir / "shapes"
 
 for dt in (XSD.date, XSD.dateTime, XSD.decimal):
     rdflib.term._toPythonMapping.pop(dt, None)
+
 
 data_graph = Graph()
 data_graph.parse( "ontology/digitrubber-edit.owl", format="xml")
 
 shacl_graph = Graph()
-shacl_graph.parse( "shapes/missing_metadata/classes_missing_last_updated_on_SHACL.ttl", format="turtle")
+for shape_file in shapes_dir.rglob("*.ttl"):
+    shacl_graph.parse(shape_file, format="turtle")
+
 
 conforms, results_graph, results_text = validate(
     data_graph=data_graph,
@@ -28,24 +37,21 @@ conforms, results_graph, results_text = validate(
 )
 
 
-print("\n== SHACL VALIDATION RESULT ===\n")
-print("Conforms:", conforms)
-
-print("\n------ SHACL REPORT ----------------\n")
-print(results_text)
-
-
 SH = Namespace("http://www.w3.org/ns/shacl#")
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 
-rows = []
+rows_by_shape = {}
 
-for result in results_graph.subjects(predicate=None, object=SH.ValidationResult):
-  
+for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
+
+    shape = results_graph.value(result, SH.sourceShape)
     focus_node = results_graph.value(result, SH.focusNode)
+
+    if not shape or not focus_node:
+        continue
+
     class_id = str(focus_node).split("/")[-1]
 
-    
     label = data_graph.value(focus_node, RDFS.label)
     label = str(label) if label else ""
 
@@ -55,13 +61,27 @@ for result in results_graph.subjects(predicate=None, object=SH.ValidationResult)
     message = results_graph.value(result, SH.resultMessage)
     message = str(message)
 
-    rows.append([class_id, label, severity, message])
+    rows_by_shape.setdefault(shape, []).append( [class_id, label, severity, message])
 
-output_csv = "output_files/curation_status_table.csv"
 
-with open(output_csv, "w", newline="", encoding="utf-8") as f:
-    writer = csv.writer(f)
-    writer.writerow(["Class", "Label", "Severity", "Message"])
-    writer.writerows(rows)
+for shape, rows in rows_by_shape.items():
 
-print(f"\nTable written to: {output_csv}")
+    shape_name = str(shape).split("#")[-1]
+    output_csv = f"output_files/{shape_name}.csv"
+
+    with open(output_csv, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Class", "Label", "Severity", "Message"])
+        writer.writerows(rows)
+
+    print(f"Table written: {output_csv} ({len(rows)} violations)")
+
+
+
+
+
+
+
+
+
+
