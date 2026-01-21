@@ -10,6 +10,8 @@ from pathlib import Path
 root_dir = Path(__file__).resolve().parent
 shapes_dir = root_dir / "shapes"
 
+# Disable rdflib auto conversion of dates and numbers that can cause pyparsing to hang
+
 for dt in (XSD.date, XSD.dateTime, XSD.decimal):
     rdflib.term._toPythonMapping.pop(dt, None)
 
