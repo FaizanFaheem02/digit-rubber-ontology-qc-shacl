@@ -2,6 +2,7 @@ from pyshacl import validate
 from rdflib import Graph, XSD
 import rdflib.term
 import csv
+from rdflib import Namespace
 
 for dt in (XSD.date, XSD.dateTime, XSD.decimal):
     rdflib.term._toPythonMapping.pop(dt, None)
@@ -10,7 +11,7 @@ data_graph = Graph()
 data_graph.parse( "ontology/digitrubber-edit.owl", format="xml")
 
 shacl_graph = Graph()
-shacl_graph.parse( "shapes/missing_metadata/classes_missing_creation_date_SHACL.ttl", format="turtle")
+shacl_graph.parse( "shapes/missing_metadata/classes_missing_last_updated_on_SHACL.ttl", format="turtle")
 
 conforms, results_graph, results_text = validate(
     data_graph=data_graph,
@@ -33,9 +34,6 @@ print("Conforms:", conforms)
 print("\n------ SHACL REPORT ----------------\n")
 print(results_text)
 
-# Extract table data
-
-from rdflib import Namespace
 
 SH = Namespace("http://www.w3.org/ns/shacl#")
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
