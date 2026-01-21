@@ -10,7 +10,7 @@ data_graph = Graph()
 data_graph.parse( "ontology/digitrubber-edit.owl", format="xml")
 
 shacl_graph = Graph()
-shacl_graph.parse( "shapes/missing_metadata/classes_missing_definitions_SHACL.ttl", format="turtle")
+shacl_graph.parse( "shapes/missing_metadata/classes_missing_creation_date_SHACL.ttl", format="turtle")
 
 conforms, results_graph, results_text = validate(
     data_graph=data_graph,
@@ -48,7 +48,7 @@ for result in results_graph.subjects(predicate=None, object=SH.ValidationResult)
     class_id = str(focus_node).split("/")[-1]
 
     
-    label = results_graph.value(focus_node, RDFS.label)
+    label = data_graph.value(focus_node, RDFS.label)
     label = str(label) if label else ""
 
     severity = results_graph.value(result, SH.resultSeverity)
