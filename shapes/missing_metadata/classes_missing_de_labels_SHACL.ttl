@@ -6,7 +6,6 @@
 
 :DigitRubberClassMissingGermanLabelShape
     a sh:NodeShape ;
-
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """

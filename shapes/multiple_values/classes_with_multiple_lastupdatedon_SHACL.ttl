@@ -4,7 +4,6 @@
 
 :ClassMoreThanOneLastUpdateOnShape
     a sh:NodeShape ;
-    
     sh:targetSubjectsOf pav:lastUpdateOn ;
 
     sh:severity sh:Violation ;

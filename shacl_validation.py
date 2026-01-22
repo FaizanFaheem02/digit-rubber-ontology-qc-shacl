@@ -11,7 +11,6 @@ root_dir = Path(__file__).resolve().parent
 shapes_dir = root_dir / "shapes"
 
 # Disable rdflib auto conversion of dates and numbers that can cause pyparsing to hang
-
 for dt in (XSD.date, XSD.dateTime, XSD.decimal):
     rdflib.term._toPythonMapping.pop(dt, None)
 
@@ -49,6 +48,9 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     shape = results_graph.value(result, SH.sourceShape)
     focus_node = results_graph.value(result, SH.focusNode)
 
+    # >>> CHANGE 1: read the invalid value explicitly
+    value = results_graph.value(result, SH.value)
+
     if not shape or not focus_node:
         continue
 
@@ -61,9 +63,12 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     severity = str(severity).split("#")[-1]
 
     message = results_graph.value(result, SH.resultMessage)
-    message = str(message)
+    message = str(message) if message else ""
 
-    rows_by_shape.setdefault(shape, []).append( [class_id, label, severity, message])
+    # >>> CHANGE 2: convert sh:value to string
+    value = str(value) if value else ""
+
+    rows_by_shape.setdefault(shape, []).append( [class_id, label, value, severity, message])
 
 
 for shape, rows in rows_by_shape.items():
@@ -73,7 +78,8 @@ for shape, rows in rows_by_shape.items():
 
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Class", "Label", "Severity", "Message"])
+        # >>> CHANGE 4: add "Value" column to CSV header
+        writer.writerow(["Class", "Label", "Value", "Severity", "Message"])
         writer.writerows(rows)
 
     print(f"Table written: {output_csv} ({len(rows)} violations)")
