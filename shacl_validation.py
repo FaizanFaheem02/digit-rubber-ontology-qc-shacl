@@ -48,7 +48,6 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     shape = results_graph.value(result, SH.sourceShape)
     focus_node = results_graph.value(result, SH.focusNode)
 
-    # >>> CHANGE 1: read the invalid value explicitly
     value = results_graph.value(result, SH.value)
 
     if not shape or not focus_node:
@@ -65,7 +64,6 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     message = results_graph.value(result, SH.resultMessage)
     message = str(message) if message else ""
 
-    # >>> CHANGE 2: convert sh:value to string
     value = str(value) if value else ""
 
     rows_by_shape.setdefault(shape, []).append( [class_id, label, value, severity, message])
@@ -78,7 +76,6 @@ for shape, rows in rows_by_shape.items():
 
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        # >>> CHANGE 4: add "Value" column to CSV header
         writer.writerow(["Class", "Label", "Value", "Severity", "Message"])
         writer.writerows(rows)
 
