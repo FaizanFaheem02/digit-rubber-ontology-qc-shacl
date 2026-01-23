@@ -6,6 +6,8 @@
 
 :DigitRubberClassMissingGermanLabelShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
+
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -16,20 +18,11 @@
         """ ;
     ] ;
 
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$thisLabel}' is missing a German (de) label." ;
-        sh:select """
-            SELECT ?this ?thisLabel WHERE {
-              ?this rdf:type owl:Class .
-
-              OPTIONAL { ?this rdfs:label ?thisLabel .
-                FILTER ( LANG(?thisLabel) = "en" ) }
-
-              FILTER NOT EXISTS { ?this rdfs:label ?l .
-                FILTER ( LANG(?l) = "de" ) }
-            }
-        """ ;
-    ] ;
-
-    sh:severity sh:Violation .
+    sh:property [
+        sh:path rdfs:label ;
+        sh:qualifiedValueShape [
+            sh:languageIn ( "de" ) ;
+        ] ;
+        sh:qualifiedMinCount 1 ;
+        sh:message "DIGITRUBBER class is missing a German (de) label." ;
+    ] .

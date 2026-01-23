@@ -7,6 +7,8 @@
 
 :DigitRubberClassMissingCreationDateShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
+
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -16,19 +18,11 @@
             }
         """ ;
     ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing oboInOwl:creation_date." ;
-        sh:select """
-            SELECT ?this ?label
-                   (STRAFTER(STR(?this), "#") AS ?classId)
-            WHERE {
-              OPTIONAL { ?this rdfs:label ?label .
-               FILTER ( LANG(?label) = "en" )
-              }
-              FILTER NOT EXISTS { ?this oboInOwl:creation_date ?date }
-            }
-        """ ;
-    ] ;
 
-    sh:severity sh:Violation .
+    sh:property [
+        sh:path oboInOwl:creation_date ;
+        sh:minCount 1 ;
+        sh:message "DIGITRUBBER class is missing oboInOwl:creation_date." ;
+    ] .
+
+  

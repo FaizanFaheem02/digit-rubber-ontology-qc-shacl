@@ -5,7 +5,7 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClassMissingEnglishOrGermanDefinitionShape
+:DigitRubberClassMissingEnglishOrGermanDefinitionShape
     a sh:NodeShape ;
     sh:targetClass owl:Class ;
 
@@ -18,7 +18,8 @@
             SELECT ?this ?label ?missingLang
             WHERE {
               ?this rdf:type owl:Class .
-              OPTIONAL { ?this rdfs:label ?label }
+              OPTIONAL { ?this rdfs:label ?label .
+              FILTER (LANG(?label) = "en") }
 
               FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
 

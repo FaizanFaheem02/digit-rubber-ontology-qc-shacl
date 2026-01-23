@@ -7,6 +7,8 @@
 
 :DigitRubberClassMissingDefinitionShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
+
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -16,19 +18,12 @@
             }
         """ ;
     ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing a definition (obo:IAO_0000115)." ;
-        sh:select """
-            SELECT ?this ?label
-                   (STRAFTER(STR(?this), "#") AS ?classId)
-            WHERE {
-              OPTIONAL { ?this rdfs:label ?label .
-                FILTER ( LANG(?label) = "en" ) }
+    
+    sh:property [
+        sh:path obo:IAO_0000115 ;
+        sh:minCount 1 ;
+        sh:message
+          "DIGITRUBBER class is missing a definition (obo:IAO_0000115)." ;
+    ] .
 
-              FILTER NOT EXISTS { ?this obo:IAO_0000115 ?definition }
-            }
-        """ ;
-    ] ;
-
-    sh:severity sh:Violation .
+   

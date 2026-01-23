@@ -7,6 +7,8 @@
 
 :DigitRubberClassMissingLastUpdateOnShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
+
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -16,18 +18,9 @@
             }
         """ ;
     ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing pav:lastUpdateOn." ;
-        sh:select """
-            SELECT ?this ?label
-                   (STRAFTER(STR(?this), "#") AS ?classId)
-            WHERE {
-              OPTIONAL { ?this rdfs:label ?label .
-                FILTER ( LANG(?label) = "en" ) }
-              FILTER NOT EXISTS { ?this pav:lastUpdateOn ?lastUpdateOn }
-            }
-        """ ;
-    ] ;
 
-    sh:severity sh:Violation .
+    sh:property [
+        sh:path pav:lastUpdateOn ;
+        sh:minCount 1 ;
+        sh:message "DIGITRUBBER class is missing pav:lastUpdateOn." ;
+    ] .

@@ -6,7 +6,7 @@
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix pav:      <http://purl.org/pav/> .
 
-:ClassMissingCreationAndUpdateDateShape
+:DigitRubberClassMissingCreationAndUpdateDateShape
     a sh:NodeShape ;
     sh:target [
         a sh:SPARQLTarget ;
@@ -36,5 +36,3 @@
     ] ;
 
     sh:severity sh:Violation .
-
-
