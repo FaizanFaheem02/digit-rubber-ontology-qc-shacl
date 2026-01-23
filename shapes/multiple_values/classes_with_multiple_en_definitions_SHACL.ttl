@@ -7,20 +7,22 @@
 :ClassMoreThanOneEnglishDefinitionShape
     a sh:NodeShape ;
     sh:targetClass owl:Class ;
+     sh:severity sh:Violation ;
 
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "Class has more than one English definition (obo:IAO_0000115)." ;
+   sh:property [
+        sh:path obo:IAO_0000115 ;
 
-        sh:select """
-            SELECT $this
-            WHERE {
-              $this obo:IAO_0000115 ?defEn .
-              FILTER (lang(?defEn) = "en")
-            }
-            GROUP BY $this
-            HAVING (COUNT(?defEn) > 1)
-        """ ;
-    ] ;
+        # Only values that match this shape are counted
+        sh:qualifiedValueShape [
+            sh:datatype rdf:langString ;
+            sh:languageIn ( "en" ) ;
+        ] ;
 
-    sh:severity sh:Violation .
+        # Allow at most one English definition
+        sh:qualifiedMaxCount 1 ;
+
+        sh:message
+          "Class has more than one English definition (obo:IAO_0000115)." ;
+    ] .
+
+   

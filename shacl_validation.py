@@ -54,6 +54,11 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     if not shape or not focus_node:
         continue
 
+    if isinstance(shape, rdflib.term.BNode):
+        for node_shape in shacl_graph.subjects(SH.property, shape):
+            shape = node_shape
+            break
+
     class_id = str(focus_node).split("/")[-1]
 
     label = data_graph.value(focus_node, RDFS.label)
@@ -81,13 +86,3 @@ for shape, rows in rows_by_shape.items():
         writer.writerows(rows)
 
     print(f"Table written: {output_csv} ({len(rows)} violations)")
-
-
-
-
-
-
-
-
-
-

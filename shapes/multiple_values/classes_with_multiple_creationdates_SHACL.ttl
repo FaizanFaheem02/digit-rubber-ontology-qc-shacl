@@ -8,15 +8,8 @@
     sh:targetClass owl:Class ;
     sh:severity sh:Violation ;
 
-    sh:sparql [
-        a sh:SPARQLConstraint ;
+    sh:property [
+        sh:path oboInOwl:creation_date ;
+        sh:maxCount 1 ;
         sh:message "Class has more than one creation date." ;
-        sh:select """
-            SELECT $this
-            WHERE {
-              $this oboInOwl:creation_date ?date .
-            }
-            GROUP BY $this
-            HAVING (COUNT(?date) > 1)
-        """ ;
     ] .

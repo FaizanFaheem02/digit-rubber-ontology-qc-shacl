@@ -5,19 +5,10 @@
 :ClassMoreThanOneLastUpdateOnShape
     a sh:NodeShape ;
     sh:targetSubjectsOf pav:lastUpdateOn ;
-
     sh:severity sh:Violation ;
 
-    sh:sparql [
-        a sh:SPARQLConstraint ;
+    sh:property [
+        sh:path pav:lastUpdateOn ;
+        sh:maxCount 1 ;
         sh:message "Class has more than one pav:lastUpdateOn value." ;
-
-        sh:select """
-            SELECT $this
-            WHERE {
-              $this pav:lastUpdateOn ?date .
-            }
-            GROUP BY $this
-            HAVING (COUNT(DISTINCT ?date) > 1)
-        """ ;
     ] .

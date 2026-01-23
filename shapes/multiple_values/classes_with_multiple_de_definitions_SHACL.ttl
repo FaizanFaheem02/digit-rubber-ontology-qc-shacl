@@ -8,24 +8,17 @@
 :ClassMoreThanOneGermanDefinitionShape
     a sh:NodeShape ;
     sh:targetClass owl:Class ;
+    sh:severity sh:Violation ;
 
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "Class '{$label}' has {$count} German definitions (obo:IAO_0000115)." ;
+    sh:property [
+        sh:path obo:IAO_0000115 ;
 
-        sh:select """
-            SELECT ?this ?label (COUNT(?def) AS ?count)
-            WHERE {
-              ?this rdf:type owl:Class .
+        sh:qualifiedValueShape [
+            sh:datatype rdf:langString ;
+            sh:languageIn ( "de" ) ;
+        ] ;
 
-              OPTIONAL { ?this rdfs:label ?label }
+        sh:qualifiedMaxCount 1 ;
 
-              ?this obo:IAO_0000115 ?def .
-              FILTER (LANG(?def) = "de")
-            }
-            GROUP BY ?this ?label
-            HAVING (COUNT(?def) > 1)
-        """ ;
-    ] ;
-
-    sh:severity sh:Violation .
+        sh:message "Class has more than one German definition (obo:IAO_0000115)." ;
+    ] .
