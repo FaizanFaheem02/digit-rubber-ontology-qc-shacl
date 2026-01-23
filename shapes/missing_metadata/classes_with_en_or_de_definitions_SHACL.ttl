@@ -8,6 +8,7 @@
 :DigitRubberClassMissingEnglishOrGermanDefinitionShape
     a sh:NodeShape ;
     sh:targetClass owl:Class ;
+     sh:severity sh:Violation ;
 
     sh:sparql [
         a sh:SPARQLConstraint ;
@@ -44,6 +45,6 @@
               BIND( IF(?enCount = 0, "en", "de") AS ?missingLang )
             }
         """ ;
-    ] ;
+    ] .
 
-    sh:severity sh:Violation .
+   

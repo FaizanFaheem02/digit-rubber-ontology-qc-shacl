@@ -8,6 +8,7 @@
 
 :DigitRubberClassInvalidCreationDateShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
 
     sh:target [
         a sh:SPARQLTarget ;
@@ -20,21 +21,14 @@
     ] ;
 
     sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has a non-date value '{$date}' for oboInOwl:creation_date." ;
-        sh:select """
-          SELECT ?this ?label ?date ?value
-                 (REPLACE(STR(?this), ".*/", "") AS ?classId)
-          WHERE {
-            OPTIONAL { ?this rdfs:label ?label .
-              FILTER (LANG(?label) = "en") }
+    a sh:SPARQLConstraint ;
+    sh:message "DIGITRUBBER class has an invalid value '{$date}' for oboInOwl:creation_date." ;
+    sh:select """
+      SELECT ?this ?date
+      WHERE {
+        ?this oboInOwl:creation_date ?date .
 
-            ?this oboInOwl:creation_date ?date .
-
-            FILTER (!isLiteral(?date) || DATATYPE(?date) != xsd:date && DATATYPE(?date) != xsd:Date && DATATYPE(?date) != xsd:dateTime)
-            BIND(?date AS ?value)
-          }
-        """ ;
-    ] ;
-
-    sh:severity sh:Violation .
+        FILTER (isLiteral(?date) && !regex(str(?date), "^[0-9]{4}") && !regex(str(?date), "^[0-9]{1,2}[.-][0-9]{1,2}[.-][0-9]{4}"))
+      }
+    """ ;
+] .

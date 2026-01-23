@@ -8,6 +8,8 @@
 
 :DigitRubberClassMissingCreationAndUpdateDateShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
+    
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -33,6 +35,6 @@
               FILTER NOT EXISTS { ?this pav:lastUpdateOn ?lastUpdateOn }
             }
         """ ;
-    ] ;
+    ] .
 
-    sh:severity sh:Violation .
+    

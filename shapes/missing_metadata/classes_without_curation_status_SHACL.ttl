@@ -6,7 +6,8 @@
 
 :DigitRubberClassMissingCurationStatusShape
     a sh:NodeShape ;
-    
+    sh:severity sh:Violation ;
+
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -22,6 +23,6 @@
         sh:minCount 1 ;
         sh:message
           "DIGITRUBBER class is missing curation status (obo:IAO_0000114)." ;
-    ] ;
+    ] .
 
-    sh:severity sh:Violation .
+    

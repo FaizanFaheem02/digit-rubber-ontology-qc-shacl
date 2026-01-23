@@ -1,13 +1,13 @@
-@prefix :         <https://www.tib.eu/digitrubber/shapes#> .
-@prefix sh:       <http://www.w3.org/ns/shacl#> .
-@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix pav:      <http://purl.org/pav/> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix :    <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
 
 :DigitRubberClassInvalidLastUpdateOnShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
 
     sh:target [
         a sh:SPARQLTarget ;
@@ -21,20 +21,19 @@
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has a non-date value '{$date}' for oboInOwl:creation_date." ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has an invalid value '{$date}' for pav:lastUpdateOn." ;
         sh:select """
-          SELECT ?this ?label ?date ?value
+          SELECT ?this ?label ?date
                  (REPLACE(STR(?this), ".*/", "") AS ?classId)
           WHERE {
-            OPTIONAL { ?this rdfs:label ?label .
-              FILTER (LANG(?label) = "en")}
+            OPTIONAL {
+              ?this rdfs:label ?label .
+              FILTER (LANG(?label) = "en")
+            }
 
             ?this pav:lastUpdateOn ?date .
 
-            FILTER (!isLiteral(?date) || DATATYPE(?date) != xsd:date && DATATYPE(?date) != xsd:Date && DATATYPE(?date) != xsd:dateTime)
-            BIND(?date AS ?value)
+            FILTER (isLiteral(?date) && !regex(str(?date), "^[0-9]{4}") && !regex(str(?date), "^[0-9]{1,2}[.-][0-9]{1,2}[.-][0-9]{4}"))
           }
         """ ;
-    ] ;
-
-    sh:severity sh:Violation .
+    ] .

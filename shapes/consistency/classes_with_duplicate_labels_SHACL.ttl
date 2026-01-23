@@ -6,7 +6,8 @@
 
 :DigitRubberClassesWithDuplicateBaseLabelsShape
     a sh:NodeShape ;
-
+    sh:severity sh:Violation ;
+    
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -50,6 +51,5 @@ WHERE {
   FILTER (?dupCount > 0)
 }
         """ ;
-    ] ;
+    ] .
 
-    sh:severity sh:Violation .

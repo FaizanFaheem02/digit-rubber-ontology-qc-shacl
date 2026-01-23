@@ -18,7 +18,6 @@
             sh:languageIn ( "en" ) ;
         ] ;
 
-        # Allow at most one English definition
         sh:qualifiedMaxCount 1 ;
 
         sh:message "Class has more than one English definition (obo:IAO_0000115)." ;
