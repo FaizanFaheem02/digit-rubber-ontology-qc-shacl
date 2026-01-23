@@ -6,6 +6,7 @@
 
 :DigitRubberClassLabelUnderscoreShape
     a sh:NodeShape ;
+    sh:severity sh:Violation ;
 
     sh:target [
         a sh:SPARQLTarget ;
@@ -17,17 +18,12 @@
         """ ;
     ] ;
 
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' has label '{$label}' which contains an underscore (_)." ;
-        sh:select """
-            SELECT ?this ?label
-                   (STRAFTER(STR(?this), "#") AS ?classId)
-            WHERE {
-              ?this rdfs:label ?label .
-              FILTER ( CONTAINS(STR(?label), "_") )
-            }
-        """ ;
-    ] ;
+    sh:property [
+        sh:path rdfs:label ;
 
-    sh:severity sh:Violation .
+        sh:not [
+            sh:pattern "_" ;
+        ] ;
+
+        sh:message "DIGITRUBBER class label contains an underscore (_)." ;
+    ] .
