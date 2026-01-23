@@ -1,32 +1,27 @@
 @prefix :     <https://www.tib.eu/digitrubber/shapes#> .
 @prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix obo:  <http://purl.obolibrary.org/obo/> .
 
 :DigitRubberClassMissingCurationStatusShape
     a sh:NodeShape ;
+    
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+               FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
             }
         """ ;
     ] ;
-    sh:sparql [
-        a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing curation status (obo:IAO_0000114)." ;
-        sh:select """
-            SELECT ?this ?label
-                   (STRAFTER(STR(?this), "#") AS ?classId)
-            WHERE {
-              OPTIONAL { ?this rdfs:label ?label }
-              FILTER NOT EXISTS { ?this obo:IAO_0000114 ?curationStatus}
-            }
-        """ ;
+
+    sh:property [
+        sh:path obo:IAO_0000114 ;
+        sh:minCount 1 ;
+        sh:message
+          "DIGITRUBBER class is missing curation status (obo:IAO_0000114)." ;
     ] ;
 
     sh:severity sh:Violation .
