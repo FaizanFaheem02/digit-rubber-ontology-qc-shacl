@@ -11,8 +11,7 @@
 
    sh:property [
         sh:path obo:IAO_0000115 ;
-
-        # Only values that match this shape are counted
+        
         sh:qualifiedValueShape [
             sh:datatype rdf:langString ;
             sh:languageIn ( "en" ) ;

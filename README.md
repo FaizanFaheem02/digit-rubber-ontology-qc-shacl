@@ -15,19 +15,29 @@ Currently, the script runs SHACL validation for one shape file. Support for runn
 
 ## Implemented Quality Checks (SHACL-based)
 
-- Missing both creation and update dates
-- Missing creation date
+### consistency
+- Duplicate labels
+
+### formatting issues
+- Invalid creation date
+- Invalid last updated on date
+- Labels with underscore 
+
+### missing metadata
+- Missing creation date 
+- Missing last updated on date 
+- Missing both creation and last updated on dates
 - Missing German (de) labels
 - Missing definitons 
-- Missing last updated on dates
 - Missing English or German definitions 
-- Multiple creation dates
+- Missing curation status
+
+### multiple values
+- Multiple creation dates 
 - Multiple curation status
 - Multiple German (de) definitions
 - Multiple English (en) definitions
-- Multiple last updated on
-- Labels containing underscores
-- Missing curation status
+- Multiple last updated on dates
 
 ## Project Folder Structure
 - ontology/        → Active DigitRubber ontology
