@@ -10,8 +10,7 @@
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-            "Class has more than one pav:lastUpdateOn value." ;
+        sh:message "Class has more than one pav:lastUpdateOn value." ;
 
         sh:select """
             SELECT $this

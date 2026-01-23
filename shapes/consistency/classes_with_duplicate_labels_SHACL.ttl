@@ -1,0 +1,55 @@
+@prefix :     <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+:DigitRubberClassesWithDuplicateBaseLabelsShape
+    a sh:NodeShape ;
+
+    sh:target [
+        a sh:SPARQLTarget ;
+        sh:select """
+          SELECT ?this WHERE {
+            ?this rdf:type owl:Class .
+            FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
+          }
+        """ ;
+    ] ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has {$dupCount} other classes with the same base label." ;
+        sh:select """
+          SELECT ?this ?label ?classId ?dupCount
+WHERE {
+
+  {
+    SELECT ?this ?label ?classId (COUNT(?other) AS ?dupCount)
+    WHERE {
+      ?this rdfs:label ?label .
+      FILTER (LANG(?label) = "en")
+
+      BIND(REPLACE(STR(?this), ".*/", "") AS ?classId)
+
+      BIND(IF(CONTAINS(STR(?label), "["), STRBEFORE(STR(?label), "["), STR(?label)) AS ?base)
+
+      ?other rdf:type owl:Class ;
+             rdfs:label ?otherLabel .
+
+      FILTER (?other != ?this)
+      FILTER (LANG(?otherLabel) = "en")
+
+      BIND(IF(CONTAINS(STR(?otherLabel), "["), STRBEFORE(STR(?otherLabel), "["), STR(?otherLabel)) AS ?otherBase)
+
+      FILTER (?base = ?otherBase)
+    }
+    GROUP BY ?this ?label ?classId
+  }
+
+  FILTER (?dupCount > 0)
+}
+        """ ;
+    ] ;
+
+    sh:severity sh:Violation .

@@ -14,24 +14,20 @@
         sh:select """
           SELECT ?this WHERE {
             ?this rdf:type owl:Class .
-            FILTER (STRSTARTS(STR(?this),
-              "http://purl.obolibrary.org/obo/DIGITRUBBER_") || STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
+            FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_") || STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
           }
         """ ;
     ] ;
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-          "DIGITRUBBER class '{$classId}' ('{$label}') has a non-date value '{$date}' for oboInOwl:creation_date." ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has a non-date value '{$date}' for oboInOwl:creation_date." ;
         sh:select """
           SELECT ?this ?label ?date ?value
                  (REPLACE(STR(?this), ".*/", "") AS ?classId)
           WHERE {
-            OPTIONAL {
-              ?this rdfs:label ?label .
-              FILTER (LANG(?label) = "en")
-            }
+            OPTIONAL { ?this rdfs:label ?label .
+              FILTER (LANG(?label) = "en") }
 
             ?this oboInOwl:creation_date ?date .
 

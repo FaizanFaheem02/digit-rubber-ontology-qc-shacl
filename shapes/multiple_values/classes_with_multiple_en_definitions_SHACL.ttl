@@ -10,8 +10,7 @@
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-            "Class has more than one English definition (obo:IAO_0000115)." ;
+        sh:message "Class has more than one English definition (obo:IAO_0000115)." ;
 
         sh:select """
             SELECT $this

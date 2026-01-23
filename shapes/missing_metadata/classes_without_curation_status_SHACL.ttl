@@ -18,8 +18,7 @@
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-          "DIGITRUBBER class '{$classId}' ('{$label}') is missing curation status (obo:IAO_0000114)." ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing curation status (obo:IAO_0000114)." ;
         sh:select """
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)

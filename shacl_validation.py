@@ -43,6 +43,7 @@ RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 
 rows_by_shape = {}
 
+
 for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
     shape = results_graph.value(result, SH.sourceShape)

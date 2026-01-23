@@ -12,8 +12,7 @@
     sh:sparql [
         a sh:SPARQLConstraint ;
 
-        sh:message
-          "DigitRubber class '{$label}' is missing a {$missingLang} definition (obo:IAO_0000115)." ;
+        sh:message "DigitRubber class '{$label}' is missing a {$missingLang} definition (obo:IAO_0000115)." ;
 
         sh:select """
             SELECT ?this ?label ?missingLang

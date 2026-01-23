@@ -19,8 +19,7 @@
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-          "DIGITRUBBER class '{$classId}' ('{$label}') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn." ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn." ;
         sh:select """
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)

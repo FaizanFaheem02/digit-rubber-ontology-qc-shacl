@@ -19,8 +19,7 @@
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-          "DIGITRUBBER class '{$classId}' has label '{$label}' which contains an underscore (_)." ;
+        sh:message "DIGITRUBBER class '{$classId}' has label '{$label}' which contains an underscore (_)." ;
         sh:select """
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)

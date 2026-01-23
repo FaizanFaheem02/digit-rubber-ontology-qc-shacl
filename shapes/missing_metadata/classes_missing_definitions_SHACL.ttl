@@ -18,8 +18,7 @@
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-          "DIGITRUBBER class '{$classId}' ('{$label}') is missing a definition (obo:IAO_0000115)." ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing a definition (obo:IAO_0000115)." ;
         sh:select """
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)

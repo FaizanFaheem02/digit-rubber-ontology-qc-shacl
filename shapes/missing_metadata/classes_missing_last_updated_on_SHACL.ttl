@@ -18,8 +18,7 @@
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message
-          "DIGITRUBBER class '{$classId}' ('{$label}') is missing pav:lastUpdateOn." ;
+        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing pav:lastUpdateOn." ;
         sh:select """
             SELECT ?this ?label
                    (STRAFTER(STR(?this), "#") AS ?classId)
