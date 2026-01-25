@@ -11,8 +11,6 @@ python -m pip install -r requirements.txt
 python shacl_validation.py
 ```
 
-Currently, the script runs SHACL validation for one shape file. Support for running multiple shapes via configurable file paths will be added soon.
-
 ## Implemented Quality Checks (SHACL-based)
 
 ### consistency
