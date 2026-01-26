@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_1000065,temperatur tan d max [Arlanxeo],Violation,DIGITRUBBER class 'DIGITRUBBER_1000065' ('temperatur tan d max [Arlanxeo]') has an invalid value 'Temperatur tan d max' for pav:lastUpdateOn.

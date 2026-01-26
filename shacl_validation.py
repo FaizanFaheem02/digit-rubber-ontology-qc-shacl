@@ -61,7 +61,12 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
     class_id = str(focus_node).split("/")[-1]
 
-    label = data_graph.value(focus_node, RDFS.label)
+    label = None
+    for l in data_graph.objects(focus_node, RDFS.label):
+        if getattr(l, "language", None) == "en":
+           label = l
+           break
+
     label = str(label) if label else ""
 
     severity = results_graph.value(result, SH.resultSeverity)
@@ -70,9 +75,7 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     message = results_graph.value(result, SH.resultMessage)
     message = str(message) if message else ""
 
-    value = str(value) if value else ""
-
-    rows_by_shape.setdefault(shape, []).append( [class_id, label, value, severity, message])
+    rows_by_shape.setdefault(shape, []).append( [class_id, label, severity, message])
 
 
 for shape, rows in rows_by_shape.items():
@@ -82,7 +85,7 @@ for shape, rows in rows_by_shape.items():
 
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Class", "Label", "Value", "Severity", "Message"])
+        writer.writerow(["Class Suffix", "Label", "Severity", "Message"])
         writer.writerows(rows)
 
     print(f"Table written: {output_csv} ({len(rows)} violations)")

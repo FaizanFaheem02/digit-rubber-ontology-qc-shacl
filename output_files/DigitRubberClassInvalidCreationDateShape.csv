@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER1000031,extruder zone,Violation,DIGITRUBBER class 'DIGITRUBBER1000031' ('extruder zone') has an invalid value 'sdf' for oboInOwl:creation_date.

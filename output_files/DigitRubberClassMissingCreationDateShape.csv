@@ -1,0 +1,4 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000273,polymer [chebi],Violation,DIGITRUBBER class is missing oboInOwl:creation_date.
+DIGITRUBBER_1000037,ML1+4 [Arlanxeo],Violation,DIGITRUBBER class is missing oboInOwl:creation_date.
+DIGITRUBBER_000149,deprecated class,Violation,DIGITRUBBER class is missing oboInOwl:creation_date.

@@ -1,0 +1,73 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000025,bundle adjustment method [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000164,calandar [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000019,standard deviation [Wikipedia],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000136,quality inspector [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000644,butyl rubber BIIR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000199,raw rubber samples [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000229,photometry [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000244,geometry correction [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000108,cost group [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000129,operator [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000162,tire-building machine [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000150,throughput [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000125,finished product [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000181,reinforcing material [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000647,nitrile rubber NBR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000643,functional group [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000645,EPDM rubber [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000017,extrudate norm [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000222,processed spectrum [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000111,energy cost [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000215,distribution quality [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000179,synthetic rubber [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000280,sample [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000269,Mooney viscosity [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000135,warehouse clerk [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000281,agglomerate [dik],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_1000054,F Median [Arlanxeo],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000226,photometric measurement process [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000213,laser-induced breakdown spectroscopy [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000022,camera coordinate system [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000187,Raman spectroscopy [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000026,agent [ita],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000180,filling material [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000276,polymer composition [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000124,semi-finished product [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000282,aggregate [dik],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000177,natural rubber [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000131,supervisor [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000265,standard deviation [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000024,camera calibration [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000006,triangulation [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000648,fluororubber FKM [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000023,exterior orientation [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000283,particle [dik],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000227,measurement metadata,Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000270,monomer [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000196,ATR-FTIR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000193,raman spectrum [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000261,zinc [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000642,butadiene rubber BR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000649,hydrogenated nitrile rubber HNBR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000171,tool [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000143,energy consumption [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000195,FTIR spectroscopy [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000106,cost [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000640,normalization [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000221,raw spectrum [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000190,spectrum [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000239,digital image processing [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000123,raw material [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000117,turnover [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000009,surface of extrudate [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000161,banbury mixer [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000216,peak [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000003,geometry [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000646,polyisoprene IR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000134,operational assistant [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000650,styrene-butadiene rubber SBR [ifnano],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_1000059,massedruck 2 [Arlanxeo],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000016,distance between sensor and extrudate [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000149,deprecated class,Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000112,material cost [hsh],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

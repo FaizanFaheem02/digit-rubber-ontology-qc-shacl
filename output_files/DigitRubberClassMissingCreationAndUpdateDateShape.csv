@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000149,deprecated class,Violation,DIGITRUBBER class 'DIGITRUBBER_000149' ('deprecated class') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
