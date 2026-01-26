@@ -22,10 +22,16 @@
 
     sh:sparql [
     a sh:SPARQLConstraint ;
-    sh:message "DIGITRUBBER class has an invalid value '{$date}' for oboInOwl:creation_date." ;
+    sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has an invalid value '{$date}' for oboInOwl:creation_date." ;
     sh:select """
-      SELECT ?this ?date
+      SELECT ?this ?label ?date
+      (REPLACE(STR(?this), ".*/", "") AS ?classId)
       WHERE {
+        
+        OPTIONAL { ?this rdfs:label ?label .
+              FILTER (LANG(?label) = "en")
+            }
+
         ?this oboInOwl:creation_date ?date .
 
         FILTER (isLiteral(?date) && !regex(str(?date), "^[0-9]{4}") && !regex(str(?date), "^[0-9]{1,2}[.-][0-9]{1,2}[.-][0-9]{4}"))
