@@ -24,7 +24,7 @@
         sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn." ;
         sh:select """
             SELECT ?this ?label
-                   (STRAFTER(STR(?this), "#") AS ?classId)
+                   (REPLACE(STR(?this), ".*/", "") AS ?classId)
             WHERE {
               
               OPTIONAL { ?this rdfs:label ?label .

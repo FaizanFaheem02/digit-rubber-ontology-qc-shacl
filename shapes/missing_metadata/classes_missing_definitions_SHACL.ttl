@@ -22,8 +22,7 @@
     sh:property [
         sh:path obo:IAO_0000115 ;
         sh:minCount 1 ;
-        sh:message
-          "DIGITRUBBER class is missing a definition (obo:IAO_0000115)." ;
+        sh:message "DIGITRUBBER class is missing a definition (obo:IAO_0000115)." ;
     ] .
 
    
