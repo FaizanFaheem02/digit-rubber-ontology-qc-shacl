@@ -1,6 +1,6 @@
 # DigitRubber Ontology – Quality Control Checks
 
-This repository provides SHACL-based quality control checks for the DigitRubber ontology. It validates the ontology against a set of SHACL shapes and exports CSV tables in ordeer to report common ontology quality issues. The ontology is not modified, all checks are read-only. 
+This repository provides SHACL-based quality control checks for the DigitRubber ontology. It validates the ontology against a set of SHACL shapes and exports CSV tables in order to report common ontology quality issues. The ontology is not modified, all checks are read-only. 
 
 ## How to Run
 
