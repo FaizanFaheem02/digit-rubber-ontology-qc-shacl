@@ -7,7 +7,7 @@
 :DigitRubberClassesWithDuplicateBaseLabelsShape
     a sh:NodeShape ;
     sh:severity sh:Violation ;
-    
+
     sh:target [
         a sh:SPARQLTarget ;
         sh:select """
@@ -22,11 +22,11 @@
         a sh:SPARQLConstraint ;
         sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has {$dupCount} other classes with the same base label." ;
         sh:select """
-          SELECT ?this ?label ?classId ?dupCount
+SELECT ?this ?label ?classId ?dupCount
 WHERE {
 
   {
-    SELECT ?this ?label ?classId (COUNT(?other) AS ?dupCount)
+    SELECT ?this ?label ?classId ?base (COUNT(?other) AS ?dupCount)
     WHERE {
       ?this rdfs:label ?label .
       FILTER (LANG(?label) = "en")
@@ -45,10 +45,25 @@ WHERE {
 
       FILTER (?base = ?otherBase)
     }
-    GROUP BY ?this ?label ?classId
+    GROUP BY ?this ?label ?classId ?base
   }
 
   FILTER (?dupCount > 0)
+
+  FILTER NOT EXISTS {
+  ?otherThis rdf:type owl:Class ;
+             rdfs:label ?otherThisLabel .
+
+  FILTER (STRSTARTS(STR(?otherThis), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
+
+  FILTER (LANG(?otherThisLabel) = "en")
+
+  BIND(IF(CONTAINS(STR(?otherThisLabel), "["), STRBEFORE(STR(?otherThisLabel), "["), STR(?otherThisLabel)) AS ?base2)
+
+  FILTER (?base2 = ?base)
+  FILTER (STR(?otherThis) < STR(?this))
+}
+
 }
         """ ;
     ] .

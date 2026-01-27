@@ -1,67 +1,47 @@
 Class Suffix,Label,Severity,Message
-DIGITRUBBER_000598,hydrocarbylene group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000598' ('hydrocarbylene group [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000019,standard deviation [Wikipedia],Violation,DIGITRUBBER class 'DIGITRUBBER_000019' ('standard deviation [Wikipedia]') has 4 other classes with the same base label.
-DIGITRUBBER_000296,carbon black [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000296' ('carbon black [dik]') has 2 other classes with the same base label.
-DIGITRUBBER_000229,photometry [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000229' ('photometry [ifnano]') has 1 other classes with the same base label.
-DIGITRUBBER_000129,operator [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000129' ('operator [hsh]') has 1 other classes with the same base label.
-DIGITRUBBER_000543,material processing [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000543' ('material processing [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000327,dithiocarbamate [chebi],Violation,DIGITRUBBER class 'DIGITRUBBER_000327' ('dithiocarbamate [chebi]') has 1 other classes with the same base label.
-DIGITRUBBER_000623,concentration [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000623' ('concentration [dik]') has 7 other classes with the same base label.
-DIGITRUBBER_000602,organic divalent group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000602' ('organic divalent group [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000600,organodiyl group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000600' ('organodiyl group [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000481,vulcanization [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000481' ('vulcanization [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000179,synthetic rubber [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000179' ('synthetic rubber [hsh]') has 1 other classes with the same base label.
 DIGITRUBBER_000280,sample [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000280' ('sample [ifnano]') has 3 other classes with the same base label.
-DIGITRUBBER_000269,Mooney viscosity [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000269' ('Mooney viscosity [ifnano]') has 1 other classes with the same base label.
-DIGITRUBBER_000281,agglomerate [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000281' ('agglomerate [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000213,laser-induced breakdown spectroscopy [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000213' ('laser-induced breakdown spectroscopy [ifnano]') has 1 other classes with the same base label.
-DIGITRUBBER_000290,synthetic rubber [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000290' ('synthetic rubber [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000187,Raman spectroscopy [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000187' ('Raman spectroscopy [ifnano]') has 1 other classes with the same base label.
-DIGITRUBBER_000554,processed material [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000554' ('processed material [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000026,agent [ita],Violation,DIGITRUBBER class 'DIGITRUBBER_000026' ('agent [ita]') has 1 other classes with the same base label.
-DIGITRUBBER_000395,torque [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000395' ('torque [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000489,sample [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000489' ('sample [dik]') has 3 other classes with the same base label.
-DIGITRUBBER_000132,supervisor [ncit],Violation,DIGITRUBBER class 'DIGITRUBBER_000132' ('supervisor [ncit]') has 2 other classes with the same base label.
-DIGITRUBBER_000133,supervisor [m4i],Violation,DIGITRUBBER class 'DIGITRUBBER_000133' ('supervisor [m4i]') has 2 other classes with the same base label.
-DIGITRUBBER_000297,carbon black [chebi],Violation,DIGITRUBBER class 'DIGITRUBBER_000297' ('carbon black [chebi]') has 2 other classes with the same base label.
-DIGITRUBBER_000525,quality of a substance [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000525' ('quality of a substance [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000273,polymer [chebi],Violation,DIGITRUBBER class 'DIGITRUBBER_000273' ('polymer [chebi]') has 1 other classes with the same base label.
-DIGITRUBBER_000282,aggregate [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000282' ('aggregate [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_1000011,vulcanization [Arlanxeo],Violation,DIGITRUBBER class 'DIGITRUBBER_1000011' ('vulcanization [Arlanxeo]') has 1 other classes with the same base label.
-DIGITRUBBER_000545,function [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000545' ('function [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000177,natural rubber [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000177' ('natural rubber [hsh]') has 1 other classes with the same base label.
-DIGITRUBBER_000131,supervisor [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000131' ('supervisor [hsh]') has 2 other classes with the same base label.
-DIGITRUBBER_1000013,filler [Arlanxeo],Violation,DIGITRUBBER class 'DIGITRUBBER_1000013' ('filler [Arlanxeo]') has 1 other classes with the same base label.
-DIGITRUBBER_000313,stearic acid [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000313' ('stearic acid [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000265,standard deviation [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000265' ('standard deviation [ifnano]') has 4 other classes with the same base label.
-DIGITRUBBER_000004,geometry [geosparql],Violation,DIGITRUBBER class 'DIGITRUBBER_000004' ('geometry [geosparql]') has 1 other classes with the same base label.
-DIGITRUBBER_000145,aggregate [enm],Violation,DIGITRUBBER class 'DIGITRUBBER_000145' ('aggregate [enm]') has 1 other classes with the same base label.
-DIGITRUBBER_000326,dithiocarbamate [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000326' ('dithiocarbamate [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_1000014,carbon black [Arlanxeo],Violation,DIGITRUBBER class 'DIGITRUBBER_1000014' ('carbon black [Arlanxeo]') has 2 other classes with the same base label.
-DIGITRUBBER_000089,screw speed [ita],Violation,DIGITRUBBER class 'DIGITRUBBER_000089' ('screw speed [ita]') has 1 other classes with the same base label.
-DIGITRUBBER_000527,quality of a liquid [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000527' ('quality of a liquid [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000603,organic group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000603' ('organic group [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000320,di(benzothiazol-2-yl)disulfide [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000320' ('di(benzothiazol-2-yl)disulfide [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000295,filler [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000295' ('filler [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000130,operator [ncit],Violation,DIGITRUBBER class 'DIGITRUBBER_000130' ('operator [ncit]') has 1 other classes with the same base label.
-DIGITRUBBER_000270,monomer [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000270' ('monomer [ifnano]') has 1 other classes with the same base label.
-DIGITRUBBER_000453,sensor [chmo],Violation,DIGITRUBBER class 'DIGITRUBBER_000453' ('sensor [chmo]') has 1 other classes with the same base label.
-DIGITRUBBER_000261,zinc [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000261' ('zinc [ifnano]') has 2 other classes with the same base label.
-DIGITRUBBER_000477,crosslink [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000477' ('crosslink [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000205,concentration [ncit],Violation,DIGITRUBBER class 'DIGITRUBBER_000205' ('concentration [ncit]') has 7 other classes with the same base label.
-DIGITRUBBER_000106,cost [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000106' ('cost [hsh]') has 1 other classes with the same base label.
 DIGITRUBBER_000190,spectrum [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000190' ('spectrum [ifnano]') has 2 other classes with the same base label.
-DIGITRUBBER_000556,mixing [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000556' ('mixing [dik]') has 2 other classes with the same base label.
-DIGITRUBBER_000080,validation [edam],Violation,DIGITRUBBER class 'DIGITRUBBER_000080' ('validation [edam]') has 2 other classes with the same base label.
-DIGITRUBBER_000216,peak [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000216' ('peak [ifnano]') has 3 other classes with the same base label.
-DIGITRUBBER_000520,Mooney viscosity [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000520' ('Mooney viscosity [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000602,organic divalent group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000602' ('organic divalent group [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000603,organic group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000603' ('organic group [dik]') has 1 other classes with the same base label.
 DIGITRUBBER_000003,geometry [imr],Violation,DIGITRUBBER class 'DIGITRUBBER_000003' ('geometry [imr]') has 1 other classes with the same base label.
-DIGITRUBBER_000321,di(benzothiazol-2-yl)disulfide [chebi],Violation,DIGITRUBBER class 'DIGITRUBBER_000321' ('di(benzothiazol-2-yl)disulfide [chebi]') has 1 other classes with the same base label.
-DIGITRUBBER_000634,quality of a solid [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000634' ('quality of a solid [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000202,concentration [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000202' ('concentration [ifnano]') has 7 other classes with the same base label.
-DIGITRUBBER_000445,screw speed [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000445' ('screw speed [dik]') has 1 other classes with the same base label.
-DIGITRUBBER_000605,group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000605' ('group [dik]') has 2 other classes with the same base label.
-DIGITRUBBER_000027,agent [ncit],Violation,DIGITRUBBER class 'DIGITRUBBER_000027' ('agent [ncit]') has 1 other classes with the same base label.
-DIGITRUBBER_000359,temperature [pato],Violation,DIGITRUBBER class 'DIGITRUBBER_000359' ('temperature [pato]') has 3 other classes with the same base label.
-DIGITRUBBER_000285,polymer [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000285' ('polymer [dik]') has 1 other classes with the same base label.
 DIGITRUBBER_000636,optical quality [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000636' ('optical quality [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000261,zinc [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000261' ('zinc [ifnano]') has 2 other classes with the same base label.
+DIGITRUBBER_000129,operator [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000129' ('operator [hsh]') has 1 other classes with the same base label.
+DIGITRUBBER_000598,hydrocarbylene group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000598' ('hydrocarbylene group [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000106,cost [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000106' ('cost [hsh]') has 1 other classes with the same base label.
+DIGITRUBBER_000026,agent [ita],Violation,DIGITRUBBER class 'DIGITRUBBER_000026' ('agent [ita]') has 1 other classes with the same base label.
+DIGITRUBBER_000273,polymer [chebi],Violation,DIGITRUBBER class 'DIGITRUBBER_000273' ('polymer [chebi]') has 1 other classes with the same base label.
+DIGITRUBBER_000216,peak [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000216' ('peak [ifnano]') has 3 other classes with the same base label.
+DIGITRUBBER_000359,temperature [pato],Violation,DIGITRUBBER class 'DIGITRUBBER_000359' ('temperature [pato]') has 3 other classes with the same base label.
+DIGITRUBBER_000295,filler [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000295' ('filler [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000177,natural rubber [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000177' ('natural rubber [hsh]') has 1 other classes with the same base label.
+DIGITRUBBER_000481,vulcanization [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000481' ('vulcanization [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000269,Mooney viscosity [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000269' ('Mooney viscosity [ifnano]') has 1 other classes with the same base label.
+DIGITRUBBER_000313,stearic acid [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000313' ('stearic acid [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000296,carbon black [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000296' ('carbon black [dik]') has 2 other classes with the same base label.
+DIGITRUBBER_000320,di(benzothiazol-2-yl)disulfide [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000320' ('di(benzothiazol-2-yl)disulfide [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000525,quality of a substance [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000525' ('quality of a substance [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000281,agglomerate [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000281' ('agglomerate [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000326,dithiocarbamate [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000326' ('dithiocarbamate [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000019,standard deviation [Wikipedia],Violation,DIGITRUBBER class 'DIGITRUBBER_000019' ('standard deviation [Wikipedia]') has 4 other classes with the same base label.
+DIGITRUBBER_000477,crosslink [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000477' ('crosslink [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000213,laser-induced breakdown spectroscopy [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000213' ('laser-induced breakdown spectroscopy [ifnano]') has 1 other classes with the same base label.
+DIGITRUBBER_000545,function [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000545' ('function [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000131,supervisor [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000131' ('supervisor [hsh]') has 2 other classes with the same base label.
+DIGITRUBBER_000453,sensor [chmo],Violation,DIGITRUBBER class 'DIGITRUBBER_000453' ('sensor [chmo]') has 1 other classes with the same base label.
+DIGITRUBBER_000600,organodiyl group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000600' ('organodiyl group [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000179,synthetic rubber [hsh],Violation,DIGITRUBBER class 'DIGITRUBBER_000179' ('synthetic rubber [hsh]') has 1 other classes with the same base label.
+DIGITRUBBER_000605,group [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000605' ('group [dik]') has 2 other classes with the same base label.
+DIGITRUBBER_000202,concentration [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000202' ('concentration [ifnano]') has 7 other classes with the same base label.
+DIGITRUBBER_000145,aggregate [enm],Violation,DIGITRUBBER class 'DIGITRUBBER_000145' ('aggregate [enm]') has 1 other classes with the same base label.
+DIGITRUBBER_000395,torque [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000395' ('torque [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000556,mixing [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000556' ('mixing [dik]') has 2 other classes with the same base label.
+DIGITRUBBER_000089,screw speed [ita],Violation,DIGITRUBBER class 'DIGITRUBBER_000089' ('screw speed [ita]') has 1 other classes with the same base label.
+DIGITRUBBER_000229,photometry [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000229' ('photometry [ifnano]') has 1 other classes with the same base label.
+DIGITRUBBER_000634,quality of a solid [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000634' ('quality of a solid [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000554,processed material [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000554' ('processed material [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000543,material processing [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000543' ('material processing [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000270,monomer [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000270' ('monomer [ifnano]') has 1 other classes with the same base label.
+DIGITRUBBER_000080,validation [edam],Violation,DIGITRUBBER class 'DIGITRUBBER_000080' ('validation [edam]') has 2 other classes with the same base label.
+DIGITRUBBER_000527,quality of a liquid [dik],Violation,DIGITRUBBER class 'DIGITRUBBER_000527' ('quality of a liquid [dik]') has 1 other classes with the same base label.
+DIGITRUBBER_000187,Raman spectroscopy [ifnano],Violation,DIGITRUBBER class 'DIGITRUBBER_000187' ('Raman spectroscopy [ifnano]') has 1 other classes with the same base label.
