@@ -7,8 +7,17 @@
 
 :DigitRubberClassMissingEnglishOrGermanDefinitionShape
     a sh:NodeShape ;
-    sh:targetClass owl:Class ;
-     sh:severity sh:Violation ;
+    sh:severity sh:Violation ;
+
+        sh:target [
+        a sh:SPARQLTarget ;
+        sh:select """
+            SELECT ?this WHERE {
+              ?this rdf:type owl:Class .
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+            }
+        """ ;
+    ] ;
 
     sh:sparql [
         a sh:SPARQLConstraint ;
@@ -17,12 +26,10 @@
 
         sh:select """
             SELECT ?this ?label ?missingLang
+            
             WHERE {
-              ?this rdf:type owl:Class .
               OPTIONAL { ?this rdfs:label ?label .
               FILTER (LANG(?label) = "en") }
-
-              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
 
               {
                 SELECT ?this
