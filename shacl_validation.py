@@ -1,9 +1,8 @@
 from pyshacl import validate
-from rdflib import Graph, XSD
+from rdflib import Graph, XSD, Namespace
 from rdflib.namespace import RDF
 import rdflib.term
 import csv
-from rdflib import Namespace
 from pathlib import Path
 
 
