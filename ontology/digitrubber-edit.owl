@@ -4386,7 +4386,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-8280-0487"/>
         <dc:language>English</dc:language>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">24.09.2025</pav:lastUpdateOn>
-        <oboInOwl:creation_date>sdf</oboInOwl:creation_date>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">24.09.2025</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Examples include feeding zone, compression zone, pin zone, and metering zone of an extruder.</rdfs:comment>
         <rdfs:label xml:lang="de">Extruderzone</rdfs:label>
@@ -4952,7 +4951,6 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
         <dc:language>English</dc:language>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.9.2025</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.3.2022</oboInOwl:creation_date>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-02T00:00:00</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Werkzeugdruck</rdfs:label>
         <rdfs:label xml:lang="en">extrusion pressure [ita]</rdfs:label>
     </owl:Class>
@@ -5296,6 +5294,10 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000149">
         <rdfs:label xml:lang="en">deprecated class</rdfs:label>
+		<dc:contributor>Lars M Vogt</dc:contributor>
+		<dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.09.2023</pav:lastUpdateOn>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.09.2023</oboInOwl:creation_date>
     </owl:Class>
     
 
@@ -5504,6 +5506,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
         <obo:coarseClassification>plan specification</obo:coarseClassification>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yaman Alsalka (IFNANO)</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.03.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date>31.03.2022</oboInOwl:creation_date>
         <rdfs:comment>Method</rdfs:comment>
         <rdfs:label xml:lang="en">FTIR spectroscopy [ifnano]</rdfs:label>
@@ -5846,7 +5849,8 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:coarseClassification>material entity</obo:coarseClassification>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:language>English</dc:language>
-        <pav:lastUpdateOn>19.08.2022</pav:lastUpdateOn>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.08.2022</pav:lastUpdateOn>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.08.2022</oboInOwl:creation_date>
         <oboInOwl:hasRelatedSynonym xml:lang="de">Kunststoff</oboInOwl:hasRelatedSynonym>
         <rdfs:comment xml:lang="en">http://purl.obolibrary.org/obo/chebi.owl</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -5897,6 +5901,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">0</rdfs:comment>
         <rdfs:label xml:lang="de">Agglomerat [dik]</rdfs:label>
@@ -5914,6 +5919,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Aggregat [dik]</rdfs:label>
         <rdfs:label xml:lang="en">aggregate [dik]</rdfs:label>
@@ -5952,6 +5958,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Polymer [dik]</rdfs:label>
         <rdfs:label xml:lang="en">polymer [dik]</rdfs:label>
@@ -5972,6 +5979,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">It is normally free from compounding ingredients but may also, for example, take the form of a masterbatch with oil and/or filler.</rdfs:comment>
         <rdfs:comment xml:lang="de">Rohkautschuk ist normalerweise frei von Mischungsbestandteilen, kann jedoch zum Beispiel auch als Masterbatch mit Öl und/oder Füllstoff vorliegen.</rdfs:comment>
@@ -5992,6 +6000,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Synthesekautschuk [dik]</rdfs:label>
         <rdfs:label xml:lang="en">synthetic rubber [dik]</rdfs:label>
@@ -6010,6 +6019,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>ISO 1629:2013(E)</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">04.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">M-Gruppe Kautschuk [dik]</rdfs:label>
         <rdfs:label xml:lang="en">M-group rubber [dik]</rdfs:label>
@@ -6028,6 +6038,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>ISO 1629:2013(E)</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>EPDM</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Ethylen-Propylen-Dien-‎Kautschuk ‎[dik]</rdfs:label>
@@ -6047,6 +6058,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Dienkautschuk [dik]</rdfs:label>
         <rdfs:label xml:lang="en">diene rubber [dik]</rdfs:label>
@@ -6064,6 +6076,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">04.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Keltan 5470C [dik]</rdfs:label>
         <rdfs:label xml:lang="en">Keltan 5470C [dik]</rdfs:label>
@@ -6101,6 +6114,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:comment xml:lang="en">Carbon black is produced by incomplete burning or thermal decomposition of hydrocarbons.</rdfs:comment>
         <rdfs:comment xml:lang="de">Ruß wird durch unvollständige Verbrennung oder thermische Zersetzung von Kohlenwasserstoffen produziert.</rdfs:comment>
@@ -6147,6 +6161,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>ASTM D1765-10</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">05.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">N-Ruß [dik]</rdfs:label>
         <rdfs:label xml:lang="en">N-carbon black [dik]</rdfs:label>
@@ -6165,6 +6180,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>ASTM D1765-10</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">05.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">S-Ruß [dik]</rdfs:label>
         <rdfs:label xml:lang="en">S-carbon black [dik]</rdfs:label>
@@ -6183,6 +6199,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>ASTM D1765-10</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">05.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">N600-Carbon Black [dik]</rdfs:label>
         <rdfs:label xml:lang="de">N600-Ruß [dik]</rdfs:label>
@@ -6200,6 +6217,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Corax N660 [dik]</rdfs:label>
         <rdfs:label xml:lang="en">Corax N660 [dik]</rdfs:label>
@@ -6255,6 +6273,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">‎P460 [dik]</rdfs:label>
         <rdfs:label xml:lang="en">‎P460 [dik]</rdfs:label>
@@ -6473,6 +6492,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">05.05.2022</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>MBTS</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Di(benzothiazol-2-yl)disulfid [dik]</rdfs:label>
@@ -6511,6 +6531,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">05.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Vulkacit MBTS [dik]</rdfs:label>
         <rdfs:label xml:lang="en">Vulkacit MBTS [dik]</rdfs:label>
@@ -6542,6 +6563,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">05.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">05.05.2022</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>TBzTD</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Tetrabenzylthiuramdisulfid [dik]</rdfs:label>
@@ -6560,6 +6582,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Luvomaxx TbzTD [dik]</rdfs:label>
         <rdfs:label xml:lang="en">Luvomaxx TbzTD [dik]</rdfs:label>
@@ -6575,6 +6598,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Dithiocarbamat [dik]</rdfs:label>
         <rdfs:label xml:lang="en">dithiocarbamate [dik]</rdfs:label>
@@ -6803,6 +6827,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Sicherheitsdatenblatt [dik]</rdfs:label>
         <rdfs:label xml:lang="en">safety data sheet [dik]</rdfs:label>
@@ -6859,6 +6884,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Walze [dik]</rdfs:label>
         <rdfs:label xml:lang="en">roll [dik]</rdfs:label>
@@ -6874,6 +6900,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Festwalze [dik]</rdfs:label>
         <rdfs:label xml:lang="en">fixed roll [dik]</rdfs:label>
@@ -6889,6 +6916,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stellwalze [dik]</rdfs:label>
         <rdfs:label xml:lang="en">setting roll [dik]</rdfs:label>
@@ -6906,6 +6934,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Drehzahl [dik]</rdfs:label>
         <rdfs:label xml:lang="en">rotational frequency [dik]</rdfs:label>
@@ -6973,6 +7002,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>TCU</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Temperatursteuergerät [dik]</rdfs:label>
@@ -6990,6 +7020,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Festwalzen-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">fixed roll temperature control unit [dik]</rdfs:label>
@@ -7005,6 +7036,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stellwalzen-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">setting roll temperature control unit [dik]</rdfs:label>
@@ -7037,6 +7069,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stellwalzen-Temperatur [dik]</rdfs:label>
         <rdfs:label xml:lang="en">setting roll temperature [dik]</rdfs:label>
@@ -7113,6 +7146,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Mastikation [dik]</rdfs:label>
         <rdfs:label xml:lang="en">mastication [dik]</rdfs:label>
@@ -7186,6 +7220,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Rotor [dik]</rdfs:label>
         <rdfs:label xml:lang="en">rotor [dik]</rdfs:label>
@@ -7201,6 +7236,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Mischkammer [dik]</rdfs:label>
         <rdfs:label xml:lang="en">mixing chamber [dik]</rdfs:label>
@@ -7217,6 +7253,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Klappsattel [dik]</rdfs:label>
         <rdfs:label xml:lang="en">drop door [dik]</rdfs:label>
@@ -7263,6 +7300,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Rotor-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">rotor temperature control unit [dik]</rdfs:label>
@@ -7278,6 +7316,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Rotor-Temperatur [dik]</rdfs:label>
         <rdfs:label xml:lang="en">rotor temperature [dik]</rdfs:label>
@@ -7293,6 +7332,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Mischkammer-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">mixing chamber temperature control unit [dik]</rdfs:label>
@@ -7359,6 +7399,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stempel-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">stamp temperature control unit [dik]</rdfs:label>
@@ -7421,6 +7462,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>Nm</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Newtonmeter [dik]</rdfs:label>
@@ -7469,6 +7511,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stempelweg [dik]</rdfs:label>
         <rdfs:label xml:lang="en">stamp distance [dik]</rdfs:label>
@@ -7535,6 +7578,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Mischzeit [dik]</rdfs:label>
         <rdfs:label xml:lang="en">mixing time [dik]</rdfs:label>
@@ -7568,6 +7612,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Mischstufenanzahl [dik]</rdfs:label>
         <rdfs:label xml:lang="en">number of mixing stages [dik]</rdfs:label>
@@ -7623,6 +7668,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Einschneckenextruder [dik]</rdfs:label>
         <rdfs:label xml:lang="en">single screw extruder [dik]</rdfs:label>
@@ -7639,6 +7685,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stiftextruder [dik]</rdfs:label>
         <rdfs:label xml:lang="en">pin extruder [dik]</rdfs:label>
@@ -7788,6 +7835,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Förderband [dik]</rdfs:label>
         <rdfs:label xml:lang="en">conveyor belt [dik]</rdfs:label>
@@ -7803,6 +7851,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Massedurchsatz [dik]</rdfs:label>
         <rdfs:label xml:lang="en">mass throughput [dik]</rdfs:label>
@@ -7848,6 +7897,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Oberfläche [dik]</rdfs:label>
         <rdfs:label xml:lang="en">surface [dik]</rdfs:label>
@@ -7879,6 +7929,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Oberflächentemperatur [dik]</rdfs:label>
         <rdfs:label xml:lang="en">surface temperature [dik]</rdfs:label>
@@ -7961,6 +8012,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Temperaturmessschwert [dik]</rdfs:label>
         <rdfs:label xml:lang="en">temperature measuring sword [dik]</rdfs:label>
@@ -7976,6 +8028,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Drucksensor [dik]</rdfs:label>
         <rdfs:label xml:lang="en">Pressure Sensor [dik]</rdfs:label>
@@ -7991,6 +8044,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Temperatursensor [dik]</rdfs:label>
         <rdfs:label xml:lang="en">temperature sensor [dik]</rdfs:label>
@@ -8006,6 +8060,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Getriebe [dik]</rdfs:label>
         <rdfs:label xml:lang="en">gearbox [dik]</rdfs:label>
@@ -8022,6 +8077,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Motor [dik]</rdfs:label>
         <rdfs:label xml:lang="en">engine [dik]</rdfs:label>
@@ -8056,6 +8112,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Speisewalze [dik]</rdfs:label>
         <rdfs:label xml:lang="en">feeding roll [dik]</rdfs:label>
@@ -8130,6 +8187,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Speisewalzen-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">feeding roll temperature control unit [dik]</rdfs:label>
@@ -8162,6 +8220,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Schnecken-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">screw temperature control unit [dik]</rdfs:label>
@@ -8195,6 +8254,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Einzugszonen-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">feeding zone temperature control unit [dik]</rdfs:label>
@@ -8210,6 +8270,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Einzugszonen-Temperatur [dik]</rdfs:label>
         <rdfs:label xml:lang="en">feeding zone temperature [dik]</rdfs:label>
@@ -8225,6 +8286,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Stiftzonen-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">pin zone temperature control unit [dik]</rdfs:label>
@@ -8256,6 +8318,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Werkzeugzonen-Temperatursteuergerät [dik]</rdfs:label>
         <rdfs:label xml:lang="en">molding zone temperature control unit [dik]</rdfs:label>
@@ -8287,6 +8350,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Vulkanisationszeit [dik]</rdfs:label>
         <rdfs:label xml:lang="en">vulcanization time [dik]</rdfs:label>
@@ -8367,6 +8431,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Vernetzen [dik]</rdfs:label>
         <rdfs:label xml:lang="en">crosslinking [dik]</rdfs:label>
@@ -8742,6 +8807,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Qualität eines Stoffes [dik]</rdfs:label>
         <rdfs:label xml:lang="en">quality of a substance [dik]</rdfs:label>
@@ -8757,6 +8823,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Qualität einer Flüssigkeit [dik]</rdfs:label>
         <rdfs:label xml:lang="en">quality of a liquid [dik]</rdfs:label>
@@ -8790,6 +8857,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Materialverarbeitungsprotokoll [dik]</rdfs:label>
         <rdfs:label xml:lang="en">material processing protocol [dik]</rdfs:label>
@@ -8805,6 +8873,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Herstellungsvorschrift [dik]</rdfs:label>
         <rdfs:label xml:lang="en">manufacturing specification [dik]</rdfs:label>
@@ -8873,6 +8942,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Materialverarbeitung [dik]</rdfs:label>
         <rdfs:label xml:lang="en">material processing [dik]</rdfs:label>
@@ -8889,6 +8959,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="de">Funktion [dik]</rdfs:label>
@@ -9063,6 +9134,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Erstarrungspunkt [dik]</rdfs:label>
         <rdfs:label xml:lang="en">setting point [dik]</rdfs:label>
@@ -9130,6 +9202,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">03.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">oil content [dik]</rdfs:label>
         <rdfs:label xml:lang="de">Öl-Gehalt‎ [dik]</rdfs:label>
@@ -9274,6 +9347,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:comment xml:lang="de">Diese Bezeichnung sollte nicht alleine verwendet werden und sollte einhergehen mit der Art der Verformung, z. B. Druck- oder Schermodul.</rdfs:comment>
         <rdfs:comment xml:lang="en">The term should not be used in isolation and should be prefaced by the mode of deformation, e.g. compression modulus or shear modulus.</rdfs:comment>
@@ -9313,6 +9387,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Viskosimeter [dik]</rdfs:label>
         <rdfs:label xml:lang="en">viscometer [dik]</rdfs:label>
@@ -9330,6 +9405,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">Mooney shearing-disc viscometer [dik]</rdfs:label>
         <rdfs:label xml:lang="de">Mooney-Scherscheibenviskosimeter [dik]</rdfs:label>
@@ -9346,6 +9422,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Rheometer [dik]</rdfs:label>
         <rdfs:label xml:lang="en">curemeter [dik]</rdfs:label>
@@ -9365,6 +9442,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">oscillating-disc curemeter [dik]</rdfs:label>
         <rdfs:label xml:lang="de">oszillierendes Scheibenrheometer [dik]</rdfs:label>
@@ -9384,6 +9462,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
         <terms:identifier>DIN ISO 1382:2016-07</terms:identifier>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">10.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">rotorless curemeter [dik]</rdfs:label>
         <rdfs:label xml:lang="de">rotorloser Rheometer [dik]</rdfs:label>
@@ -9458,6 +9537,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>ENB</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Ethylidennorbornen [dik]</rdfs:label>
@@ -9477,6 +9557,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Prüfung zur Konzentrationsmessung [dik]</rdfs:label>
         <rdfs:label xml:lang="en">concentration measurement assay [dik]</rdfs:label>
@@ -9529,6 +9610,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Prüfung zur Molekulargewichtsverteilung [dik]</rdfs:label>
         <rdfs:label xml:lang="en">molecular weight distribution measurement assay [dik]</rdfs:label>
@@ -9547,6 +9629,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Protokoll zur Konzentrationsmessung [dik]</rdfs:label>
         <rdfs:label xml:lang="en">concentration measurement protocol [dik]</rdfs:label>
@@ -9603,6 +9686,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Protokoll zur Molekulargewichtsverteilung [dik]</rdfs:label>
         <rdfs:label xml:lang="en">molecular weight distribution measurement protocol [dik]</rdfs:label>
@@ -9633,6 +9717,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">hydrocarbylene group [dik]</rdfs:label>
     </owl:Class>
@@ -9647,6 +9732,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">organodiyl group [dik]</rdfs:label>
     </owl:Class>
@@ -9661,6 +9747,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">organic divalent group [dik]</rdfs:label>
     </owl:Class>
@@ -9675,6 +9762,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Organik-Gruppe [dik]</rdfs:label>
         <rdfs:label xml:lang="en">organic group [dik]</rdfs:label>
@@ -9690,6 +9778,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
         <dc:language>English</dc:language>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">21.05.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="de">Gruppe [dik]</rdfs:label>
         <rdfs:label xml:lang="en">group [dik]</rdfs:label>
@@ -9805,6 +9894,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T10:51:28.399079Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">butadiene rubber BR [ifnano]</rdfs:label>
@@ -9820,6 +9910,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119 rdf:resource="https://chem.libretexts.org/Courses/University_of_Kentucky/UK%3A_CHE_103_-_Chemistry_for_Allied_Health_(Soult)/Chapters/Chapter_4%3A_Structure_and_Function/4.4%3A_Functional_Groups#:~:text=A%20functional%20group%20is%20defined,to%20react%20in%20certain%20ways."/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T10:12:52.940172Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">functional group [ifnano]</rdfs:label>
@@ -9835,6 +9926,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:23:10.166673Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">butyl rubber BIIR [ifnano]</rdfs:label>
@@ -9850,6 +9942,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:27:10.818157Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">EPDM rubber [ifnano]</rdfs:label>
@@ -9865,6 +9958,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:30:53.148584Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">polyisoprene IR [ifnano]</rdfs:label>
@@ -9880,6 +9974,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:33:41.882181Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">nitrile rubber NBR [ifnano]</rdfs:label>
@@ -9895,6 +9990,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:36:21.319884Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">fluororubber FKM [ifnano]</rdfs:label>
@@ -9910,6 +10006,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119 rdf:resource="https://maclellanrubber.com/definitions/hnbr"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:40:53.184235Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">hydrogenated nitrile rubber HNBR [ifnano]</rdfs:label>
@@ -9925,6 +10022,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000119>Wikipedia</obo:IAO_0000119>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Yamen Alsalka</dc:contributor>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06.06.2023</pav:lastUpdateOn>
         <oboInOwl:created_by>Yamen Alsalka</oboInOwl:created_by>
         <oboInOwl:creation_date>2023-06-06T12:43:20.265544Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">styrene-butadiene rubber SBR [ifnano]</rdfs:label>
@@ -9997,6 +10095,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Polymer (e.g. BR, SSBR) before being compounded.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">RP</obo:IAO_0000118>
+		<pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.3.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.3.2022</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">raw polymer [Arlanxeo]</rdfs:label>
     </owl:Class>
@@ -10437,6 +10536,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <obo:IAO_0000118>mooney viscosity</obo:IAO_0000118>
         <dc:contributor>Pallavi Karanth</dc:contributor>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.11.2025</pav:lastUpdateOn>
+		<oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.11.2025</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">ML1+4 [Arlanxeo]</rdfs:label>
     </owl:Class>
     
@@ -10728,6 +10828,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+		<obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Pressure at die exit in an extruder, second measurement</obo:IAO_0000115>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17.12.2025</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17.12.2025</oboInOwl:creation_date>
@@ -10781,7 +10882,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">temperature at maximum loss factor</obo:IAO_0000115>
-        <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">Temperatur tan d max</pav:lastUpdateOn>
+        <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17.12.2025</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17.12.2025</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">temperatur tan d max [Arlanxeo]</rdfs:label>
     </owl:Class>
@@ -13165,9 +13266,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/CHEBI_27363 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27363 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/CHEBI_27363">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A zinc group element atom that has formula Zn.</obo:IAO_0000115>
@@ -13185,9 +13286,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/CHMO_0001613 -->
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001613 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/CHMO_0001613">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001613">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A process used to create objects of a fixed cross-sectional profile by forcing or drawing a material through a die.</obo:IAO_0000115>
@@ -13204,9 +13305,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/CHMO_0001685 -->
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001685 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/CHMO_0001685">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001685">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">The combining of components, particles or layers into a more homogeneous state. The mixing may be achieved manually or mechanically by shifting the material with stirrers or pumps or by revolving or shaking the container. The process μst not permit segregation of particles of different size or properties. Homogeneity may be considered to have been achieved in a practical sense when the sampling error of the processed portion is negligible compared to the total error of the measurement system. [ https://doi.org/10.1351/goldbook.M03945 ]</obo:IAO_0000115>
@@ -13223,9 +13324,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C16237 -->
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16237 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C16237">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">The act of validating; finding or testing the truth of something.</obo:IAO_0000115>
@@ -13243,9 +13344,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C25206 -->
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25206 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C25206">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A measure of the average kinetic energy of a system of particles. Temperature may be quantified, in the context of thermodynamics, as the potential of one system to transfer thermal energy to another system until both systems reach a state of thermal equilibrium.</obo:IAO_0000115>
@@ -13262,9 +13363,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C42575 -->
+    <!-- http://purl.obolibrary.org/obo/NCIT_C42575 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C42575">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C42575">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">An indication of the type of unit of measure being used to express a mass density.</obo:IAO_0000115>
@@ -13280,9 +13381,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C64925 -->
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64925 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C64925">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64925">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">To bring or combine together or with something else; add as an additional element or part.</obo:IAO_0000115>
@@ -13300,9 +13401,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C948 -->
+    <!-- http://purl.obolibrary.org/obo/NCIT_C948 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/NCIT_C948">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C948">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">An element with atomic symbol Zn, atomic number 30, and atomic weight 65.39.</obo:IAO_0000115>
@@ -13321,9 +13422,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/OBI_0302911 -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0302911 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/OBI_0302911">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">a planned process with objective to check that the accuracy or the quality of a claim or prediction satisfies some criteria and which is assessed by comparing with independent results</obo:IAO_0000115>
@@ -13341,9 +13442,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/PATO_0000992 -->
+    <!-- http://purl.obolibrary.org/obo/PATO_0000992 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://purl.obolibrary.org/obo/PATO_0000992">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000992">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A physical quality of a fluid inhering in a bearer by virtue of the bearer&apos;s disposition to internal resistance to flow.</obo:IAO_0000115>
@@ -13360,9 +13461,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://www.ebi.ac.uk/efo/EFO_0001702 -->
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001702 -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://www.ebi.ac.uk/efo/EFO_0001702">
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001702">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Temperature is a physical quality of the thermal energy of a system.</obo:IAO_0000115>
@@ -13379,9 +13480,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature -->
+    <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature">
+    <owl:Class rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Temperature is the extent to which an object is hot.</obo:IAO_0000115>
@@ -13391,7 +13492,6 @@ for now.</obo:IAO_0000116>
         <dc:language>English</dc:language>
         <pav:lastUpdateOn>24.08.2022</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">24.08.2022</oboInOwl:creation_date>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">31.3.2022</oboInOwl:creation_date>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label xml:lang="de">Temperatur [om]</rdfs:label>
         <rdfs:label xml:lang="en">temperature [om]</rdfs:label>
@@ -13399,9 +13499,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://www.w3.org/ns/sosa/Sample -->
+    <!-- http://www.w3.org/ns/sosa/Sample -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://www.w3.org/ns/sosa/Sample">
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sample">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made.</obo:IAO_0000115>
@@ -13418,9 +13518,9 @@ for now.</obo:IAO_0000116>
     
 
 
-    <!-- https://www.tib.eu/digitrubber#http://www.w3.org/ns/sosa/Sensor -->
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
 
-    <owl:Class rdf:about="https://www.tib.eu/digitrubber#http://www.w3.org/ns/sosa/Sensor">
+    <owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000602"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.</obo:IAO_0000115>

@@ -1,4 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000096,extrusion pressure [ita],Violation,Class has more than one creation date.
-DIGITRUBBER1000031,extruder zone,Violation,Class has more than one creation date.
-Temperature,temperature [om],Violation,Class has more than one creation date.
