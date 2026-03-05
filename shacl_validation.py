@@ -9,6 +9,9 @@ from pathlib import Path
 root_dir = Path(__file__).resolve().parent
 shapes_dir = root_dir / "shapes"
 
+output_dir = root_dir / "output_files"
+output_dir.mkdir(exist_ok=True)
+
 # Disable rdflib auto conversion of dates and numbers that can cause pyparsing to hang
 for dt in (XSD.date, XSD.dateTime, XSD.decimal):
     rdflib.term._toPythonMapping.pop(dt, None)
@@ -80,7 +83,7 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 for shape, rows in rows_by_shape.items():
 
     shape_name = str(shape).split("#")[-1]
-    output_csv = f"output_files/{shape_name}.csv"
+    output_csv = output_dir / f"{shape_name}.csv"
 
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
