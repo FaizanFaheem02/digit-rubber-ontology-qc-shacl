@@ -1,0 +1,5 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000273,polymer [chebi],Violation,DigitRubber class 'polymer [chebi]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000321,di(benzothiazol-2-yl)disulfide [chebi],Violation,DigitRubber class 'di(benzothiazol-2-yl)disulfide [chebi]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000297,carbon black [chebi],Violation,DigitRubber class 'carbon black [chebi]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000327,dithiocarbamate [chebi],Violation,DigitRubber class 'dithiocarbamate [chebi]' is missing a de definition (obo:IAO_0000115).

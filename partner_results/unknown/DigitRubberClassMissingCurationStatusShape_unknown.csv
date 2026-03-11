@@ -1,0 +1,3 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000149,deprecated class,Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
+DIGITRUBBER_000227,measurement metadata,Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

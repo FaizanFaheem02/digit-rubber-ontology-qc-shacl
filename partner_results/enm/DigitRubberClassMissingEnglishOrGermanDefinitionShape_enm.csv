@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000145,aggregate [enm],Violation,DigitRubber class 'aggregate [enm]' is missing a de definition (obo:IAO_0000115).

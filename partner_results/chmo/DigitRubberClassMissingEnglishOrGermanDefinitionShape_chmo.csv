@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000453,sensor [chmo],Violation,DigitRubber class 'sensor [chmo]' is missing a de definition (obo:IAO_0000115).

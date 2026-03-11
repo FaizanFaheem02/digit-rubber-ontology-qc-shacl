@@ -1,0 +1,3 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000016,distance between sensor and extrudate [imr],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
+DIGITRUBBER_000003,geometry [imr],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).

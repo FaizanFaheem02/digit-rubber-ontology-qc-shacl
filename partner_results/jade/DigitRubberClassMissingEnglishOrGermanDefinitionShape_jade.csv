@@ -1,0 +1,5 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000025,bundle adjustment method [jade],Violation,DigitRubber class 'bundle adjustment method [jade]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000023,exterior orientation [jade],Violation,DigitRubber class 'exterior orientation [jade]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000022,camera coordinate system [jade],Violation,DigitRubber class 'camera coordinate system [jade]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000024,camera calibration [jade],Violation,DigitRubber class 'camera calibration [jade]' is missing a de definition (obo:IAO_0000115).

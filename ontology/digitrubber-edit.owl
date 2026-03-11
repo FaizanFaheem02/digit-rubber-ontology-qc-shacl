@@ -10417,7 +10417,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Pallavi Karanth</dc:contributor>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.11.2025</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.9.2025</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">mooney viscosity [Arlanxeo]</rdfs:label>
+        <rdfs:label xml:lang="en">Mooney viscosity [Arlanxeo]</rdfs:label>
     </owl:Class>
     
 

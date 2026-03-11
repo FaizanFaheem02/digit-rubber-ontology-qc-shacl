@@ -1,0 +1,12 @@
+Message
+"Multiple DIGITRUBBER classes use the same base label 'photometry ' with different partner tags: 'photometry [ifnano]', photometry  [ncit]"
+"Multiple DIGITRUBBER classes use the same base label 'Raman spectroscopy ' with different partner tags: 'Raman spectroscopy [ifnano]', Raman spectroscopy  [ncit]"
+"Multiple DIGITRUBBER classes use the same base label 'peak ' with different partner tags: 'peak [ifnano]', peak  [ncit], peak  [ms], peak  [allotrope]"
+"Multiple DIGITRUBBER classes use the same base label 'standard deviation ' with different partner tags: 'standard deviation [Wikipedia]', standard deviation  [allotrope], standard deviation  [ifnano], standard deviation  [ncit], standard deviation  [ms]"
+"Multiple DIGITRUBBER classes use the same base label 'zinc ' with different partner tags: 'zinc [ifnano]', zinc  [efo], zinc  [ncit]"
+"Multiple DIGITRUBBER classes use the same base label 'Mooney viscosity ' with different partner tags: 'Mooney viscosity [ifnano]', Mooney viscosity  [dik], Mooney viscosity  [Arlanxeo]"
+"Multiple DIGITRUBBER classes use the same base label 'laser-induced breakdown spectroscopy ' with different partner tags: 'laser-induced breakdown spectroscopy [ifnano]', laser-induced breakdown spectroscopy  [chmo]"
+"Multiple DIGITRUBBER classes use the same base label 'spectrum ' with different partner tags: 'spectrum [ifnano]', spectrum  [ncit], spectrum  [allotrope]"
+"Multiple DIGITRUBBER classes use the same base label 'concentration ' with different partner tags: 'concentration [ifnano]', concentration  [ncit], concentration  [dik], concentration  [bwmd], concentration  [edam], concentration  [ecso]"
+"Multiple DIGITRUBBER classes use the same base label 'monomer ' with different partner tags: 'monomer [ifnano]', monomer  [ncit]"
+"Multiple DIGITRUBBER classes use the same base label 'sample ' with different partner tags: 'sample [ifnano]', sample  [nmrcv], sample  [dik], sample  [sosa]"

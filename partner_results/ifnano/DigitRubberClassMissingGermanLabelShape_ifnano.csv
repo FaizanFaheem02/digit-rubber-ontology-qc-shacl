@@ -1,0 +1,33 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000648,fluororubber FKM [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000265,standard deviation [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000229,photometry [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000640,normalization [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000276,polymer composition [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000643,functional group [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000187,Raman spectroscopy [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000193,raman spectrum [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000222,processed spectrum [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000243,analytical target [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000650,styrene-butadiene rubber SBR [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000199,raw rubber samples [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000244,geometry correction [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000649,hydrogenated nitrile rubber HNBR [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000645,EPDM rubber [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000644,butyl rubber BIIR [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000216,peak [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000261,zinc [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000269,Mooney viscosity [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000213,laser-induced breakdown spectroscopy [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000190,spectrum [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000226,photometric measurement process [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000195,FTIR spectroscopy [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000202,concentration [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000270,monomer [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000215,distribution quality [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000646,polyisoprene IR [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000280,sample [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000647,nitrile rubber NBR [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000239,digital image processing [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000642,butadiene rubber BR [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.
+DIGITRUBBER_000221,raw spectrum [ifnano],Violation,DIGITRUBBER class is missing a German (de) label.

@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000568,molecular weight [mi],Violation,DigitRubber class 'molecular weight [mi]' is missing a de definition (obo:IAO_0000115).

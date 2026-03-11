@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_1000054,F Median [Arlanxeo],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000459,motor [envo],Violation,DigitRubber class 'motor [envo]' is missing a de definition (obo:IAO_0000115).

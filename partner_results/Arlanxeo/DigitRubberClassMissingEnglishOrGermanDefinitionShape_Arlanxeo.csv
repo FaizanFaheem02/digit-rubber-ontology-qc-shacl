@@ -1,0 +1,56 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_1000024,moving die rheometer [Arlanxeo],Violation,DigitRubber class 'moving die rheometer [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000020,loss modulus [Arlanxeo],Violation,DigitRubber class 'loss modulus [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000048,E dash 60 degree celcius [Arlanxeo],Violation,DigitRubber class 'E dash 60 degree celcius [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000000,weight averaged molecular weight [Arlanxeo],Violation,DigitRubber class 'weight averaged molecular weight [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000064,elastic torque at 90 percent [Arlanxeo],Violation,DigitRubber class 'elastic torque at 90 percent [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000019,elastic modulus [Arlanxeo],Violation,DigitRubber class 'elastic modulus [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000046,E dash 0 degree celcius [Arlanxeo],Violation,DigitRubber class 'E dash 0 degree celcius [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000028,elongation [Arlanxeo],Violation,DigitRubber class 'elongation [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000032,cis content [Arlanxeo],Violation,DigitRubber class 'cis content [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000068,tan d max [Arlanxeo],Violation,DigitRubber class 'tan d max [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000052,elastic modulus G dash 15 percent measurement1 [Arlanxeo],Violation,DigitRubber class 'elastic modulus G dash 15 percent measurement1 [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000033,trans content [Arlanxeo],Violation,DigitRubber class 'trans content [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000013,filler [Arlanxeo],Violation,DigitRubber class 'filler [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000051,E double dash 60 degree celcius [Arlanxeo],Violation,DigitRubber class 'E double dash 60 degree celcius [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000016,silane [Arlanxeo],Violation,DigitRubber class 'silane [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000060,die swelling first measurement [Arlanxeo],Violation,DigitRubber class 'die swelling first measurement [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000023,mechanical testing system [Arlanxeo],Violation,DigitRubber class 'mechanical testing system [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000007,emulsion SBR [Arlanxeo],Violation,DigitRubber class 'emulsion SBR [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000067,loss factor at 7 percent [Arlanxeo],Violation,DigitRubber class 'loss factor at 7 percent [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000027,shearing [Arlanxeo],Violation,DigitRubber class 'shearing [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000047,E dash 23 degree celcius [Arlanxeo],Violation,DigitRubber class 'E dash 23 degree celcius [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000005,butadiene rubber [Arlanxeo],Violation,DigitRubber class 'butadiene rubber [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000061,die swelling second measurement [Arlanxeo],Violation,DigitRubber class 'die swelling second measurement [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000056,mass per measurement time 1 [Arlanxeo],Violation,DigitRubber class 'mass per measurement time 1 [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000003,molecular weight distribution [Arlanxeo],Violation,DigitRubber class 'molecular weight distribution [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000035,glass transition temperature [Arlanxeo],Violation,DigitRubber class 'glass transition temperature [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000018,inner liner [Arlanxeo],Violation,DigitRubber class 'inner liner [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000057,mass per measurement time 2 [Arlanxeo],Violation,DigitRubber class 'mass per measurement time 2 [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000015,silica [Arlanxeo],Violation,DigitRubber class 'silica [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000026,ramp [Arlanxeo],Violation,DigitRubber class 'ramp [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000055,LossModulus Gdouble dash(max) [Arlanxeo],Violation,DigitRubber class 'LossModulus Gdouble dash(max) [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000001,number averaged molecular weight [Arlanxeo],Violation,DigitRubber class 'number averaged molecular weight [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000006,styrene-butadiene rubber [Arlanxeo],Violation,DigitRubber class 'styrene-butadiene rubber [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000054,F Median [Arlanxeo],Violation,DigitRubber class 'F Median [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000011,vulcanization [Arlanxeo],Violation,DigitRubber class 'vulcanization [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000017,tread [Arlanxeo],Violation,DigitRubber class 'tread [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000010,vulcanized compound [Arlanxeo],Violation,DigitRubber class 'vulcanized compound [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000031,styrene content [Arlanxeo],Violation,DigitRubber class 'styrene content [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000059,mass pressure 2 [Arlanxeo],Violation,DigitRubber class 'mass pressure 2 [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000014,carbon black [Arlanxeo],Violation,DigitRubber class 'carbon black [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000045,D Median [Arlanxeo],Violation,DigitRubber class 'D Median [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000002,gel permeation chromatography method [Arlanxeo],Violation,DigitRubber class 'gel permeation chromatography method [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000065,tan Delta Peak Temperature [Arlanxeo],Violation,DigitRubber class 'tan Delta Peak Temperature [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000021,Mooney viscosity [Arlanxeo],Violation,DigitRubber class 'Mooney viscosity [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000008,solution SBR [Arlanxeo],Violation,DigitRubber class 'solution SBR [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000058,mass presssure 1 [Arlanxeo],Violation,DigitRubber class 'mass presssure 1 [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000022,mooney stress relaxation [Arlanxeo],Violation,DigitRubber class 'mooney stress relaxation [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000050,E double dash 23 degree celcius [Arlanxeo],Violation,DigitRubber class 'E double dash 23 degree celcius [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000004,raw polymer [Arlanxeo],Violation,DigitRubber class 'raw polymer [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000053,elastic modulus G dash zero point five percent measurement1 [Arlanxeo],Violation,DigitRubber class 'elastic modulus G dash zero point five percent measurement1 [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000012,parts per hundred rubber [Arlanxeo],Violation,DigitRubber class 'parts per hundred rubber [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000034,vinyl content [Arlanxeo],Violation,DigitRubber class 'vinyl content [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000049,E double dash 0 degree celcius [Arlanxeo],Violation,DigitRubber class 'E double dash 0 degree celcius [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000009,green compound [Arlanxeo],Violation,DigitRubber class 'green compound [Arlanxeo]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000025,dynamic mechanical thermal analysis [Arlanxeo],Violation,DigitRubber class 'dynamic mechanical thermal analysis [Arlanxeo]' is missing a de definition (obo:IAO_0000115).

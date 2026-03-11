@@ -1,0 +1,34 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000648,fluororubber FKM [ifnano],Violation,DigitRubber class 'fluororubber FKM [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000265,standard deviation [ifnano],Violation,DigitRubber class 'standard deviation [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000229,photometry [ifnano],Violation,DigitRubber class 'photometry [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000640,normalization [ifnano],Violation,DigitRubber class 'normalization [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000276,polymer composition [ifnano],Violation,DigitRubber class 'polymer composition [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000643,functional group [ifnano],Violation,DigitRubber class 'functional group [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000187,Raman spectroscopy [ifnano],Violation,DigitRubber class 'Raman spectroscopy [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000193,raman spectrum [ifnano],Violation,DigitRubber class 'raman spectrum [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000222,processed spectrum [ifnano],Violation,DigitRubber class 'processed spectrum [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000243,analytical target [ifnano],Violation,DigitRubber class 'analytical target [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000650,styrene-butadiene rubber SBR [ifnano],Violation,DigitRubber class 'styrene-butadiene rubber SBR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000199,raw rubber samples [ifnano],Violation,DigitRubber class 'raw rubber samples [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000244,geometry correction [ifnano],Violation,DigitRubber class 'geometry correction [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000649,hydrogenated nitrile rubber HNBR [ifnano],Violation,DigitRubber class 'hydrogenated nitrile rubber HNBR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000645,EPDM rubber [ifnano],Violation,DigitRubber class 'EPDM rubber [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000644,butyl rubber BIIR [ifnano],Violation,DigitRubber class 'butyl rubber BIIR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000216,peak [ifnano],Violation,DigitRubber class 'peak [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000196,ATR-FTIR [ifnano],Violation,DigitRubber class 'ATR-FTIR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000261,zinc [ifnano],Violation,DigitRubber class 'zinc [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000269,Mooney viscosity [ifnano],Violation,DigitRubber class 'Mooney viscosity [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000213,laser-induced breakdown spectroscopy [ifnano],Violation,DigitRubber class 'laser-induced breakdown spectroscopy [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000190,spectrum [ifnano],Violation,DigitRubber class 'spectrum [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000226,photometric measurement process [ifnano],Violation,DigitRubber class 'photometric measurement process [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000195,FTIR spectroscopy [ifnano],Violation,DigitRubber class 'FTIR spectroscopy [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000202,concentration [ifnano],Violation,DigitRubber class 'concentration [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000270,monomer [ifnano],Violation,DigitRubber class 'monomer [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000215,distribution quality [ifnano],Violation,DigitRubber class 'distribution quality [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000646,polyisoprene IR [ifnano],Violation,DigitRubber class 'polyisoprene IR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000280,sample [ifnano],Violation,DigitRubber class 'sample [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000647,nitrile rubber NBR [ifnano],Violation,DigitRubber class 'nitrile rubber NBR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000239,digital image processing [ifnano],Violation,DigitRubber class 'digital image processing [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000642,butadiene rubber BR [ifnano],Violation,DigitRubber class 'butadiene rubber BR [ifnano]' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000221,raw spectrum [ifnano],Violation,DigitRubber class 'raw spectrum [ifnano]' is missing a de definition (obo:IAO_0000115).

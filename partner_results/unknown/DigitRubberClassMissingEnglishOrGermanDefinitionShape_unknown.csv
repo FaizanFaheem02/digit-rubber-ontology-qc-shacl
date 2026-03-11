@@ -1,0 +1,34 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_1000070,objective specification set,Violation,DigitRubber class 'objective specification set' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000078,compound temperature,Violation,DigitRubber class 'compound temperature' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000427,extruder pin,Violation,DigitRubber class 'extruder pin' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000075,instruction step,Violation,DigitRubber class 'instruction step' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000081,symbolic regression,Violation,DigitRubber class 'symbolic regression' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000079,shear rate,Violation,DigitRubber class 'shear rate' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000082,savtizky golay filter,Violation,DigitRubber class 'savtizky golay filter' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000092,mixing curves,Violation,DigitRubber class 'mixing curves' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000089,mean absolute deviation,Violation,DigitRubber class 'mean absolute deviation' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000071,ingredient specification,Violation,DigitRubber class 'ingredient specification' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000076,condition specification,Violation,DigitRubber class 'condition specification' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000094,mixing time reduction,Violation,DigitRubber class 'mixing time reduction' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000461,pin zone,Violation,DigitRubber class 'pin zone' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000080,storage modulus,Violation,DigitRubber class 'storage modulus' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000227,measurement metadata,Violation,DigitRubber class 'measurement metadata' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000093,energy efficiency,Violation,DigitRubber class 'energy efficiency' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000069,mixing recipe,Violation,DigitRubber class 'mixing recipe' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000083,rubber process analyzer,Violation,DigitRubber class 'rubber process analyzer' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000066,t90,Violation,DigitRubber class 't90' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000091,equation,Violation,DigitRubber class 'equation' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000504,assay process,Violation,DigitRubber class 'assay process' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000087,penetration thermometer,Violation,DigitRubber class 'penetration thermometer' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000090,smoothing,Violation,DigitRubber class 'smoothing' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000086,surface topography,Violation,DigitRubber class 'surface topography' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000072,ingredient specification set,Violation,DigitRubber class 'ingredient specification set' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000463,molding zone,Violation,DigitRubber class 'molding zone' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000088,sieving process,Violation,DigitRubber class 'sieving process' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000074,instruction set,Violation,DigitRubber class 'instruction set' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000077,ram position,Violation,DigitRubber class 'ram position' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000085,ring test,Violation,DigitRubber class 'ring test' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_000462,feeding zone,Violation,DigitRubber class 'feeding zone' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000084,payne effect,Violation,DigitRubber class 'payne effect' is missing a de definition (obo:IAO_0000115).
+DIGITRUBBER_1000073,device specification set,Violation,DigitRubber class 'device specification set' is missing a de definition (obo:IAO_0000115).

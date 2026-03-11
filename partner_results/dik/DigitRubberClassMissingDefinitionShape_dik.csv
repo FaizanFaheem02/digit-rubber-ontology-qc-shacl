@@ -1,11 +1,8 @@
 Class Suffix,Label,Severity,Message
 DIGITRUBBER_000472,molding zone temperature control unit [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
-DIGITRUBBER_000149,deprecated class,Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
 DIGITRUBBER_000384,drop door [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
 DIGITRUBBER_000445,screw speed [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
 DIGITRUBBER_000457,gearbox [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
-DIGITRUBBER_000016,distance between sensor and extrudate [imr],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
-DIGITRUBBER_000003,geometry [imr],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
 DIGITRUBBER_000355,fixed roll speed [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
 DIGITRUBBER_000399,rotor torque [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).
 DIGITRUBBER_000556,mixing [dik],Violation,DIGITRUBBER class is missing a definition (obo:IAO_0000115).

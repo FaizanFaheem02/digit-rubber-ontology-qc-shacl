@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+DIGITRUBBER_000004,geometry [geosparql],Violation,DigitRubber class 'geometry [geosparql]' is missing a de definition (obo:IAO_0000115).
