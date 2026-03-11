@@ -20,20 +20,29 @@
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has {$dupCount} other classes with the same base label." ;
+        sh:message "Multiple DIGITRUBBER classes use the same base label '{$base}' with different partner tags: '{$label}', {$dupPartners}" ;
+        
         sh:select """
-SELECT ?this ?label ?classId ?dupCount
+
+SELECT ?this ?label ?classId ?base ?dupCount ?dupPartners
 WHERE {
 
   {
-    SELECT ?this ?label ?classId ?base (COUNT(?other) AS ?dupCount)
+    SELECT ?this ?label ?classId ?base
+           (COUNT(?other) AS ?dupCount)
+           (GROUP_CONCAT(DISTINCT ?dupLabel; separator=", ") AS ?dupPartners)
     WHERE {
-      ?this rdfs:label ?label .
+
+      ?this rdf:type owl:Class ;
+            rdfs:label ?label .
+
       FILTER (LANG(?label) = "en")
 
+      # Extract class ID
       BIND(REPLACE(STR(?this), ".*/", "") AS ?classId)
 
-      BIND(IF(CONTAINS(STR(?label), "["), STRBEFORE(STR(?label), "["), STR(?label)) AS ?base)
+      BIND(
+        IF(CONTAINS(STR(?label), "["), STRBEFORE(STR(?label), "["), STR(?label)) AS ?base)
 
       ?other rdf:type owl:Class ;
              rdfs:label ?otherLabel .
@@ -44,6 +53,11 @@ WHERE {
       BIND(IF(CONTAINS(STR(?otherLabel), "["), STRBEFORE(STR(?otherLabel), "["), STR(?otherLabel)) AS ?otherBase)
 
       FILTER (?base = ?otherBase)
+
+      BIND(IF(CONTAINS(STR(?otherLabel), "["), STRBEFORE(STRAFTER(STR(?otherLabel), "["), "]"),"") AS ?otherPartner)
+
+      BIND(CONCAT(?base, " [", ?otherPartner, "]") AS ?dupLabel)
+
     }
     GROUP BY ?this ?label ?classId ?base
   }
@@ -51,19 +65,19 @@ WHERE {
   FILTER (?dupCount > 0)
 
   FILTER NOT EXISTS {
-  ?otherThis rdf:type owl:Class ;
-             rdfs:label ?otherThisLabel .
+    ?otherThis rdf:type owl:Class ;
+               rdfs:label ?otherThisLabel .
 
-  FILTER (STRSTARTS(STR(?otherThis), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
+    FILTER (STRSTARTS(STR(?otherThis), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
+    FILTER (LANG(?otherThisLabel) = "en")
 
-  FILTER (LANG(?otherThisLabel) = "en")
+    BIND(IF(CONTAINS(STR(?otherThisLabel), "["), STRBEFORE(STR(?otherThisLabel), "["), STR(?otherThisLabel)) AS ?base2)
 
-  BIND(IF(CONTAINS(STR(?otherThisLabel), "["), STRBEFORE(STR(?otherThisLabel), "["), STR(?otherThisLabel)) AS ?base2)
+    FILTER (?base2 = ?base)
+    FILTER (STR(?otherThis) < STR(?this))
+  }
 
-  FILTER (?base2 = ?base)
-  FILTER (STR(?otherThis) < STR(?this))
 }
 
-}
         """ ;
     ] .
