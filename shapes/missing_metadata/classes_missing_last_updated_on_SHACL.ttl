@@ -5,7 +5,7 @@
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix pav:  <http://purl.org/pav/> .
 
-:DigitRubberClassMissingLastUpdateOnShape
+:ClassMissingLastUpdateOnShape
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 
@@ -14,7 +14,7 @@
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
             }
         """ ;
     ] ;
@@ -22,5 +22,5 @@
     sh:property [
         sh:path pav:lastUpdateOn ;
         sh:minCount 1 ;
-        sh:message "DIGITRUBBER class is missing pav:lastUpdateOn." ;
+        sh:message "Class is missing pav:lastUpdateOn." ;
     ] .

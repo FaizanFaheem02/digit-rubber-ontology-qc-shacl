@@ -1,4 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000282,aggregate [dik],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000283,particle [dik],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000281,agglomerate [dik],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

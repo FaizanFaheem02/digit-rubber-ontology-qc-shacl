@@ -3213,6 +3213,12 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000145"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000202"/>
@@ -4867,7 +4873,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Rücksprache DIK</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -4885,7 +4891,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Control variable that indicates how high the speed of the screw is during extrusion.</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -4903,7 +4909,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Screw torque is a measured variable that indicates how high the torque of the screw is during extrusion.</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -4921,7 +4927,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Control variable for setting the temperature of the screw.</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -4939,7 +4945,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000602"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Control variable for setting the temperature of the feed roller.</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -4957,7 +4963,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000602"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Control variable for setting the temperature of the cylinder.</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -4993,7 +4999,7 @@ extrudate defined by the manufacturer</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Control variable for setting the temperature of the tool.</obo:IAO_0000115>
         <obo:coarseClassification>quality</obo:coarseClassification>
@@ -7036,7 +7042,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -7052,7 +7058,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A physical quality of the thermal energy of a system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
@@ -7138,7 +7144,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -7486,7 +7492,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000394">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -7502,7 +7508,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000395 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000395">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020148"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -7583,7 +7589,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000412">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000003"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -7792,7 +7798,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000428">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">rotating member with one or more helical grooves, used to propel rubber along the barrel of an extruder</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="de">rotierendes Glied mit einer oder mehreren helixförmigen Rillen, das verwendet wird, um einen Kautschuk innerhalb eines Extruderrohrs voranzutreiben</obo:IAO_0000115>
@@ -7990,7 +7996,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000443 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000443">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -8006,7 +8012,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000444 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000444">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -8022,7 +8028,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000445 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000445">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -8313,8 +8319,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000467">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <rdfs:subClassOf rdf:resource="https://www.tib.eu/digitrubber#http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0060006"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -8525,7 +8530,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000480 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000480">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="de">Zustand eines Vulkanisats während des Vulkanisationsverlaufs, gemessen an dessen Struktur oder dessen Eigenschaften</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">condition of a vulcanizate during the course of vulcanization, measured in terms of its structure or properties</obo:IAO_0000115>
@@ -8645,7 +8650,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000488 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000488">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="de">Zustand der Vulkanisation unterhalb des Vulkanisationsoptimums</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">state of vulcanization less than the optimum cure</obo:IAO_0000115>
@@ -9127,7 +9132,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000560">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIGITRUBBER_000441"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -9160,7 +9165,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIGITRUBBER_000441"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -9213,7 +9218,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000566">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0000003"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
         <dc:contributor>Alexander Aschemann</dc:contributor>
@@ -9444,7 +9449,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_000579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_000579">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="de">Verhältnis des Verlustmoduls zum Speichermodul</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">ratio of the viscous modulus to the elastic modulus</obo:IAO_0000115>
@@ -10417,7 +10422,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
         <dc:contributor>Pallavi Karanth</dc:contributor>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.11.2025</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.9.2025</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">Mooney viscosity [Arlanxeo]</rdfs:label>
+        <rdfs:label xml:lang="en">mooney viscosity [Arlanxeo]</rdfs:label>
     </owl:Class>
     
 
@@ -10492,7 +10497,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">In physical testing, it refers to a deformation regime in which layers of fluid or solid are forced to move parallel to each other.</obo:IAO_0000115>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19.9.2025</pav:lastUpdateOn>
@@ -10518,7 +10523,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Styrene content is a quality that is a key factor in determining the properties of polymers derived from styrene.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Styrene Content</obo:IAO_0000118>
@@ -10551,7 +10556,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Trans content is a quality which measures the content of trans isomer in polymers that affect melting points and solubility in polymers.</obo:IAO_0000115>
         <obo:IAO_0000118>Trans Content</obo:IAO_0000118>
@@ -10568,7 +10573,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Vinyl content is a quality that is based on the vinyl content in polyethylene resins that are determined by the catalyst used for manufacturing the resin.</obo:IAO_0000115>
         <obo:IAO_0000118>Vinly Cont</obo:IAO_0000118>
@@ -10689,7 +10694,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115>S50 is a quality of vulcanized compound or polymer which is the stress at deformation value 50.</obo:IAO_0000115>
         <obo:IAO_0000118>Stress at deformation value 50</obo:IAO_0000118>
@@ -10704,7 +10709,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115>S100 is a quality of vulcanized compound or polymer which is the stress at deformation value 100.</obo:IAO_0000115>
         <dc:contributor>Pallavi Karanth</dc:contributor>
@@ -10718,7 +10723,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
     <!-- http://purl.obolibrary.org/obo/DIGITRUBBER_1000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115>S300 is a quality of vulcanized compound or polymer which is the stress at deformation value 300.</obo:IAO_0000115>
         <dc:contributor>Pallavi Karanth</dc:contributor>
@@ -10852,6 +10857,7 @@ sequence of additional like or unlike molecules under the conditions of the rele
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIGITRUBBER_1000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Median value of tensile strength at break from stress-strain (tensile) measurement</obo:IAO_0000115>
         <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17.12.2025</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17.12.2025</oboInOwl:creation_date>
@@ -11996,7 +12002,7 @@ clustering algorithm.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/NCIT_C25206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25206">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A measure of the average kinetic energy of a system of particles. Temperature may be quantified, in the context of thermodynamics, as the potential of one system to transfer thermal energy to another system until both systems reach a state of thermal equilibrium.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25206"/>
@@ -12034,7 +12040,7 @@ clustering algorithm.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/NCIT_C25677 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">The spatial arrangement of something as distinct from its substance.</obo:IAO_0000115>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C25677</obo:IAO_0000119>
@@ -13416,7 +13422,7 @@ information_encoding
     <!-- http://purl.obolibrary.org/obo/PATO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A morphological quality inhering in a bearer by virtue of the bearer&apos;s ratios of distances between its features (points, edges, surfaces and also holes etc).</obo:IAO_0000115>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/PATO_0000052</obo:IAO_0000119>
@@ -13449,7 +13455,7 @@ information_encoding
     <!-- http://purl.obolibrary.org/obo/PATO_0000992 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000992">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">A physical quality of a fluid inhering in a bearer by virtue of the bearer&apos;s disposition to internal resistance to flow.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000992"/>
@@ -13656,7 +13662,7 @@ information_encoding
     <!-- http://www.ebi.ac.uk/efo/EFO_0001702 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Temperature is a physical quality of the thermal energy of a system.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001702"/>
@@ -13729,7 +13735,7 @@ information_encoding
     <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature -->
 
     <owl:Class rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020131"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Temperature is the extent to which an object is hot.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Temperature"/>
@@ -13748,7 +13754,7 @@ information_encoding
     <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/Torque -->
 
     <owl:Class rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Torque">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/pmd/co/PMD_0020148"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
         <obo:IAO_0000115 xml:lang="en">Torque is the effectiveness of a force to produce rotation about an axis, measured by the product of the force and the perpendicular distance from the line of action of the force to the axis. (defined by om)</obo:IAO_0000115>
         <obo:IAO_0000119>http://www.ontology-of-units-of-measure.org/resource/om-2</obo:IAO_0000119>
@@ -13949,6 +13955,12 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- https://w3id.org/pmd/co/PMD_0010029 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0010029"/>
+    
+
+
     <!-- https://w3id.org/pmd/co/PMD_0020000 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0020000">
@@ -13972,6 +13984,12 @@ for now.</obo:IAO_0000116>
     <!-- https://w3id.org/pmd/co/PMD_0020144 -->
 
     <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0020144"/>
+    
+
+
+    <!-- https://w3id.org/pmd/co/PMD_0020148 -->
+
+    <owl:Class rdf:about="https://w3id.org/pmd/co/PMD_0020148"/>
     
 
 

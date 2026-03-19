@@ -6,7 +6,7 @@
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix pav:      <http://purl.org/pav/> .
 
-:DigitRubberClassMissingCreationAndUpdateDateShape
+:ClassMissingCreationAndUpdateDateShape
     a sh:NodeShape ;
     sh:severity sh:Violation ;
     
@@ -15,20 +15,24 @@
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
             }
         """ ;
     ] ;
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn." ;
+        sh:message "Class '{$classId}' ('{$label}') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn." ;
         sh:select """
             SELECT ?this ?label
                    (REPLACE(STR(?this), ".*/", "") AS ?classId)
             WHERE {
               
-              OPTIONAL { ?this rdfs:label ?label .
-                FILTER ( LANG(?label) = "en" ) }
+              OPTIONAL { 
+  ?this rdfs:label ?labelRaw .
+  FILTER ( LANG(?labelRaw) = "en" || LANG(?labelRaw) = "" )
+}
+
+BIND(COALESCE(?labelRaw, "NO_LABEL") AS ?label)
 
               FILTER NOT EXISTS { ?this oboInOwl:creation_date ?creationDate }
 

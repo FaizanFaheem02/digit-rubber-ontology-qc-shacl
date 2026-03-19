@@ -4,7 +4,7 @@ import pandas as pd
 INPUT_FOLDER = "output_files"
 BASE_OUTPUT_FOLDER = "partner_results"
 
-PARTNERS = ["Arlanxeo", "imr", "ifnano", "dik", "hsh", "jade", "m4i", "uo", "chmo", "enm", "ita", "mi", "chebi", "ncit", "envo", "Wikipedia", "geosparql"]
+PARTNERS = ["Arlanxeo", "imr", "ifnano", "dik", "hsh", "jade", "m4i", "uo", "chmo", "enm", "ita", "mi", "chebi", "ncit", "envo", "Wikipedia", "geosparql", "edam", "pato", "efo", "ms", "obi"]
 
 UNKNOWN_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, "unknown")
 
@@ -16,7 +16,7 @@ os.makedirs(UNKNOWN_FOLDER, exist_ok=True)
 
 for PARTNER_NAME in PARTNERS:
 
-    OUTPUT_FOLDER = f"partner_results/{PARTNER_NAME}"
+    OUTPUT_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, PARTNER_NAME)
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
     for file in os.listdir(INPUT_FOLDER):
@@ -46,22 +46,22 @@ for PARTNER_NAME in PARTNERS:
 
             unknown_rows = df[df["Partner"].isna()]
 
-            if not unknown_rows.empty:
+            if not unknown_rows.empty and PARTNER_NAME == PARTNERS[0]:
 
                 unknown_rows = unknown_rows.drop(columns=["Partner"])
 
-                unknown_file = file.replace(".csv", "_unknown.csv")
+                unknown_file = file.replace(".csv", "_unknown.xlsx")
                 unknown_path = os.path.join(UNKNOWN_FOLDER, unknown_file)
 
-                unknown_rows.to_csv(unknown_path, index=False)
+                unknown_rows.to_excel(unknown_path, index=False)
 
                 print(f"unknown: Created {unknown_file}")
 
         if not filtered.empty:
 
-            output_file = file.replace(".csv", f"_{PARTNER_NAME}.csv")
+            output_file = file.replace(".csv", f"_{PARTNER_NAME}.xlsx")
             output_path = os.path.join(OUTPUT_FOLDER, output_file)
 
-            filtered.to_csv(output_path, index=False)
+            filtered.to_excel(output_path, index=False)
 
             print(f"{PARTNER_NAME}: Created {output_file}")

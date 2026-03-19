@@ -1,2 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000565,kinematic viscosity [uo],Violation,DigitRubber class 'kinematic viscosity [uo]' is missing a de definition (obo:IAO_0000115).

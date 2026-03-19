@@ -5,7 +5,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 
-:DigitRubberClassInvalidLastUpdateOnShape
+:ClassInvalidLastUpdateOnShape
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 
@@ -14,14 +14,14 @@
         sh:select """
           SELECT ?this WHERE {
             ?this rdf:type owl:Class .
-            FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_") || STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER"))
+            FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
           }
         """ ;
     ] ;
 
     sh:sparql [
         a sh:SPARQLConstraint ;
-        sh:message "DIGITRUBBER class '{$classId}' ('{$label}') has an invalid value '{$date}' for pav:lastUpdateOn." ;
+        sh:message "Class '{$classId}' ('{$label}') has an invalid value '{$date}' for pav:lastUpdateOn." ;
         sh:select """
           SELECT ?this ?label ?date
                  (REPLACE(STR(?this), ".*/", "") AS ?classId)

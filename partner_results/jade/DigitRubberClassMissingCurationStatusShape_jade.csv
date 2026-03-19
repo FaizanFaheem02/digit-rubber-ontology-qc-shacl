@@ -1,5 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000025,bundle adjustment method [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000023,exterior orientation [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000022,camera coordinate system [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000024,camera calibration [jade],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

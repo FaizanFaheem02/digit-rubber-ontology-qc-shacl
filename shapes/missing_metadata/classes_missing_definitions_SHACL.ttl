@@ -5,7 +5,7 @@
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix obo:  <http://purl.obolibrary.org/obo/> .
 
-:DigitRubberClassMissingDefinitionShape
+:ClassMissingBothGermanAndEnglishDefinitionsShape
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 
@@ -14,7 +14,7 @@
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
             }
         """ ;
     ] ;
@@ -22,7 +22,7 @@
     sh:property [
         sh:path obo:IAO_0000115 ;
         sh:minCount 1 ;
-        sh:message "DIGITRUBBER class is missing a definition (obo:IAO_0000115)." ;
+        sh:message "Class is missing both English and German definitions." ;
     ] .
 
    

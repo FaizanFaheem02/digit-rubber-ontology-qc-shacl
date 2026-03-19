@@ -1,7 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000016,distance between sensor and extrudate [imr],Violation,DIGITRUBBER class is missing a German (de) label.
-DIGITRUBBER_000003,geometry [imr],Violation,DIGITRUBBER class is missing a German (de) label.
-DIGITRUBBER_000001,measurement quality [imr],Violation,DIGITRUBBER class is missing a German (de) label.
-DIGITRUBBER_000006,triangulation [imr],Violation,DIGITRUBBER class is missing a German (de) label.
-DIGITRUBBER_000017,extrudate norm [imr],Violation,DIGITRUBBER class is missing a German (de) label.
-DIGITRUBBER_000009,surface of extrudate [imr],Violation,DIGITRUBBER class is missing a German (de) label.

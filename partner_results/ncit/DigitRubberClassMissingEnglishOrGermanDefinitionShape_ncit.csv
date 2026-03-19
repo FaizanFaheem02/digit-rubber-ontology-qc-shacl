@@ -1,8 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000380,mechanical mixer [ncit],Violation,DigitRubber class 'mechanical mixer [ncit]' is missing a de definition (obo:IAO_0000115).
-DIGITRUBBER_000130,operator [ncit],Violation,DigitRubber class 'operator [ncit]' is missing a de definition (obo:IAO_0000115).
-DIGITRUBBER_000378,mixer device [ncit],Violation,DigitRubber class 'mixer device [ncit]' is missing a de definition (obo:IAO_0000115).
-DIGITRUBBER_000205,concentration [ncit],Violation,DigitRubber class 'concentration [ncit]' is missing a de definition (obo:IAO_0000115).
-DIGITRUBBER_000132,supervisor [ncit],Violation,DigitRubber class 'supervisor [ncit]' is missing a de definition (obo:IAO_0000115).
-DIGITRUBBER_000552,measurement device [ncit],Violation,DigitRubber class 'measurement device [ncit]' is missing a de definition (obo:IAO_0000115).
-DIGITRUBBER_000027,agent [ncit],Violation,DigitRubber class 'agent [ncit]' is missing a de definition (obo:IAO_0000115).

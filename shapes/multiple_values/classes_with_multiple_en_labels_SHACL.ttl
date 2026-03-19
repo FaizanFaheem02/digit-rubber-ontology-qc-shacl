@@ -1,0 +1,21 @@
+@prefix : <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClassesWithMultipleEnglishLabelsShape
+    a sh:NodeShape ;
+    sh:targetClass owl:Class ;
+    sh:severity sh:Violation ;
+
+    sh:property [
+        sh:path rdfs:label ;
+
+        sh:qualifiedValueShape [
+            sh:languageIn ("en") ;
+        ] ;
+
+        sh:qualifiedMaxCount 1 ;
+
+        sh:message "Class has more than one English label." ;
+    ] .

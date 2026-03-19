@@ -1,0 +1,156 @@
+Class Suffix,Label,Severity,Message
+CHEBI_30452,tellurium atom,Violation,Class is missing an English (en) label.
+CHEBI_30217,helium atom,Violation,Class is missing an English (en) label.
+CHEBI_30514,caesium atom,Violation,Class is missing an English (en) label.
+PMD_0010022,containing magnetic species,Violation,Class is missing an English (en) label.
+PMD_0010000,corrosion resistant,Violation,Class is missing an English (en) label.
+CHEBI_25585,nonmetal atom,Violation,Class is missing an English (en) label.
+CHEBI_194541,oganesson atom,Violation,Class is missing an English (en) label.
+CHEBI_33396,nobelium,Violation,Class is missing an English (en) label.
+UO_1000164,mass volume percentage based unit,Violation,Class is missing an English (en) label.
+CHEBI_30430,indium atom,Violation,Class is missing an English (en) label.
+CHEBI_49637,hydrogen atom,Violation,Class is missing an English (en) label.
+CHEBI_33381,ytterbium,Violation,Class is missing an English (en) label.
+CHEBI_33303,chalcogen,Violation,Class is missing an English (en) label.
+CHEBI_30512,silver atom,Violation,Class is missing an English (en) label.
+CHEBI_33369,cerium,Violation,Class is missing an English (en) label.
+CHEBI_33374,samarium atom,Violation,Class is missing an English (en) label.
+CHEBI_23116,chlorine atom,Violation,Class is missing an English (en) label.
+CHEBI_33385,thorium,Violation,Class is missing an English (en) label.
+UO_0000163,mass percentage,Violation,Class is missing an English (en) label.
+UO_0000076,mole fraction,Violation,Class is missing an English (en) label.
+CHEBI_27573,silicon atom,Violation,Class is missing an English (en) label.
+CHEBI_31344,calcium oxide,Violation,Class is missing an English (en) label.
+CHEBI_33342,zirconium atom,Violation,Class is missing an English (en) label.
+CHEBI_28984,aluminium atom,Violation,Class is missing an English (en) label.
+CHEBI_25016,lead atom,Violation,Class is missing an English (en) label.
+CHEBI_26833,sulfur atom,Violation,Class is missing an English (en) label.
+CHEBI_27560,boron atom,Violation,Class is missing an English (en) label.
+CHEBI_49475,argon atom,Violation,Class is missing an English (en) label.
+CHEBI_33389,americium atom,Violation,Class is missing an English (en) label.
+CHEBI_27698,vanadium atom,Violation,Class is missing an English (en) label.
+CHEBI_33348,tantalum atom,Violation,Class is missing an English (en) label.
+PMD_0000112,dielectric disposition,Violation,Class is missing an English (en) label.
+CHEBI_33319,lanthanoid atom,Violation,Class is missing an English (en) label.
+OBI_0000202,investigation agent role,Violation,Class is missing an English (en) label.
+OBI_0002201,determination if assay will provide reliable results,Violation,Class is missing an English (en) label.
+CHEBI_33387,neptunium atom,Violation,Class is missing an English (en) label.
+CHEBI_30513,antimony atom,Violation,Class is missing an English (en) label.
+CHEBI_194535,moscovium atom,Violation,Class is missing an English (en) label.
+CHEBI_49828,praseodymium atom,Violation,Class is missing an English (en) label.
+CHEBI_33343,hafnium atom,Violation,Class is missing an English (en) label.
+CHEBI_30501,beryllium atom,Violation,Class is missing an English (en) label.
+CHEBI_33351,seaborgium atom,Violation,Class is missing an English (en) label.
+CHEBI_33344,niobium atom,Violation,Class is missing an English (en) label.
+CHEBI_33353,technetium atom,Violation,Class is missing an English (en) label.
+CHEBI_33322,rubidium atom,Violation,Class is missing an English (en) label.
+CHEBI_22984,calcium atom,Violation,Class is missing an English (en) label.
+CHEBI_33349,dubnium atom,Violation,Class is missing an English (en) label.
+CHEBI_28685,molybdenum atom,Violation,Class is missing an English (en) label.
+CHEBI_33355,bohrium atom,Violation,Class is missing an English (en) label.
+UO_1000163,mass percentage based unit,Violation,Class is missing an English (en) label.
+CHEBI_26216,potassium atom,Violation,Class is missing an English (en) label.
+CHEBI_33521,metal atom,Violation,Class is missing an English (en) label.
+CHEBI_33388,plutonium atom,Violation,Class is missing an English (en) label.
+CHEBI_194537,livermorium atom,Violation,Class is missing an English (en) label.
+CHEBI_33394,fermium,Violation,Class is missing an English (en) label.
+CHEBI_33361,meitnerium atom,Violation,Class is missing an English (en) label.
+CHEBI_33301,bismuth atom,Violation,Class is missing an English (en) label.
+CHEBI_28112,nickel atom,Violation,Class is missing an English (en) label.
+CHEBI_30145,lithium atom,Violation,Class is missing an English (en) label.
+CHEBI_29287,gold atom,Violation,Class is missing an English (en) label.
+UO_0000164,mass volume percentage,Violation,Class is missing an English (en) label.
+UO_0000003,time unit,Violation,Class is missing an English (en) label.
+CHEBI_33337,actinium atom,Violation,Class is missing an English (en) label.
+PMD_0010023,bioactive,Violation,Class is missing an English (en) label.
+CHEBI_25107,magnesium atom,Violation,Class is missing an English (en) label.
+CHEBI_33392,californium atom,Violation,Class is missing an English (en) label.
+UO_1000076,mole fraction based unit,Violation,Class is missing an English (en) label.
+CHEBI_17051,fluoride,Violation,Class is missing an English (en) label.
+CHEBI_33313,polonium atom,Violation,Class is missing an English (en) label.
+CHEBI_32594,barium atom,Violation,Class is missing an English (en) label.
+CHEBI_194533,nihonium atom,Violation,Class is missing an English (en) label.
+CHEBI_33376,terbium atom,Violation,Class is missing an English (en) label.
+CHEBI_33314,radon atom,Violation,Class is missing an English (en) label.
+CHEBI_27638,cobalt atom,Violation,Class is missing an English (en) label.
+CHEBI_27998,tungsten,Violation,Class is missing an English (en) label.
+CHEBI_18248,iron atom,Violation,Class is missing an English (en) label.
+CHEBI_33839,macromolecule,Violation,Class is missing an English (en) label.
+CHEBI_37376,tetraphosphorus decaoxide,Violation,Class is missing an English (en) label.
+CHEBI_33377,dysprosium atom,Violation,Class is missing an English (en) label.
+CHEBI_33336,lanthanum atom,Violation,Class is missing an English (en) label.
+CHEBI_27594,carbon atom,Violation,Class is missing an English (en) label.
+CHEBI_194531,flerovium atom,Violation,Class is missing an English (en) label.
+CHEBI_49648,holmium atom,Violation,Class is missing an English (en) label.
+CHEBI_22927,bromine atom,Violation,Class is missing an English (en) label.
+CHEBI_49957,xenon atom,Violation,Class is missing an English (en) label.
+CHEBI_29362,ethylene group,Violation,Class is missing an English (en) label.
+PMD_0010013,hardenable,Violation,Class is missing an English (en) label.
+CHEBI_33380,thulium atom,Violation,Class is missing an English (en) label.
+CHEBI_74236,polymerisation monomer,Violation,Class is missing an English (en) label.
+CHEBI_33382,lutetium atom,Violation,Class is missing an English (en) label.
+CHEBI_60003,pure substance,Violation,Class is missing an English (en) label.
+CHEBI_137980,metalloid atom,Violation,Class is missing an English (en) label.
+OBI_0001931,scalar value specification,Violation,Class is missing an English (en) label.
+CHEBI_49882,rhenium atom,Violation,Class is missing an English (en) label.
+CHEBI_32999,europium atom,Violation,Class is missing an English (en) label.
+CHEBI_28073,chromium atom,Violation,Class is missing an English (en) label.
+CHEBI_33372,neodymium atom,Violation,Class is missing an English (en) label.
+CHEBI_25805,oxygen atom,Violation,Class is missing an English (en) label.
+CHEBI_33364,platinum,Violation,Class is missing an English (en) label.
+CHEBI_33395,mendelevium atom,Violation,Class is missing an English (en) label.
+UO_0000000,unit,Violation,Class is missing an English (en) label.
+CHEBI_33390,curium atom,Violation,Class is missing an English (en) label.
+CHEBI_33368,roentgenium atom,Violation,Class is missing an English (en) label.
+CHEBI_33517,copernicium atom,Violation,Class is missing an English (en) label.
+CHEBI_33250,atom,Violation,Class is missing an English (en) label.
+PMD_0000873,,Violation,Class is missing an English (en) label.
+CHEBI_30415,astatine atom,Violation,Class is missing an English (en) label.
+CHEBI_30441,germanium atom,Violation,Class is missing an English (en) label.
+CHEBI_81045,lead oxide,Violation,Class is missing an English (en) label.
+CHEBI_33386,protactinium atom,Violation,Class is missing an English (en) label.
+PMD_0000881,,Violation,Class is missing an English (en) label.
+CHEBI_33373,promethium atom,Violation,Class is missing an English (en) label.
+CHEBI_28659,phosphorus atom,Violation,Class is missing an English (en) label.
+CHEBI_33325,radium atom,Violation,Class is missing an English (en) label.
+CHEBI_24859,iodine atom,Violation,Class is missing an English (en) label.
+CHEBI_33346,rutherfordium atom,Violation,Class is missing an English (en) label.
+CHEBI_53284,polyurethane macromolecule,Violation,Class is missing an English (en) label.
+CHEBI_25195,mercury atom,Violation,Class is missing an English (en) label.
+CHEBI_30187,aluminium oxide,Violation,Class is missing an English (en) label.
+CHEBI_33391,berkelium atom,Violation,Class is missing an English (en) label.
+CHEBI_33363,palladium,Violation,Class is missing an English (en) label.
+CHEBI_33324,strontium atom,Violation,Class is missing an English (en) label.
+CHEBI_26708,sodium atom,Violation,Class is missing an English (en) label.
+CHEBI_49631,gallium atom,Violation,Class is missing an English (en) label.
+CHEBI_30563,silicon dioxide,Violation,Class is missing an English (en) label.
+CHEBI_30440,thallium atom,Violation,Class is missing an English (en) label.
+CHEBI_22977,cadmium atom,Violation,Class is missing an English (en) label.
+CHEBI_28694,copper atom,Violation,Class is missing an English (en) label.
+CHEBI_33359,rhodium atom,Violation,Class is missing an English (en) label.
+CHEBI_30687,osmium atom,Violation,Class is missing an English (en) label.
+CHEBI_33379,erbium,Violation,Class is missing an English (en) label.
+CHEBI_33331,yttrium atom,Violation,Class is missing an English (en) label.
+CHEBI_30682,ruthenium atom,Violation,Class is missing an English (en) label.
+CHEBI_33357,hassium atom,Violation,Class is missing an English (en) label.
+CHEBI_24061,fluorine atom,Violation,Class is missing an English (en) label.
+CHEBI_27568,selenium atom,Violation,Class is missing an English (en) label.
+CHEBI_33323,francium atom,Violation,Class is missing an English (en) label.
+CHEBI_27007,tin atom,Violation,Class is missing an English (en) label.
+CHEBI_25555,nitrogen atom,Violation,Class is missing an English (en) label.
+CHEBI_18291,manganese atom,Violation,Class is missing an English (en) label.
+NCBITaxon_9606,Homo sapiens,Violation,Class is missing an English (en) label.
+CHEBI_33397,lawrencium atom,Violation,Class is missing an English (en) label.
+CHEBI_49696,krypton atom,Violation,Class is missing an English (en) label.
+CHEBI_33367,darmstadtium,Violation,Class is missing an English (en) label.
+CHEBI_33393,einsteinium atom,Violation,Class is missing an English (en) label.
+CHEBI_27563,arsenic atom,Violation,Class is missing an English (en) label.
+CHEBI_49666,iridium atom,Violation,Class is missing an English (en) label.
+CHEBI_30163,diboron trioxide,Violation,Class is missing an English (en) label.
+CHEBI_33330,scandium atom,Violation,Class is missing an English (en) label.
+CHEBI_194539,tennessine atom,Violation,Class is missing an English (en) label.
+CHEBI_33341,titanium atom,Violation,Class is missing an English (en) label.
+CHEBI_27214,uranium atom,Violation,Class is missing an English (en) label.
+CHEBI_33310,neon atom,Violation,Class is missing an English (en) label.
+CHEBI_33375,gadolinium atom,Violation,Class is missing an English (en) label.
+CHEBI_32145,sodium hydroxide,Violation,Class is missing an English (en) label.

@@ -1,0 +1,2 @@
+Class Suffix,Label,Severity,Message
+GO_0008150,biological process,Violation,Class label contains an underscore (_).

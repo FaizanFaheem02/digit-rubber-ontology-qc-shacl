@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 
-:DigitRubberClassLabelUnderscoreShape
+:ClassLabelUnderscoreShape
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 
@@ -13,7 +13,7 @@
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/DIGITRUBBER_"))
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
             }
         """ ;
     ] ;
@@ -25,5 +25,5 @@
             sh:pattern "_" ;
         ] ;
 
-        sh:message "DIGITRUBBER class label contains an underscore (_)." ;
+        sh:message "Class label contains an underscore (_)." ;
     ] .

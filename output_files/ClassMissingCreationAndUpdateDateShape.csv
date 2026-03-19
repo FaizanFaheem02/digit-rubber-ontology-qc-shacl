@@ -1,0 +1,1218 @@
+Class Suffix,Label,Severity,Message
+PMD_0001004,viscometer,Violation,Class 'PMD_0001004' ('viscometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020136,phase transformation,Violation,Class 'PMD_0020136' ('phase transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30452,tellurium atom,Violation,Class 'CHEBI_30452' ('tellurium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0020010,identifier creating process,Violation,Class 'IAO_0020010' ('identifier creating process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050147,phosphate-based bioactive glass,Violation,Class 'PMD_0050147' ('phosphate-based bioactive glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200042,hierarchical clustering [obi],Violation,Class 'OBI_0200042' ('hierarchical clustering [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000001,entity,Violation,Class 'BFO_0000001' ('entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30217,helium atom,Violation,Class 'CHEBI_30217' ('helium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020149,metastable phase,Violation,Class 'PMD_0020149' ('metastable phase') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020170,ingot,Violation,Class 'PMD_0020170' ('ingot') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30514,caesium atom,Violation,Class 'CHEBI_30514' ('caesium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020155,interatomic interaction energy,Violation,Class 'PMD_0020155' ('interatomic interaction energy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_38418,"1,3-thiazoles",Violation,"Class 'CHEBI_38418' ('1,3-thiazoles') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn."
+BFO_0000030,object,Violation,Class 'BFO_0000030' ('object') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010018,palladium metal,Violation,Class 'PMD_0010018' ('palladium metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25699,organic ion,Violation,Class 'CHEBI_25699' ('organic ion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000595,defect density,Violation,Class 'PMD_0000595' ('defect density') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020244,flux,Violation,Class 'PMD_0020244' ('flux') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050155,shape,Violation,Class 'PMD_0050155' ('shape') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010022,containing magnetic species,Violation,Class 'PMD_0010022' ('containing magnetic species') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010033,polymerization,Violation,Class 'PMD_0010033' ('polymerization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000309,diagram,Violation,Class 'IAO_0000309' ('diagram') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010000,corrosion resistant,Violation,Class 'PMD_0010000' ('corrosion resistant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200111,data visualization,Violation,Class 'OBI_0200111' ('data visualization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25585,nonmetal atom,Violation,Class 'CHEBI_25585' ('nonmetal atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020210,elemental crystal,Violation,Class 'PMD_0020210' ('elemental crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000453,measure function,Violation,Class 'OBI_0000453' ('measure function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020137,stable phase,Violation,Class 'PMD_0020137' ('stable phase') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020207,amount of substance,Violation,Class 'PMD_0020207' ('amount of substance') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0001739,radiation quality,Violation,Class 'PATO_0001739' ('radiation quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050033,styrene-butadiene rubber,Violation,Class 'PMD_0050033' ('styrene-butadiene rubber') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000882,phase boundary (realization),Violation,Class 'PMD_0000882' ('phase boundary (realization)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_194541,oganesson atom,Violation,Class 'CHEBI_194541' ('oganesson atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33396,nobelium,Violation,Class 'CHEBI_33396' ('nobelium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000123,doc string,Violation,Class 'PMD_0000123' ('doc string') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020183,stretch straightener machine,Violation,Class 'PMD_0020183' ('stretch straightener machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33832,organic cyclic compound,Violation,Class 'CHEBI_33832' ('organic cyclic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000027,object aggregate,Violation,Class 'BFO_0000027' ('object aggregate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000932,simulation device,Violation,Class 'PMD_0000932' ('simulation device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010100,elemental semiconductor,Violation,Class 'PMD_0010100' ('elemental semiconductor') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000655,furnace,Violation,Class 'PMD_0000655' ('furnace') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020079,portion of arsenic,Violation,Class 'PMD_0020079' ('portion of arsenic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001005,viscometry,Violation,Class 'PMD_0001005' ('viscometry') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200175,class discovery data transformation,Violation,Class 'OBI_0200175' ('class discovery data transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001019,x-ray spectroscopy,Violation,Class 'PMD_0001019' ('x-ray spectroscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_1000164,mass volume percentage based unit,Violation,Class 'UO_1000164' ('mass volume percentage based unit') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000602,device,Violation,Class 'PMD_0000602' ('device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000953,processed specimen [obi],Violation,Class 'OBI_0000953' ('processed specimen [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000832,manufacturing function,Violation,Class 'PMD_0000832' ('manufacturing function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020172,sheet,Violation,Class 'PMD_0020172' ('sheet') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000012,workflow definition,Violation,Class 'PMD_0000012' ('workflow definition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050051,diameter,Violation,Class 'PMD_0050051' ('diameter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000008,process attribute,Violation,Class 'PMD_0000008' ('process attribute') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000885,pole figure,Violation,Class 'PMD_0000885' ('pole figure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050089,yttrium barium copper oxide ceramic,Violation,Class 'PMD_0050089' ('yttrium barium copper oxide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000913,reinforcement learning,Violation,Class 'PMD_0000913' ('reinforcement learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020247,dispersion,Violation,Class 'PMD_0020247' ('dispersion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000620,electrical conductivity,Violation,Class 'PMD_0000620' ('electrical conductivity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050019,polyethylene terephthalate,Violation,Class 'PMD_0050019' ('polyethylene terephthalate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025017,outer diameter,Violation,Class 'PMD_0025017' ('outer diameter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020143,process chain,Violation,Class 'PMD_0020143' ('process chain') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020187,copper alloy,Violation,Class 'PMD_0020187' ('copper alloy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020139,melt,Violation,Class 'PMD_0020139' ('melt') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000517,acoustic wave,Violation,Class 'PMD_0000517' ('acoustic wave') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050084,lead zirconate titanate ceramic,Violation,Class 'PMD_0050084' ('lead zirconate titanate ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020246,continous transport,Violation,Class 'PMD_0020246' ('continous transport') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+APOLLO_SV_00000008,software development,Violation,Class 'APOLLO_SV_00000008' ('software development') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200171,partitioning data transformation,Violation,Class 'OBI_0200171' ('partitioning data transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050145,45S5 bioglass,Violation,Class 'PMD_0050145' ('45S5 bioglass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000955,structural material,Violation,Class 'PMD_0000955' ('structural material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020205,defect role,Violation,Class 'PMD_0020205' ('defect role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000005,objective specification,Violation,Class 'IAO_0000005' ('objective specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000636,extensometer,Violation,Class 'PMD_0000636' ('extensometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050091,bioceramic,Violation,Class 'PMD_0050091' ('bioceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050077,zirconia matrix composite,Violation,Class 'PMD_0050077' ('zirconia matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000770,hand circular saw,Violation,Class 'PMD_0000770' ('hand circular saw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010015,gold metal,Violation,Class 'PMD_0010015' ('gold metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000554,chemical property analyzing process,Violation,Class 'PMD_0000554' ('chemical property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000854,micrometer gauge,Violation,Class 'PMD_0000854' ('micrometer gauge') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000573,coating from the plastic state,Violation,Class 'PMD_0000573' ('coating from the plastic state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090009,carbon fiber reinforced polymer,Violation,Class 'PMD_0090009' ('carbon fiber reinforced polymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000589,creep testing process,Violation,Class 'PMD_0000589' ('creep testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000936,slide,Violation,Class 'PMD_0000936' ('slide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000898,pressure measuring function,Violation,Class 'PMD_0000898' ('pressure measuring function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020159,daughter phase role,Violation,Class 'PMD_0020159' ('daughter phase role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000796,ion exchange chromatography system,Violation,Class 'PMD_0000796' ('ion exchange chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000988,thermomechanical treatment,Violation,Class 'PMD_0000988' ('thermomechanical treatment') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000104,ion-exchange hardening,Violation,Class 'PMD_0000104' ('ion-exchange hardening') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050140,nonlinear optical glass,Violation,Class 'PMD_0050140' ('nonlinear optical glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_48901,thiazoles [chebi],Violation,Class 'CHEBI_48901' ('thiazoles [chebi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_5686,heterocyclic compound,Violation,Class 'CHEBI_5686' ('heterocyclic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000601,deterministic simulation,Violation,Class 'PMD_0000601' ('deterministic simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000820,load cell,Violation,Class 'PMD_0000820' ('load cell') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020069,portion of mercury,Violation,Class 'PMD_0020069' ('portion of mercury') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000749,CART,Violation,Class 'OBI_0000749' ('CART') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000661,glass,Violation,Class 'PMD_0000661' ('glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000768,half-life,Violation,Class 'PMD_0000768' ('half-life') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30430,indium atom,Violation,Class 'CHEBI_30430' ('indium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020044,portion of tantalum,Violation,Class 'PMD_0020044' ('portion of tantalum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020096,steel,Violation,Class 'PMD_0020096' ('steel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49637,hydrogen atom,Violation,Class 'CHEBI_49637' ('hydrogen atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000964,supervised machine learning,Violation,Class 'PMD_0000964' ('supervised machine learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0002198,quality of a substance [pato],Violation,Class 'PATO_0002198' ('quality of a substance [pato]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000781,heat treatment function,Violation,Class 'PMD_0000781' ('heat treatment function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33381,ytterbium,Violation,Class 'CHEBI_33381' ('ytterbium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001015,x-ray computed tomography,Violation,Class 'PMD_0001015' ('x-ray computed tomography') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020036,portion of rhenium,Violation,Class 'PMD_0020036' ('portion of rhenium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001999,hand held device,Violation,Class 'PMD_0001999' ('hand held device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020214,diffraction,Violation,Class 'PMD_0020214' ('diffraction') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050060,titania ceramic,Violation,Class 'PMD_0050060' ('titania ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000953,structural and chemical decay,Violation,Class 'PMD_0000953' ('structural and chemical decay') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020054,portion of copper,Violation,Class 'PMD_0020054' ('portion of copper') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000916,rheological property analyzing process,Violation,Class 'PMD_0000916' ('rheological property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000146,fiat surface,Violation,Class 'BFO_0000146' ('fiat surface') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020077,portion of samarium,Violation,Class 'PMD_0020077' ('portion of samarium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050013,polyvinyl chloride,Violation,Class 'PMD_0050013' ('polyvinyl chloride') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020093,portion of vanadium,Violation,Class 'PMD_0020093' ('portion of vanadium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000586,absorption of corpuscular radiation,Violation,Class 'PMD_0000586' ('absorption of corpuscular radiation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000983,thermocouple,Violation,Class 'PMD_0000983' ('thermocouple') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050141,chalcogenide glass,Violation,Class 'PMD_0050141' ('chalcogenide glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000003,measurement unit label,Violation,Class 'IAO_0000003' ('measurement unit label') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33303,chalcogen,Violation,Class 'CHEBI_33303' ('chalcogen') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30512,silver atom,Violation,Class 'CHEBI_30512' ('silver atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33369,cerium,Violation,Class 'CHEBI_33369' ('cerium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000992,time series,Violation,Class 'PMD_0000992' ('time series') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090008,glass fiber reinforced polymer,Violation,Class 'PMD_0090008' ('glass fiber reinforced polymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020073,portion of iodine,Violation,Class 'PMD_0020073' ('portion of iodine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020203,notch,Violation,Class 'PMD_0020203' ('notch') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000581,compression testing process,Violation,Class 'PMD_0000581' ('compression testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200051,principal components analysis dimensionality reduction [obi],Violation,Class 'OBI_0200051' ('principal components analysis dimensionality reduction [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000017,realizable entity,Violation,Class 'BFO_0000017' ('realizable entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000886,polishing machine,Violation,Class 'PMD_0000886' ('polishing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020213,grain boundary,Violation,Class 'PMD_0020213' ('grain boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020131,intensive quality,Violation,Class 'PMD_0020131' ('intensive quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33304,chalcogen molecular entity,Violation,Class 'CHEBI_33304' ('chalcogen molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000950,stimulating process,Violation,Class 'PMD_0000950' ('stimulating process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020067,portion of magnesium,Violation,Class 'PMD_0020067' ('portion of magnesium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001010,wear testing process,Violation,Class 'PMD_0001010' ('wear testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000802,absorption of radiation,Violation,Class 'PMD_0000802' ('absorption of radiation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200033,leave one out cross validation method,Violation,Class 'OBI_0200033' ('leave one out cross validation method') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33374,samarium atom,Violation,Class 'CHEBI_33374' ('samarium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000562,coarse grained simulation,Violation,Class 'PMD_0000562' ('coarse grained simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020206,unit cell (3D crystal),Violation,Class 'PMD_0020206' ('unit cell (3D crystal)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001007,waterjet cutter,Violation,Class 'PMD_0001007' ('waterjet cutter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_23116,chlorine atom,Violation,Class 'CHEBI_23116' ('chlorine atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000597,density,Violation,Class 'PMD_0000597' ('density') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000827,magnetizing device,Violation,Class 'PMD_0000827' ('magnetizing device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33385,thorium,Violation,Class 'CHEBI_33385' ('thorium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050061,beryllia ceramic,Violation,Class 'PMD_0050061' ('beryllia ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050125,aluminosilicate gorilla glass,Violation,Class 'PMD_0050125' ('aluminosilicate gorilla glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020145,educt,Violation,Class 'PMD_0020145' ('educt') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020140,portion of pure chemical element,Violation,Class 'PMD_0020140' ('portion of pure chemical element') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050032,synthetic rubber,Violation,Class 'PMD_0050032' ('synthetic rubber') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000966,surface profilometer,Violation,Class 'PMD_0000966' ('surface profilometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000907,primary shaping from the plastic state,Violation,Class 'PMD_0000907' ('primary shaping from the plastic state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000891,disconnected material entity aggregate,Violation,Class 'PMD_0000891' ('disconnected material entity aggregate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000040,material entity,Violation,Class 'BFO_0000040' ('material entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020032,portion of tungsten,Violation,Class 'PMD_0020032' ('portion of tungsten') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0011034,cermet,Violation,Class 'PMD_0011034' ('cermet') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050017,general purpose polystyrene,Violation,Class 'PMD_0050017' ('general purpose polystyrene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200001,biodegradability,Violation,Class 'PMD_0200001' ('biodegradability') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020034,portion of molybdenum,Violation,Class 'PMD_0020034' ('portion of molybdenum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0040001,length,Violation,Class 'PMD_0040001' ('length') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000937,soldering device,Violation,Class 'PMD_0000937' ('soldering device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050082,dielectric ceramic,Violation,Class 'PMD_0050082' ('dielectric ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000107,optical non-linearity,Violation,Class 'PMD_0000107' ('optical non-linearity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000107,optical non-linearity,Violation,Class 'PMD_0000107' ('nonlinear optical property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0000051,morphology,Violation,Class 'PATO_0000051' ('morphology') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000650,forming under compressive conditions,Violation,Class 'PMD_0000650' ('forming under compressive conditions') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000622,electrical property analyzing process,Violation,Class 'PMD_0000622' ('electrical property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020158,parent phase role,Violation,Class 'PMD_0020158' ('parent phase role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020223,vacancy diffusion,Violation,Class 'PMD_0020223' ('vacancy diffusion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000789,indentation hardness,Violation,Class 'PMD_0000789' ('indentation hardness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_0000163,mass percentage,Violation,Class 'UO_0000163' ('mass percentage') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_0000076,mole fraction,Violation,Class 'UO_0000076' ('mole fraction') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050079,silicon carbide matrix composite,Violation,Class 'PMD_0050079' ('silicon carbide matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020129,reversible process,Violation,Class 'PMD_0020129' ('reversible process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020251,biocompatible,Violation,Class 'PMD_0020251' ('biocompatible') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000952,strength,Violation,Class 'PMD_0000952' ('strength') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000855,microscope,Violation,Class 'PMD_0000855' ('microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050034,nitrile butadiene rubber,Violation,Class 'PMD_0050034' ('nitrile butadiene rubber') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020056,portion of fluorine,Violation,Class 'PMD_0020056' ('portion of fluorine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200004,extrusion,Violation,Class 'PMD_0200004' ('extrusion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000644,force measuring function,Violation,Class 'PMD_0000644' ('force measuring function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000507,acoustical property analyzing process,Violation,Class 'PMD_0000507' ('acoustical property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020142,energy,Violation,Class 'PMD_0020142' ('energy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090019,bio-based chemical,Violation,Class 'PMD_0090019' ('bio-based chemical') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000652,forming under tensile conditions,Violation,Class 'PMD_0000652' ('forming under tensile conditions') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020148,extensive quality,Violation,Class 'PMD_0020148' ('extensive quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020227,solute role,Violation,Class 'PMD_0020227' ('solute role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000910,rebound hardness,Violation,Class 'PMD_0000910' ('rebound hardness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27573,silicon atom,Violation,Class 'CHEBI_27573' ('silicon atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050114,phosphate glass,Violation,Class 'PMD_0050114' ('phosphate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000963,supercritical fluid chromatography system,Violation,Class 'PMD_0000963' ('supercritical fluid chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050108,aluminosilicate glass,Violation,Class 'PMD_0050108' ('aluminosilicate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000538,bulk,Violation,Class 'PMD_0000538' ('bulk') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_31344,calcium oxide,Violation,Class 'CHEBI_31344' ('calcium oxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000604,dielectric constant,Violation,Class 'PMD_0000604' ('dielectric constant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_36830,monoanion,Violation,Class 'CHEBI_36830' ('monoanion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000617,dynamic mechanical analyzer,Violation,Class 'PMD_0000617' ('dynamic mechanical analyzer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33342,zirconium atom,Violation,Class 'CHEBI_33342' ('zirconium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050024,bisphenol a epoxy,Violation,Class 'PMD_0050024' ('bisphenol a epoxy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050000,bond,Violation,Class 'PMD_0050000' ('bond') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050090,bismuth strontium calcium copper oxide ceramic,Violation,Class 'PMD_0050090' ('bismuth strontium calcium copper oxide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025005,3D,Violation,Class 'PMD_0025005' ('3D') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28984,aluminium atom,Violation,Class 'CHEBI_28984' ('aluminium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010003,stainless steel,Violation,Class 'PMD_0010003' ('stainless steel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000874,optical microscope,Violation,Class 'PMD_0000874' ('optical microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0001291,electromagnetic (EM) radiation quality,Violation,Class 'PATO_0001291' ('electromagnetic (EM) radiation quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25016,lead atom,Violation,Class 'CHEBI_25016' ('lead atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020114,medium role,Violation,Class 'PMD_0020114' ('medium role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050118,optical glass,Violation,Class 'PMD_0050118' ('optical glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25696,organic anion,Violation,Class 'CHEBI_25696' ('organic anion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000015,output specification,Violation,Class 'PMD_0000015' ('output specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000893,powder,Violation,Class 'PMD_0000893' ('powder') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000543,calibration device role,Violation,Class 'PMD_0000543' ('calibration device role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050080,carbon-silicon carbide composite,Violation,Class 'PMD_0050080' ('carbon-silicon carbide composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000111,superconducting,Violation,Class 'PMD_0000111' ('superconducting') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000401,environment control function,Violation,Class 'OBI_0000401' ('environment control function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000635,evolution of damage,Violation,Class 'PMD_0000635' ('evolution of damage') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020201,section,Violation,Class 'PMD_0020201' ('section') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000997,ultrasonic cleaner,Violation,Class 'PMD_0000997' ('ultrasonic cleaner') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000960,subject of calibration role,Violation,Class 'PMD_0000960' ('subject of calibration role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020026,portion of iron,Violation,Class 'PMD_0020026' ('portion of iron') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_26833,sulfur atom,Violation,Class 'CHEBI_26833' ('sulfur atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000826,magnetizing,Violation,Class 'PMD_0000826' ('magnetizing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000631,empirical potential molecular dynamics simulation,Violation,Class 'PMD_0000631' ('empirical potential molecular dynamics simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000055,cooling function,Violation,Class 'PMD_0000055' ('cooling function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_133602,carbon black nanoparticle,Violation,Class 'CHEBI_133602' ('carbon black nanoparticle') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000567,coating device,Violation,Class 'PMD_0000567' ('coating device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050020,amorphous polyethylene terephthalate,Violation,Class 'PMD_0050020' ('amorphous polyethylene terephthalate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000928,shear testing machine,Violation,Class 'PMD_0000928' ('shear testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050007,high-density polyethylene,Violation,Class 'PMD_0050007' ('high-density polyethylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050074,ceramic matrix composite,Violation,Class 'PMD_0050074' ('ceramic matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025016,inner diameter,Violation,Class 'PMD_0025016' ('inner diameter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000202,temporal interval,Violation,Class 'BFO_0000202' ('temporal interval') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020235,edge dislocation,Violation,Class 'PMD_0020235' ('edge dislocation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000118,laminated composite,Violation,Class 'PMD_0000118' ('laminated composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000659,specimen collection process,Violation,Class 'OBI_0000659' ('specimen collection process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27560,boron atom,Violation,Class 'CHEBI_27560' ('boron atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000590,cryogenic freezer,Violation,Class 'PMD_0000590' ('cryogenic freezer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49475,argon atom,Violation,Class 'CHEBI_49475' ('argon atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200050,dimensionality reduction,Violation,Class 'OBI_0200050' ('dimensionality reduction') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000794,injection molding machine,Violation,Class 'PMD_0000794' ('injection molding machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000818,lathe,Violation,Class 'PMD_0000818' ('lathe') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000112,specimen role,Violation,Class 'OBI_0000112' ('specimen role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010001,carbon steel,Violation,Class 'PMD_0010001' ('carbon steel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000120,metal matrix composite,Violation,Class 'PMD_0000120' ('metal matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020035,portion of niobium,Violation,Class 'PMD_0020035' ('portion of niobium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000555,chromatography function,Violation,Class 'PMD_0000555' ('chromatography function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020061,portion of krypton,Violation,Class 'PMD_0020061' ('portion of krypton') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050085,magnetic ceramic,Violation,Class 'PMD_0050085' ('magnetic ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33389,americium atom,Violation,Class 'CHEBI_33389' ('americium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27698,vanadium atom,Violation,Class 'CHEBI_27698' ('vanadium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050119,fused silica glass,Violation,Class 'PMD_0050119' ('fused silica glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000780,heat treatment device,Violation,Class 'PMD_0000780' ('heat treatment device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025001,composition,Violation,Class 'PMD_0025001' ('composition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000825,magnetic property,Violation,Class 'PMD_0000825' ('magnetic property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000888,polymer,Violation,Class 'PMD_0000888' ('polymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000849,mechanical property analyzing process,Violation,Class 'PMD_0000849' ('mechanical property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000965,surface layer (fiat object part),Violation,Class 'PMD_0000965' ('surface layer (fiat object part)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010099,biomedical material,Violation,Class 'PMD_0010099' ('biomedical material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33348,tantalum atom,Violation,Class 'CHEBI_33348' ('tantalum atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000790,refraction (optical),Violation,Class 'PMD_0000790' ('refraction (optical)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020024,hydrogen bond,Violation,Class 'PMD_0020024' ('hydrogen bond') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001018,x-ray microanalysis,Violation,Class 'PMD_0001018' ('x-ray microanalysis') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000899,primary shaping,Violation,Class 'PMD_0000899' ('primary shaping') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090053,polychloropren,Violation,Class 'PMD_0090053' ('polychloropren') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000512,aggregate state,Violation,Class 'PMD_0000512' ('aggregate state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000112,dielectric disposition,Violation,Class 'PMD_0000112' ('dielectric disposition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000103,hardening,Violation,Class 'PMD_0000103' ('hardening') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0001548,quality of a liquid [pato],Violation,Class 'PATO_0001548' ('quality of a liquid [pato]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000026,one-dimensional spatial region,Violation,Class 'BFO_0000026' ('one-dimensional spatial region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020204,pore,Violation,Class 'PMD_0020204' ('pore') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_17514,cyanide,Violation,Class 'CHEBI_17514' ('cyanide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050029,urea formaldehyde,Violation,Class 'PMD_0050029' ('urea formaldehyde') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_50860,organic molecular entity,Violation,Class 'CHEBI_50860' ('organic molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33319,lanthanoid atom,Violation,Class 'CHEBI_33319' ('lanthanoid atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010006,chromium steel,Violation,Class 'PMD_0010006' ('chromium steel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000202,investigation agent role,Violation,Class 'OBI_0000202' ('investigation agent role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020152,component,Violation,Class 'PMD_0020152' ('component') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0002201,determination if assay will provide reliable results,Violation,Class 'OBI_0002201' ('determination if assay will provide reliable results') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_72695,organic molecule,Violation,Class 'CHEBI_72695' ('organic molecule') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050076,alumina matrix composite,Violation,Class 'PMD_0050076' ('alumina matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000940,spalling testing machine,Violation,Class 'PMD_0000940' ('spalling testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33387,neptunium atom,Violation,Class 'CHEBI_33387' ('neptunium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050096,hydroxyapatite ceramic,Violation,Class 'PMD_0050096' ('hydroxyapatite ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050072,titanium diboride ceramic,Violation,Class 'PMD_0050072' ('titanium diboride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000102,data about an ontology part,Violation,Class 'IAO_0000102' ('data about an ontology part') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000931,simulation method specification,Violation,Class 'PMD_0000931' ('simulation method specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025004,alloy,Violation,Class 'PMD_0025004' ('alloy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000566,coating by welding,Violation,Class 'PMD_0000566' ('coating by welding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020063,portion of neon,Violation,Class 'PMD_0020063' ('portion of neon') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000011,spatiotemporal region,Violation,Class 'BFO_0000011' ('spatiotemporal region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30513,antimony atom,Violation,Class 'CHEBI_30513' ('antimony atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_38179,monocyclic heteroarene,Violation,Class 'CHEBI_38179' ('monocyclic heteroarene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000387,cool function,Violation,Class 'OBI_0000387' ('cool function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020132,size,Violation,Class 'PMD_0020132' ('size') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000537,brinell hardness,Violation,Class 'PMD_0000537' ('brinell hardness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020060,portion of lead,Violation,Class 'PMD_0020060' ('portion of lead') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020202,crack,Violation,Class 'PMD_0020202' ('crack') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000101,import path,Violation,Class 'PMD_0000101' ('import path') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_194535,moscovium atom,Violation,Class 'CHEBI_194535' ('moscovium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49828,praseodymium atom,Violation,Class 'CHEBI_49828' ('praseodymium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000003,plan specification,Violation,Class 'PMD_0000003' ('plan specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000654,functional material,Violation,Class 'PMD_0000654' ('functional material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050068,silicon nitride ceramic,Violation,Class 'PMD_0050068' ('silicon nitride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050107,pyrex-type glass,Violation,Class 'PMD_0050107' ('pyrex-type glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33343,hafnium atom,Violation,Class 'CHEBI_33343' ('hafnium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_35489,organic disulfide,Violation,Class 'CHEBI_35489' ('organic disulfide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30501,beryllium atom,Violation,Class 'CHEBI_30501' ('beryllium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000592,cut function,Violation,Class 'PMD_0000592' ('cut function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000540,burning,Violation,Class 'PMD_0000540' ('burning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33351,seaborgium atom,Violation,Class 'CHEBI_33351' ('seaborgium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000920,saw,Violation,Class 'PMD_0000920' ('saw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020231,interstitital solid solution,Violation,Class 'PMD_0020231' ('interstitital solid solution') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020236,mixed dislocation,Violation,Class 'PMD_0020236' ('mixed dislocation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000778,mixing,Violation,Class 'PMD_0000778' ('mixing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000571,manufacturer role,Violation,Class 'OBI_0000571' ('manufacturer role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000571,manufacturer role,Violation,Class 'OBI_0000571' ('manufacturer role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33344,niobium atom,Violation,Class 'CHEBI_33344' ('niobium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000124,sandwich sheet,Violation,Class 'PMD_0000124' ('sandwich sheet') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000124,sandwich sheet,Violation,Class 'PMD_0000124' ('sandwich sheet role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000905,primary shaping from the ionized state,Violation,Class 'PMD_0000905' ('primary shaping from the ionized state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050142,tellurite glass,Violation,Class 'PMD_0050142' ('tellurite glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020085,portion of iridium,Violation,Class 'PMD_0020085' ('portion of iridium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33353,technetium atom,Violation,Class 'CHEBI_33353' ('technetium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050038,polyhydroxyalkanoates,Violation,Class 'PMD_0050038' ('polyhydroxyalkanoates') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000203,temporal instant,Violation,Class 'BFO_0000203' ('temporal instant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001040,expriment designing process,Violation,Class 'PMD_0001040' ('expriment designing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050149,amorphous metal glass,Violation,Class 'PMD_0050149' ('amorphous metal glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000927,separating,Violation,Class 'PMD_0000927' ('separating') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050042,clay-based ceramic,Violation,Class 'PMD_0050042' ('clay-based ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33322,rubidium atom,Violation,Class 'CHEBI_33322' ('rubidium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000657,gas chromatography system,Violation,Class 'PMD_0000657' ('gas chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_22984,calcium atom,Violation,Class 'CHEBI_22984' ('calcium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000603,device role,Violation,Class 'PMD_0000603' ('device role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33349,dubnium atom,Violation,Class 'CHEBI_33349' ('dubnium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000100,function name,Violation,Class 'PMD_0000100' ('function name') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050131,lithium disilicate glass-ceramic,Violation,Class 'PMD_0050131' ('lithium disilicate glass-ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000828,magnetizing function,Violation,Class 'PMD_0000828' ('magnetizing function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000929,shear testing process,Violation,Class 'PMD_0000929' ('shear testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000959,subject of adjustment role,Violation,Class 'PMD_0000959' ('subject of adjustment role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000782,high-performance liquid chromatography process,Violation,Class 'PMD_0000782' ('high-performance liquid chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28685,molybdenum atom,Violation,Class 'CHEBI_28685' ('molybdenum atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020221,self-diffusion in crystaline solid,Violation,Class 'PMD_0020221' ('self-diffusion in crystaline solid') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33355,bohrium atom,Violation,Class 'CHEBI_33355' ('bohrium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000409,denotator type,Violation,Class 'IAO_0000409' ('denotator type') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050078,non-oxide composite,Violation,Class 'PMD_0050078' ('non-oxide composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_1000163,mass percentage based unit,Violation,Class 'UO_1000163' ('mass percentage based unit') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050046,aluminosilicate ceramic,Violation,Class 'PMD_0050046' ('aluminosilicate ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_26216,potassium atom,Violation,Class 'CHEBI_26216' ('potassium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000558,circular saw,Violation,Class 'PMD_0000558' ('circular saw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000659,gel permeation chromatography system,Violation,Class 'PMD_0000659' ('gel permeation chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000947,speed of sound,Violation,Class 'PMD_0000947' ('speed of sound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000890,connected material entity aggregate,Violation,Class 'PMD_0000890' ('connected material entity aggregate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020212,polymorphism of crystal,Violation,Class 'PMD_0020212' ('polymorphism of crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000821,machine learning,Violation,Class 'PMD_0000821' ('machine learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000726,peak matching,Violation,Class 'OBI_0000726' ('peak matching') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000596,deformation,Violation,Class 'PMD_0000596' ('deformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000994,torsion testing machine,Violation,Class 'PMD_0000994' ('torsion testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000509,adhesion testing process,Violation,Class 'PMD_0000509' ('adhesion testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000700,support vector machine,Violation,Class 'OBI_0000700' ('support vector machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33521,metal atom,Violation,Class 'CHEBI_33521' ('metal atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33388,plutonium atom,Violation,Class 'CHEBI_33388' ('plutonium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050023,epoxy resin,Violation,Class 'PMD_0050023' ('epoxy resin') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020199,slip plane,Violation,Class 'PMD_0020199' ('slip plane') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020045,portion of antimony,Violation,Class 'PMD_0020045' ('portion of antimony') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_194537,livermorium atom,Violation,Class 'CHEBI_194537' ('livermorium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+COB_0000082,planned process,Violation,Class 'COB_0000082' ('planned process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050143,bioactive glass,Violation,Class 'PMD_0050143' ('bioactive glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001047,diagonal,Violation,Class 'PMD_0001047' ('diagonal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000933,simulation process,Violation,Class 'PMD_0000933' ('simulation process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000184,scatter plot,Violation,Class 'IAO_0000184' ('scatter plot') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020191,metallographic section (embedded sample),Violation,Class 'PMD_0020191' ('metallographic section (embedded sample)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050102,soda-lime glass,Violation,Class 'PMD_0050102' ('soda-lime glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33394,fermium,Violation,Class 'CHEBI_33394' ('fermium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020226,flow,Violation,Class 'PMD_0020226' ('flow') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000100,data set,Violation,Class 'IAO_0000100' ('data set') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000028,three-dimensional spatial region,Violation,Class 'BFO_0000028' ('three-dimensional spatial region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33361,meitnerium atom,Violation,Class 'CHEBI_33361' ('meitnerium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_24532,organic heterocyclic compound,Violation,Class 'CHEBI_24532' ('organic heterocyclic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000037,dot plot,Violation,Class 'IAO_0000037' ('dot plot') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001044,date value specification,Violation,Class 'PMD_0001044' ('date value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000836,mass spectrometry,Violation,Class 'PMD_0000836' ('mass spectrometry') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000991,3d printer,Violation,Class 'PMD_0000991' ('3d printer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020188,nickel alloy,Violation,Class 'PMD_0020188' ('nickel alloy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001003,unsupervised machine learning,Violation,Class 'PMD_0001003' ('unsupervised machine learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025015,portion of lanthanum,Violation,Class 'PMD_0025015' ('portion of lanthanum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33301,bismuth atom,Violation,Class 'CHEBI_33301' ('bismuth atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000900,primary shaping by additive manufacturing,Violation,Class 'PMD_0000900' ('primary shaping by additive manufacturing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000559,circular table saw,Violation,Class 'PMD_0000559' ('circular table saw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000859,milling machine,Violation,Class 'PMD_0000859' ('milling machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090000,semiconductor,Violation,Class 'PMD_0090000' ('semiconductor') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050008,linear low-density polyethylene,Violation,Class 'PMD_0050008' ('linear low-density polyethylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000047,processed material [obi],Violation,Class 'OBI_0000047' ('processed material [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050123,chemically strengthened glass,Violation,Class 'PMD_0050123' ('chemically strengthened glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000919,sample role,Violation,Class 'PMD_0000919' ('sample role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020209,slip system (3D),Violation,Class 'PMD_0020209' ('slip system (3D)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000862,monte carlo simulation,Violation,Class 'PMD_0000862' ('monte carlo simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_36828,pseudohalide anion,Violation,Class 'CHEBI_36828' ('pseudohalide anion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28112,nickel atom,Violation,Class 'CHEBI_28112' ('nickel atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020176,plate,Violation,Class 'PMD_0020176' ('plate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020250,alloy crystal,Violation,Class 'PMD_0020250' ('alloy crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30145,lithium atom,Violation,Class 'CHEBI_30145' ('lithium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000300,textual entity,Violation,Class 'IAO_0000300' ('textual entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000007,action specification,Violation,Class 'IAO_0000007' ('action specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000614,dividing,Violation,Class 'PMD_0000614' ('dividing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020141,fatigue (reaction to repetitive loading),Violation,Class 'PMD_0020141' ('fatigue (reaction to repetitive loading)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090004,aluminum matrix composite,Violation,Class 'PMD_0090004' ('aluminum matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33415,elemental carbon,Violation,Class 'CHEBI_33415' ('elemental carbon') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020230,solid solution,Violation,Class 'PMD_0020230' ('solid solution') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33659,organic aromatic compound,Violation,Class 'CHEBI_33659' ('organic aromatic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020106,polycrystal,Violation,Class 'PMD_0020106' ('polycrystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010102,organic semiconductor,Violation,Class 'PMD_0010102' ('organic semiconductor') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050109,lead glass,Violation,Class 'PMD_0050109' ('lead glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010112,medical application role,Violation,Class 'PMD_0010112' ('medical application role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050115,borate glass,Violation,Class 'PMD_0050115' ('borate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020081,portion of calcium,Violation,Class 'PMD_0020081' ('portion of calcium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000660,generative deep learning,Violation,Class 'PMD_0000660' ('generative deep learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000707,decision tree building data transformation,Violation,Class 'OBI_0000707' ('decision tree building data transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025012,analytical calculation,Violation,Class 'PMD_0025012' ('analytical calculation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090016,bio-based material,Violation,Class 'PMD_0090016' ('bio-based material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000835,manufacturer,Violation,Class 'OBI_0000835' ('manufacturer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000835,manufacturer,Violation,Class 'OBI_0000835' ('manufacturer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000922,scanning electron microscope,Violation,Class 'PMD_0000922' ('scanning electron microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001016,x-ray diffraction process,Violation,Class 'PMD_0001016' ('x-ray diffraction process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050106,borosilicate glass,Violation,Class 'PMD_0050106' ('borosilicate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025018,geometric relational quality,Violation,Class 'PMD_0025018' ('geometric relational quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020112,grain size distribution,Violation,Class 'PMD_0020112' ('grain size distribution') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020022,corrosion,Violation,Class 'PMD_0020022' ('corrosion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001013,welding function,Violation,Class 'PMD_0001013' ('welding function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001009,wear testing machine,Violation,Class 'PMD_0001009' ('wear testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020023,metallic grain structures,Violation,Class 'PMD_0020023' ('metallic grain structures') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_38101,organonitrogen heterocyclic compound,Violation,Class 'CHEBI_38101' ('organonitrogen heterocyclic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020001,filler role,Violation,Class 'PMD_0020001' ('filler role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001035,angle,Violation,Class 'PMD_0001035' ('angle') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020165,disposition of a phase to transform,Violation,Class 'PMD_0020165' ('disposition of a phase to transform') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0020000,identifier,Violation,Class 'IAO_0020000' ('identifier') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050148,borate-based bioactive glass,Violation,Class 'PMD_0050148' ('borate-based bioactive glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000642,flow cytometer,Violation,Class 'PMD_0000642' ('flow cytometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000066,input assignment,Violation,Class 'PMD_0000066' ('input assignment') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050006,low-density polyethylene,Violation,Class 'PMD_0050006' ('low-density polyethylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000020,specifically dependent continuant,Violation,Class 'BFO_0000020' ('specifically dependent continuant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_29287,gold atom,Violation,Class 'CHEBI_29287' ('gold atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000914,removing,Violation,Class 'PMD_0000914' ('removing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010029,specific strength,Violation,Class 'PMD_0010029' ('specific strength') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_0000164,mass volume percentage,Violation,Class 'UO_0000164' ('mass volume percentage') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000969,temperature change function,Violation,Class 'PMD_0000969' ('temperature change function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020002,precipitate role,Violation,Class 'PMD_0020002' ('precipitate role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000784,high performance liquid chromatography system,Violation,Class 'PMD_0000784' ('high performance liquid chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000508,additive manufacturing device,Violation,Class 'PMD_0000508' ('additive manufacturing device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_36357,polyatomic entity,Violation,Class 'CHEBI_36357' ('polyatomic entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_50795,nanostructure,Violation,Class 'CHEBI_50795' ('nanostructure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020057,portion of platinum,Violation,Class 'PMD_0020057' ('portion of platinum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000056,melting furnace,Violation,Class 'PMD_0000056' ('melting furnace') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020058,portion of cerium,Violation,Class 'PMD_0020058' ('portion of cerium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000556,chromatography process,Violation,Class 'PMD_0000556' ('chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010016,silver metal,Violation,Class 'PMD_0010016' ('silver metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_0000003,time unit,Violation,Class 'UO_0000003' ('time unit') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000541,cnc machine,Violation,Class 'PMD_0000541' ('cnc machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000577,composite,Violation,Class 'PMD_0000577' ('composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000563,coating,Violation,Class 'PMD_0000563' ('coating') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33337,actinium atom,Violation,Class 'CHEBI_33337' ('actinium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010023,bioactive,Violation,Class 'PMD_0010023' ('bioactive') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020224,vacancy (crystal),Violation,Class 'PMD_0020224' ('vacancy (crystal)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000529,bending testing machine,Violation,Class 'PMD_0000529' ('bending testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001020,x-ray diffractometer,Violation,Class 'PMD_0001020' ('x-ray diffractometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020078,portion of manganese,Violation,Class 'PMD_0020078' ('portion of manganese') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000067,output assignment,Violation,Class 'PMD_0000067' ('output assignment') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25107,magnesium atom,Violation,Class 'CHEBI_25107' ('magnesium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000506,acoustic property,Violation,Class 'PMD_0000506' ('acoustic property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020043,portion of barium,Violation,Class 'PMD_0020043' ('portion of barium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000634,workflow executor role,Violation,Class 'PMD_0000634' ('workflow executor role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020198,interstitial site,Violation,Class 'PMD_0020198' ('interstitial site') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050022,thermosetting polymer,Violation,Class 'PMD_0050022' ('thermosetting polymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020228,solvent role,Violation,Class 'PMD_0020228' ('solvent role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000605,differential scanning calorimeter,Violation,Class 'PMD_0000605' ('differential scanning calorimeter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_84291,organic sulfur anion,Violation,Class 'CHEBI_84291' ('organic sulfur anion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000771,handsaw,Violation,Class 'PMD_0000771' ('handsaw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000147,fiat point,Violation,Class 'BFO_0000147' ('fiat point') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020071,portion of aluminium,Violation,Class 'PMD_0020071' ('portion of aluminium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33392,californium atom,Violation,Class 'CHEBI_33392' ('californium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_1000076,mole fraction based unit,Violation,Class 'UO_1000076' ('mole fraction based unit') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0060009,specification datum,Violation,Class 'PMD_0060009' ('specification datum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_17051,fluoride,Violation,Class 'CHEBI_17051' ('fluoride') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020052,portion of yttrium,Violation,Class 'PMD_0020052' ('portion of yttrium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050016,polystyrene,Violation,Class 'PMD_0050016' ('polystyrene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090017,engineered biopolymer,Violation,Class 'PMD_0090017' ('engineered biopolymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020055,portion of bohrium,Violation,Class 'PMD_0020055' ('portion of bohrium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020177,bar,Violation,Class 'PMD_0020177' ('bar') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000856,microscopy process,Violation,Class 'PMD_0000856' ('microscopy process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_50812,carbon nanostructure,Violation,Class 'CHEBI_50812' ('carbon nanostructure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050041,silicate ceramic,Violation,Class 'PMD_0050041' ('silicate ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000865,multimodal deep learning,Violation,Class 'PMD_0000865' ('multimodal deep learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020101,proportion,Violation,Class 'PMD_0020101' ('proportion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000501,1D,Violation,Class 'PMD_0000501' ('1D') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000016,workflow run,Violation,Class 'PMD_0000016' ('workflow run') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33313,polonium atom,Violation,Class 'CHEBI_33313' ('polonium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000776,hardness testing process,Violation,Class 'PMD_0000776' ('hardness testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_32594,barium atom,Violation,Class 'CHEBI_32594' ('barium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050048,kaolinite ceramic,Violation,Class 'PMD_0050048' ('kaolinite ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000663,crystallite,Violation,Class 'PMD_0000663' ('crystallite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020164,state of matter boundary,Violation,Class 'PMD_0020164' ('state of matter boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020092,portion of palladium,Violation,Class 'PMD_0020092' ('portion of palladium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000852,metal,Violation,Class 'PMD_0000852' ('metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025002,chemical composition data item,Violation,Class 'PMD_0025002' ('chemical composition data item') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050070,boron nitride ceramic,Violation,Class 'PMD_0050070' ('boron nitride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050015,flexible polyvinyl chloride,Violation,Class 'PMD_0050015' ('flexible polyvinyl chloride') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000978,thermal conductivity,Violation,Class 'PMD_0000978' ('thermal conductivity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000142,fiat line,Violation,Class 'BFO_0000142' ('fiat line') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000009,two-dimensional spatial region,Violation,Class 'BFO_0000009' ('two-dimensional spatial region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33595,cyclic compound,Violation,Class 'CHEBI_33595' ('cyclic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020243,grain size,Violation,Class 'PMD_0020243' ('grain size') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050139,cobalt-borosilicate glass,Violation,Class 'PMD_0050139' ('cobalt-borosilicate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020157,spinodal decomposition,Violation,Class 'PMD_0020157' ('spinodal decomposition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000945,spectroscopy process,Violation,Class 'PMD_0000945' ('spectroscopy process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020094,portion of scandium,Violation,Class 'PMD_0020094' ('portion of scandium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_194533,nihonium atom,Violation,Class 'CHEBI_194533' ('nihonium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020116,aggregate state value,Violation,Class 'PMD_0020116' ('aggregate state value') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000113,conventional ceramics manufacturing,Violation,Class 'PMD_0000113' ('conventional ceramics manufacturing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050110,potash lead glass,Violation,Class 'PMD_0050110' ('potash lead glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000571,coating from the ionized state,Violation,Class 'PMD_0000571' ('coating from the ionized state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000774,hardness tester,Violation,Class 'PMD_0000774' ('hardness tester') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020173,billet,Violation,Class 'PMD_0020173' ('billet') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000663,class prediction data transformation [obi],Violation,Class 'OBI_0000663' ('class prediction data transformation [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050001,covalent bond,Violation,Class 'PMD_0050001' ('covalent bond') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0011032,silicide ceramic,Violation,Class 'PMD_0011032' ('silicide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33285,heteroorganic entity,Violation,Class 'CHEBI_33285' ('heteroorganic entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000906,primary shaping from the liquid state,Violation,Class 'PMD_0000906' ('primary shaping from the liquid state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000527,atomistic monte carlo simulation,Violation,Class 'PMD_0000527' ('atomistic monte carlo simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0002989,material supplier,Violation,Class 'OBI_0002989' ('material supplier') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020030,portion of carbon,Violation,Class 'PMD_0020030' ('portion of carbon') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33376,terbium atom,Violation,Class 'CHEBI_33376' ('terbium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000623,electron beam welding machine,Violation,Class 'PMD_0000623' ('electron beam welding machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020102,mass proportion,Violation,Class 'PMD_0020102' ('mass proportion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050062,non-oxide ceramic,Violation,Class 'PMD_0050062' ('non-oxide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200008,modelling,Violation,Class 'PMD_0200008' ('modelling') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33261,organosulfur compound,Violation,Class 'CHEBI_33261' ('organosulfur compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001017,x-ray mapping,Violation,Class 'PMD_0001017' ('x-ray mapping') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000110,geological process,Violation,Class 'PMD_0000110' ('geological process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000944,spectrometer,Violation,Class 'PMD_0000944' ('spectrometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000535,boiling point,Violation,Class 'PMD_0000535' ('boiling point') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000903,primary shaping from the gaseous or vapor state,Violation,Class 'PMD_0000903' ('primary shaping from the gaseous or vapor state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000901,primary shaping by welding,Violation,Class 'PMD_0000901' ('primary shaping by welding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33314,radon atom,Violation,Class 'CHEBI_33314' ('radon atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050053,fritted ceramic,Violation,Class 'PMD_0050053' ('fritted ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000033,directive information entity,Violation,Class 'IAO_0000033' ('directive information entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050030,elastomer,Violation,Class 'PMD_0050030' ('elastomer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020249,ceramic crystal,Violation,Class 'PMD_0020249' ('ceramic crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000098,data format specification,Violation,Class 'IAO_0000098' ('data format specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000639,ferrous metal,Violation,Class 'PMD_0000639' ('ferrous metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27638,cobalt atom,Violation,Class 'CHEBI_27638' ('cobalt atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000114,clay,Violation,Class 'PMD_0000114' ('clay') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090018,bio-based composite,Violation,Class 'PMD_0090018' ('bio-based composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000616,dynamic mechanical analysis process,Violation,Class 'PMD_0000616' ('dynamic mechanical analysis process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000665,gravimetric analyzer,Violation,Class 'PMD_0000665' ('gravimetric analyzer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_36829,polyatomic monoanion,Violation,Class 'CHEBI_36829' ('polyatomic monoanion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000935,sizing saw,Violation,Class 'PMD_0000935' ('sizing saw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020185,rolling stand,Violation,Class 'PMD_0020185' ('rolling stand') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27998,tungsten,Violation,Class 'CHEBI_27998' ('tungsten') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000117,structural composite,Violation,Class 'PMD_0000117' ('structural composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200007,blow molding,Violation,Class 'PMD_0200007' ('blow molding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050116,germanate glass,Violation,Class 'PMD_0050116' ('germanate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050027,phenol-formaldehyde resin,Violation,Class 'PMD_0050027' ('phenol-formaldehyde resin') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020166,heat (metallurgy),Violation,Class 'PMD_0020166' ('heat (metallurgy)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000902,primary shaping from the chip or fiber state,Violation,Class 'PMD_0000902' ('primary shaping from the chip or fiber state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000140,continuant fiat boundary,Violation,Class 'BFO_0000140' ('continuant fiat boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000812,joining function,Violation,Class 'PMD_0000812' ('joining function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020075,portion of chlorine,Violation,Class 'PMD_0020075' ('portion of chlorine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050039,polybutylene succinate,Violation,Class 'PMD_0050039' ('polybutylene succinate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000668,grips,Violation,Class 'PMD_0000668' ('grips') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_18248,iron atom,Violation,Class 'CHEBI_18248' ('iron atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33839,macromolecule,Violation,Class 'CHEBI_33839' ('macromolecule') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020189,titanium alloy,Violation,Class 'PMD_0020189' ('titanium alloy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000822,machining geometrically defined,Violation,Class 'PMD_0000822' ('machining geometrically defined') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010025,bioresorbable,Violation,Class 'PMD_0010025' ('bioresorbable') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_37376,tetraphosphorus decaoxide,Violation,Class 'CHEBI_37376' ('tetraphosphorus decaoxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000974,tensile testing process,Violation,Class 'PMD_0000974' ('tensile testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200002,injection molding,Violation,Class 'PMD_0200002' ('injection molding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000053,melting process,Violation,Class 'PMD_0000053' ('melting process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000918,rheometry,Violation,Class 'PMD_0000918' ('rheometry') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000569,coating from the gaseous or vapour state,Violation,Class 'PMD_0000569' ('coating from the gaseous or vapour state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33377,dysprosium atom,Violation,Class 'CHEBI_33377' ('dysprosium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000457,manufacturing [obi],Violation,Class 'OBI_0000457' ('manufacturing [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000961,sublimation point,Violation,Class 'PMD_0000961' ('sublimation point') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33336,lanthanum atom,Violation,Class 'CHEBI_33336' ('lanthanum atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025007,frequency,Violation,Class 'PMD_0025007' ('frequency') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000857,microstructure,Violation,Class 'PMD_0000857' ('microstructure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020086,portion of gallium,Violation,Class 'PMD_0020086' ('portion of gallium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025010,heating,Violation,Class 'PMD_0025010' ('heating') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050111,barium glass,Violation,Class 'PMD_0050111' ('barium glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090011,natural fiber composite,Violation,Class 'PMD_0090011' ('natural fiber composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000225,obsolescence reason specification,Violation,Class 'IAO_0000225' ('obsolescence reason specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000560,cleaning,Violation,Class 'PMD_0000560' ('cleaning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050036,biodegradable polymers,Violation,Class 'PMD_0050036' ('biodegradable polymers') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000803,irradiation device,Violation,Class 'PMD_0000803' ('irradiation device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000811,joining device,Violation,Class 'PMD_0000811' ('joining device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001014,x-ray analyzing process,Violation,Class 'PMD_0001014' ('x-ray analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010014,precious metal,Violation,Class 'PMD_0010014' ('precious metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000027,data item,Violation,Class 'IAO_0000027' ('data item') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000834,map,Violation,Class 'PMD_0000834' ('map') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020194,diffusion,Violation,Class 'PMD_0020194' ('diffusion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020138,lot,Violation,Class 'PMD_0020138' ('lot') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020059,portion of sulfur,Violation,Class 'PMD_0020059' ('portion of sulfur') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27594,carbon atom,Violation,Class 'CHEBI_27594' ('carbon atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000868,natural organic material,Violation,Class 'PMD_0000868' ('natural organic material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025997,fraction value specification,Violation,Class 'PMD_0025997' ('fraction value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000503,ASTM grainsize,Violation,Class 'PMD_0000503' ('ASTM grainsize') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0002182,molecular quality,Violation,Class 'PATO_0002182' ('molecular quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000613,discrete-event simulation,Violation,Class 'PMD_0000613' ('discrete-event simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020037,portion of lithium,Violation,Class 'PMD_0020037' ('portion of lithium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_84292,dithiocarbamate anions,Violation,Class 'CHEBI_84292' ('dithiocarbamate anions') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0002076,collection of specimens [obi],Violation,Class 'OBI_0002076' ('collection of specimens [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000801,irradiating,Violation,Class 'PMD_0000801' ('irradiating') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025020,single fatigue testing process,Violation,Class 'PMD_0025020' ('single fatigue testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000017,regulatory role,Violation,Class 'OBI_0000017' ('regulatory role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000788,impact testing process,Violation,Class 'PMD_0000788' ('impact testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000883,photochemical process,Violation,Class 'PMD_0000883' ('photochemical process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000819,light microscopy,Violation,Class 'PMD_0000819' ('light microscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020028,portion of indium,Violation,Class 'PMD_0020028' ('portion of indium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000578,compounding,Violation,Class 'PMD_0000578' ('compounding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000990,thin layer chromatography system,Violation,Class 'PMD_0000990' ('thin layer chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000010,software,Violation,Class 'IAO_0000010' ('software') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000949,stiffness,Violation,Class 'PMD_0000949' ('stiffness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000851,melting point,Violation,Class 'PMD_0000851' ('melting point') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020225,interstitial diffusion,Violation,Class 'PMD_0020225' ('interstitial diffusion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050004,thermoplastic polymer,Violation,Class 'PMD_0050004' ('thermoplastic polymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000624,electron microscope,Violation,Class 'PMD_0000624' ('electron microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000588,creep testing machine,Violation,Class 'PMD_0000588' ('creep testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_194531,flerovium atom,Violation,Class 'CHEBI_194531' ('flerovium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000536,Brinell 2.5 62.5 ISO 6506,Violation,Class 'PMD_0000536' ('Brinell 2.5 62.5 ISO 6506') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000119,sandwich panel composite,Violation,Class 'PMD_0000119' ('sandwich panel composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000792,statistical model validation,Violation,Class 'OBI_0000792' ('statistical model validation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001046,depth,Violation,Class 'PMD_0001046' ('depth') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000884,physical simulation,Violation,Class 'PMD_0000884' ('physical simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000585,continuous simulation,Violation,Class 'PMD_0000585' ('continuous simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000626,electron spectroscopy,Violation,Class 'PMD_0000626' ('electron spectroscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49648,holmium atom,Violation,Class 'CHEBI_49648' ('holmium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020084,portion of osmium,Violation,Class 'PMD_0020084' ('portion of osmium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020031,portion of germanium,Violation,Class 'PMD_0020031' ('portion of germanium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000528,bandsaw,Violation,Class 'PMD_0000528' ('bandsaw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000580,compression testing machine,Violation,Class 'PMD_0000580' ('compression testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090006,magnesium matrix composite,Violation,Class 'PMD_0090006' ('magnesium matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020040,portion of gold,Violation,Class 'PMD_0020040' ('portion of gold') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000180,heatmap,Violation,Class 'IAO_0000180' ('heatmap') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050127,laminated glass,Violation,Class 'PMD_0050127' ('laminated glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010017,platinum metal,Violation,Class 'PMD_0010017' ('platinum metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000534,blank role,Violation,Class 'PMD_0000534' ('blank role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33655,aromatic compound,Violation,Class 'CHEBI_33655' ('aromatic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000008,temporal region,Violation,Class 'BFO_0000008' ('temporal region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_59999,chemical substance,Violation,Class 'CHEBI_59999' ('chemical substance') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_59999,chemical substance,Violation,Class 'CHEBI_59999' ('chemical substance') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050128,electrochromic glass,Violation,Class 'PMD_0050128' ('electrochromic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000973,tensile testing machine,Violation,Class 'PMD_0000973' ('tensile testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000001,portion of matter,Violation,Class 'PMD_0000001' ('portion of matter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020151,internal energy,Violation,Class 'PMD_0020151' ('internal energy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050052,leucite-based glass-ceramic,Violation,Class 'PMD_0050052' ('leucite-based glass-ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_22927,bromine atom,Violation,Class 'CHEBI_22927' ('bromine atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000911,reflectivity,Violation,Class 'PMD_0000911' ('reflectivity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020215,wave,Violation,Class 'PMD_0020215' ('wave') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020175,coil (coiled sheet),Violation,Class 'PMD_0020175' ('coil (coiled sheet)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000968,temperature change device,Violation,Class 'PMD_0000968' ('temperature change device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49957,xenon atom,Violation,Class 'CHEBI_49957' ('xenon atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020241,angle of misalignment (crystallography),Violation,Class 'PMD_0020241' ('angle of misalignment (crystallography)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000031,generically dependent continuant,Violation,Class 'BFO_0000031' ('generically dependent continuant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020200,force,Violation,Class 'PMD_0020200' ('force') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_22563,anion,Violation,Class 'CHEBI_22563' ('anion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000638,fatigue testing process,Violation,Class 'PMD_0000638' ('fatigue testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_48343,disulfide,Violation,Class 'CHEBI_48343' ('disulfide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050156,geometry shape,Violation,Class 'PMD_0050156' ('geometry shape') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050067,nitride ceramic,Violation,Class 'PMD_0050067' ('nitride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000561,cleaning device,Violation,Class 'PMD_0000561' ('cleaning device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050120,crown glass,Violation,Class 'PMD_0050120' ('crown glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020233,dislocation,Violation,Class 'PMD_0020233' ('dislocation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000520,heat flow,Violation,Class 'PMD_0000520' ('heat flow') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020090,portion of uranium,Violation,Class 'PMD_0020090' ('portion of uranium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000649,forming under compressive and tensile conditions,Violation,Class 'PMD_0000649' ('forming under compressive and tensile conditions') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000808,joining by shaping,Violation,Class 'PMD_0000808' ('joining by shaping') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020245,transport,Violation,Class 'PMD_0020245' ('transport') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_29362,ethylene group,Violation,Class 'CHEBI_29362' ('ethylene group') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0001300,optical quality [pato],Violation,Class 'PATO_0001300' ('optical quality [pato]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050031,natural rubber,Violation,Class 'PMD_0050031' ('natural rubber') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050153,thickness,Violation,Class 'PMD_0050153' ('thickness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000145,relational quality,Violation,Class 'BFO_0000145' ('relational quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010013,hardenable,Violation,Class 'PMD_0010013' ('hardenable') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33833,heteroarene,Violation,Class 'CHEBI_33833' ('heteroarene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000775,hardness testing machine,Violation,Class 'PMD_0000775' ('hardness testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020098,nature constant,Violation,Class 'PMD_0020098' ('nature constant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001039,calibration process,Violation,Class 'PMD_0001039' ('calibration process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0001933,value specification,Violation,Class 'OBI_0001933' ('value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0001933,value specification,Violation,Class 'OBI_0001933' ('value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000853,crystallographic texture,Violation,Class 'PMD_0000853' ('crystallographic texture') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000524,assembling process,Violation,Class 'PMD_0000524' ('assembling process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020095,portion of titanium,Violation,Class 'PMD_0020095' ('portion of titanium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020005,porosity,Violation,Class 'PMD_0020005' ('porosity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020237,Burgers vector,Violation,Class 'PMD_0020237' ('Burgers vector') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000934,sintering,Violation,Class 'PMD_0000934' ('sintering') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000845,matrix role,Violation,Class 'PMD_0000845' ('matrix role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050092,bioinert ceramic,Violation,Class 'PMD_0050092' ('bioinert ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000006,spatial region,Violation,Class 'BFO_0000006' ('spatial region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050043,earthenware,Violation,Class 'PMD_0050043' ('earthenware') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000941,spalling testing process,Violation,Class 'PMD_0000941' ('spalling testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000551,chemical composition,Violation,Class 'PMD_0000551' ('chemical composition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025003,metallic grain structure,Violation,Class 'PMD_0025003' ('metallic grain structure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33380,thulium atom,Violation,Class 'CHEBI_33380' ('thulium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020065,portion of selenium,Violation,Class 'PMD_0020065' ('portion of selenium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020211,allotropy of an elemental crystal,Violation,Class 'PMD_0020211' ('allotropy of an elemental crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020186,aluminium alloy,Violation,Class 'PMD_0020186' ('aluminium alloy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_74236,polymerisation monomer,Violation,Class 'CHEBI_74236' ('polymerisation monomer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0011023,magnesia ceramic,Violation,Class 'PMD_0011023' ('magnesia ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020229,solution,Violation,Class 'PMD_0020229' ('solution') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000094,material processing [obi],Violation,Class 'OBI_0000094' ('material processing [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000779,heat treatment,Violation,Class 'PMD_0000779' ('heat treatment') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000917,rheometer,Violation,Class 'PMD_0000917' ('rheometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000038,one-dimensional temporal region,Violation,Class 'BFO_0000038' ('one-dimensional temporal region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33382,lutetium atom,Violation,Class 'CHEBI_33382' ('lutetium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020103,molar proportion,Violation,Class 'PMD_0020103' ('molar proportion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020184,rolling mill,Violation,Class 'PMD_0020184' ('rolling mill') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000379,mechanical function,Violation,Class 'OBI_0000379' ('mechanical function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025021,stamping press,Violation,Class 'PMD_0025021' ('stamping press') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010019,rhodium metal,Violation,Class 'PMD_0010019' ('rhodium metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000129,version number,Violation,Class 'IAO_0000129' ('version number') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000773,hardness,Violation,Class 'PMD_0000773' ('hardness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000029,site,Violation,Class 'BFO_0000029' ('site') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000125,sandwich core role,Violation,Class 'PMD_0000125' ('sandwich core role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000125,sandwich core role,Violation,Class 'PMD_0000125' ('sandwich core') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050044,stoneware,Violation,Class 'PMD_0050044' ('stoneware') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_60003,pure substance,Violation,Class 'CHEBI_60003' ('pure substance') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020041,portion of argon,Violation,Class 'PMD_0020041' ('portion of argon') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050028,melamine formaldehyde,Violation,Class 'PMD_0050028' ('melamine formaldehyde') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_137980,metalloid atom,Violation,Class 'CHEBI_137980' ('metalloid atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000786,hybrid simulation,Violation,Class 'PMD_0000786' ('hybrid simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000967,temperature,Violation,Class 'PMD_0000967' ('temperature') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000785,high temperature gas chromatography system,Violation,Class 'PMD_0000785' ('high temperature gas chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0001931,scalar value specification,Violation,Class 'OBI_0001931' ('scalar value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000510,adjustment device role,Violation,Class 'PMD_0000510' ('adjustment device role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000606,differential scanning calorimetry process,Violation,Class 'PMD_0000606' ('differential scanning calorimetry process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020208,slip direction,Violation,Class 'PMD_0020208' ('slip direction') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050012,atactic polypropylene,Violation,Class 'PMD_0050012' ('atactic polypropylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49882,rhenium atom,Violation,Class 'CHEBI_49882' ('rhenium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050056,alumina ceramic,Violation,Class 'PMD_0050056' ('alumina ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000310,document,Violation,Class 'IAO_0000310' ('document') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000505,acoustic absorption coefficient,Violation,Class 'PMD_0000505' ('acoustic absorption coefficient') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020050,portion of silicon,Violation,Class 'PMD_0020050' ('portion of silicon') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020134,stimulus role,Violation,Class 'PMD_0020134' ('stimulus role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010103,hybrid semiconductor,Violation,Class 'PMD_0010103' ('hybrid semiconductor') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000662,glueing,Violation,Class 'PMD_0000662' ('glueing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000034,function,Violation,Class 'BFO_0000034' ('function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000070,assay,Violation,Class 'OBI_0000070' ('assay') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000070,assay,Violation,Class 'OBI_0000070' ('assay [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000996,triple point,Violation,Class 'PMD_0000996' ('triple point') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_32999,europium atom,Violation,Class 'CHEBI_32999' ('europium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000444,publishing process,Violation,Class 'IAO_0000444' ('publishing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28073,chromium atom,Violation,Class 'CHEBI_28073' ('chromium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200005,drawing forming,Violation,Class 'PMD_0200005' ('drawing forming') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000939,soldering function,Violation,Class 'PMD_0000939' ('soldering function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0001546,quality of a solid [pato],Violation,Class 'PATO_0001546' ('quality of a solid [pato]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000608,differential thermal analyzer,Violation,Class 'PMD_0000608' ('differential thermal analyzer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000942,specific surface area,Violation,Class 'PMD_0000942' ('specific surface area') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090015,biogenic mineral,Violation,Class 'PMD_0090015' ('biogenic mineral') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020238,high angle grain boundary,Violation,Class 'PMD_0020238' ('high angle grain boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000795,ion exchange chromatography process,Violation,Class 'PMD_0000795' ('ion exchange chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000653,fracture toughness testing process,Violation,Class 'PMD_0000653' ('fracture toughness testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000591,software method,Violation,Class 'IAO_0000591' ('software method') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000583,computing process,Violation,Class 'PMD_0000583' ('computing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025008,transmission electron microscope,Violation,Class 'PMD_0025008' ('transmission electron microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020025,obstacle role,Violation,Class 'PMD_0020025' ('obstacle role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000625,electron microscopy,Violation,Class 'PMD_0000625' ('electron microscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090002,band gap,Violation,Class 'PMD_0090002' ('band gap') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020046,portion of potassium,Violation,Class 'PMD_0020046' ('portion of potassium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010020,portion of rhodium,Violation,Class 'PMD_0010020' ('portion of rhodium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050130,thermochromic glass,Violation,Class 'PMD_0050130' ('thermochromic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050071,boride ceramic,Violation,Class 'PMD_0050071' ('boride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090001,semiconductivity,Violation,Class 'PMD_0090001' ('semiconductivity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33259,elemental molecular entity,Violation,Class 'CHEBI_33259' ('elemental molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000023,role,Violation,Class 'BFO_0000023' ('role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33372,neodymium atom,Violation,Class 'CHEBI_33372' ('neodymium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33582,carbon group molecular entity,Violation,Class 'CHEBI_33582' ('carbon group molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000987,thermomechanical analysis process,Violation,Class 'PMD_0000987' ('thermomechanical analysis process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050057,zirconia ceramic,Violation,Class 'PMD_0050057' ('zirconia ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050021,crystalline polyethylene terephthalate,Violation,Class 'PMD_0050021' ('crystalline polyethylene terephthalate') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25805,oxygen atom,Violation,Class 'CHEBI_25805' ('oxygen atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000308,figure,Violation,Class 'IAO_0000308' ('figure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000861,Mohs hardness,Violation,Class 'PMD_0000861' ('Mohs hardness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020167,structural boundary,Violation,Class 'PMD_0020167' ('structural boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000005,material property,Violation,Class 'PMD_0000005' ('material property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001024,x-ray microanalysis system,Violation,Class 'PMD_0001024' ('x-ray microanalysis system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_36962,organochalcogen compound,Violation,Class 'CHEBI_36962' ('organochalcogen compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020130,driving force of phase in system,Violation,Class 'PMD_0020130' ('driving force of phase in system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33364,platinum,Violation,Class 'CHEBI_33364' ('platinum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020197,lattice point,Violation,Class 'PMD_0020197' ('lattice point') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000619,electric potential,Violation,Class 'PMD_0000619' ('electric potential') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020193,tensile testpiece,Violation,Class 'PMD_0020193' ('tensile testpiece') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020182,profile (semi finished product),Violation,Class 'PMD_0020182' ('profile (semi finished product)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000772,hardening by forming,Violation,Class 'PMD_0000772' ('hardening by forming') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000656,gas chromatography process,Violation,Class 'PMD_0000656' ('gas chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020074,portion of caesium,Violation,Class 'PMD_0020074' ('portion of caesium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090014,biopolymer,Violation,Class 'PMD_0090014' ('biopolymer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050122,specialty glass,Violation,Class 'PMD_0050122' ('specialty glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010012,zinc alloy,Violation,Class 'PMD_0010012' ('zinc alloy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33395,mendelevium atom,Violation,Class 'CHEBI_33395' ('mendelevium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000038,graph,Violation,Class 'IAO_0000038' ('graph') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000807,joining by primary shaping,Violation,Class 'PMD_0000807' ('joining by primary shaping') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000574,coating from the pulpy or pasty state,Violation,Class 'PMD_0000574' ('coating from the pulpy or pasty state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020070,portion of xenon,Violation,Class 'PMD_0020070' ('portion of xenon') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000525,atomic force microscope,Violation,Class 'PMD_0000525' ('atomic force microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+UO_0000000,unit,Violation,Class 'UO_0000000' ('unit') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33390,curium atom,Violation,Class 'CHEBI_33390' ('curium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33368,roentgenium atom,Violation,Class 'CHEBI_33368' ('roentgenium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010005,alloy steel,Violation,Class 'PMD_0010005' ('alloy steel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020171,phase boundary (spatial),Violation,Class 'PMD_0020171' ('phase boundary (spatial)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010002,cast iron,Violation,Class 'PMD_0010002' ('cast iron') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_24431,chemical entity,Violation,Class 'CHEBI_24431' ('chemical entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_24431,chemical entity,Violation,Class 'CHEBI_24431' ('chemical entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000998,ultraviolet visible spectrophotometer,Violation,Class 'PMD_0000998' ('ultraviolet visible spectrophotometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33517,copernicium atom,Violation,Class 'CHEBI_33517' ('copernicium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000989,thin-layer chromatography process,Violation,Class 'PMD_0000989' ('thin-layer chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050054,technical ceramic,Violation,Class 'PMD_0050054' ('technical ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020180,tube,Violation,Class 'PMD_0020180' ('tube') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33250,atom,Violation,Class 'CHEBI_33250' ('atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050137,magnetic glass,Violation,Class 'PMD_0050137' ('magnetic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+COB_0000083,failed planned process,Violation,Class 'COB_0000083' ('failed planned process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050133,functional glass,Violation,Class 'PMD_0050133' ('functional glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020033,portion of erbium,Violation,Class 'PMD_0020033' ('portion of erbium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000873,,Violation,Class 'PMD_0000873' ('NO_LABEL') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_51143,nitrogen molecular entity,Violation,Class 'CHEBI_51143' ('nitrogen molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050083,barium titanate ceramic,Violation,Class 'PMD_0050083' ('barium titanate ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020000,phase (thermodynamic),Violation,Class 'PMD_0020000' ('phase (thermodynamic)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30415,astatine atom,Violation,Class 'CHEBI_30415' ('astatine atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020179,wire (semi finished product),Violation,Class 'PMD_0020179' ('wire (semi finished product)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001036,uncertainty,Violation,Class 'PMD_0001036' ('uncertainty') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020169,mixture boundary,Violation,Class 'PMD_0020169' ('mixture boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000879,organization,Violation,Class 'PMD_0000879' ('organization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0001930,categorical value specification,Violation,Class 'OBI_0001930' ('categorical value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0001930,categorical value specification,Violation,Class 'OBI_0001930' ('categorical value specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000594,deep learning,Violation,Class 'PMD_0000594' ('deep learning') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000658,gel permeation chromatography process,Violation,Class 'PMD_0000658' ('gel permeation chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000067,evaluant role,Violation,Class 'OBI_0000067' ('evaluant role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200041,k-means clustering [obi],Violation,Class 'OBI_0200041' ('k-means clustering [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000607,differential thermal analysis process,Violation,Class 'PMD_0000607' ('differential thermal analysis process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020195,crystallization,Violation,Class 'PMD_0020195' ('crystallization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25367,molecule,Violation,Class 'CHEBI_25367' ('molecule') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30441,germanium atom,Violation,Class 'CHEBI_30441' ('germanium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000547,change of aggregate state,Violation,Class 'PMD_0000547' ('change of aggregate state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000612,disassembling,Violation,Class 'PMD_0000612' ('disassembling') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_35352,organonitrogen compound,Violation,Class 'CHEBI_35352' ('organonitrogen compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_81045,lead oxide,Violation,Class 'CHEBI_81045' ('lead oxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000564,coating application function,Violation,Class 'PMD_0000564' ('coating application function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000648,forming machine,Violation,Class 'PMD_0000648' ('forming machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000575,coating function,Violation,Class 'PMD_0000575' ('coating function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000546,ceramic,Violation,Class 'PMD_0000546' ('ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001011,welding device,Violation,Class 'PMD_0001011' ('welding device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000178,material information bearer,Violation,Class 'IAO_0000178' ('material information bearer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000584,conditioning process,Violation,Class 'PMD_0000584' ('conditioning process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000014,regulator role,Violation,Class 'OBI_0000014' ('regulator role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33386,protactinium atom,Violation,Class 'CHEBI_33386' ('protactinium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000823,machining geometrically undefined,Violation,Class 'PMD_0000823' ('machining geometrically undefined') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050055,oxide ceramic,Violation,Class 'PMD_0050055' ('oxide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200006,calendering,Violation,Class 'PMD_0200006' ('calendering') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000311,publication,Violation,Class 'IAO_0000311' ('publication') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000667,grinding machine,Violation,Class 'PMD_0000667' ('grinding machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020133,mass,Violation,Class 'PMD_0020133' ('mass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000881,,Violation,Class 'PMD_0000881' ('NO_LABEL') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000957,structural property analyzing process,Violation,Class 'PMD_0000957' ('structural property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000513,aging process,Violation,Class 'PMD_0000513' ('aging process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33373,promethium atom,Violation,Class 'CHEBI_33373' ('promethium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000544,caliper,Violation,Class 'PMD_0000544' ('caliper') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020068,portion of zinc,Violation,Class 'PMD_0020068' ('portion of zinc') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020029,portion of chromium,Violation,Class 'PMD_0020029' ('portion of chromium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000877,optical property,Violation,Class 'PMD_0000877' ('optical property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000621,electrical property,Violation,Class 'PMD_0000621' ('electrical property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020051,portion of nickel,Violation,Class 'PMD_0020051' ('portion of nickel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28659,phosphorus atom,Violation,Class 'CHEBI_28659' ('phosphorus atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001008,absorption of wave radiation,Violation,Class 'PMD_0001008' ('absorption of wave radiation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000127,mineral,Violation,Class 'PMD_0000127' ('mineral') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000817,lasercutter,Violation,Class 'PMD_0000817' ('lasercutter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000867,nanoindentation process,Violation,Class 'PMD_0000867' ('nanoindentation process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000532,biological property analyzing process,Violation,Class 'PMD_0000532' ('biological property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000057,melting function,Violation,Class 'PMD_0000057' ('melting function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000866,multiscale simulation,Violation,Class 'PMD_0000866' ('multiscale simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_50803,nanoparticle,Violation,Class 'CHEBI_50803' ('nanoparticle') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020161,activity (thermodynamic),Violation,Class 'PMD_0020161' ('activity (thermodynamic)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020220,order scale,Violation,Class 'PMD_0020220' ('order scale') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050154,width,Violation,Class 'PMD_0050154' ('width') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000727,k-nearest neighbors [obi],Violation,Class 'OBI_0000727' ('k-nearest neighbors [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000981,thermal property,Violation,Class 'PMD_0000981' ('thermal property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050064,silicon carbide ceramic,Violation,Class 'PMD_0050064' ('silicon carbide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000015,information carrier,Violation,Class 'IAO_0000015' ('information carrier') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000557,chromatography system,Violation,Class 'PMD_0000557' ('chromatography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33325,radium atom,Violation,Class 'CHEBI_33325' ('radium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_24859,iodine atom,Violation,Class 'CHEBI_24859' ('iodine atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010024,bioinert,Violation,Class 'PMD_0010024' ('bioinert') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000260,plan,Violation,Class 'OBI_0000260' ('plan') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000858,microtome,Violation,Class 'PMD_0000858' ('microtome') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020222,inter-diffusion in crystalline solid,Violation,Class 'PMD_0020222' ('inter-diffusion in crystalline solid') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33346,rutherfordium atom,Violation,Class 'CHEBI_33346' ('rutherfordium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000628,emission of corpuscular radiation,Violation,Class 'PMD_0000628' ('emission of corpuscular radiation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000908,primary shaping from the pulpy or pasty state,Violation,Class 'PMD_0000908' ('primary shaping from the pulpy or pasty state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020042,portion of cadmium,Violation,Class 'PMD_0020042' ('portion of cadmium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000924,scratch hardness,Violation,Class 'PMD_0000924' ('scratch hardness') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000982,thermal property analyzing process,Violation,Class 'PMD_0000982' ('thermal property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200000,compression molding,Violation,Class 'PMD_0200000' ('compression molding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020144,product (chemical reaction),Violation,Class 'PMD_0020144' ('product (chemical reaction)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0100051,specimen [obi],Violation,Class 'OBI_0100051' ('specimen [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050112,high-temperature resistant glass,Violation,Class 'PMD_0050112' ('high-temperature resistant glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_53284,polyurethane macromolecule,Violation,Class 'CHEBI_53284' ('polyurethane macromolecule') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050151,magnesium-based metallic glass,Violation,Class 'PMD_0050151' ('magnesium-based metallic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050121,flint glass,Violation,Class 'PMD_0050121' ('flint glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000054,heating function,Violation,Class 'PMD_0000054' ('heating function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050066,boron carbide ceramic,Violation,Class 'PMD_0050066' ('boron carbide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000183,dendrogram,Violation,Class 'IAO_0000183' ('dendrogram') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25195,mercury atom,Violation,Class 'CHEBI_25195' ('mercury atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000011,planned process,Violation,Class 'OBI_0000011' ('obsolete planned process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000011,planned process,Violation,Class 'OBI_0000011' ('planned process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090052,silicone rubber,Violation,Class 'PMD_0090052' ('silicone rubber') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090007,copper matrix composite,Violation,Class 'PMD_0090007' ('copper matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050088,superconducting ceramic,Violation,Class 'PMD_0050088' ('superconducting ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050146,S53P4 bioglass,Violation,Class 'PMD_0050146' ('S53P4 bioglass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020062,portion of bismuth,Violation,Class 'PMD_0020062' ('portion of bismuth') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050069,aluminum nitride ceramic,Violation,Class 'PMD_0050069' ('aluminum nitride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30187,aluminium oxide,Violation,Class 'CHEBI_30187' ('aluminium oxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33391,berkelium atom,Violation,Class 'CHEBI_33391' ('berkelium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020190,metallographic section (surface),Violation,Class 'PMD_0020190' ('metallographic section (surface)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000800,ion spectroscopy,Violation,Class 'PMD_0000800' ('ion spectroscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050005,polyethylene,Violation,Class 'PMD_0050005' ('polyethylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020072,portion of sodium,Violation,Class 'PMD_0020072' ('portion of sodium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000003,occurrent,Violation,Class 'BFO_0000003' ('occurrent') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020162,activation energy,Violation,Class 'PMD_0020162' ('activation energy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001042,test piece preparation process,Violation,Class 'PMD_0001042' ('test piece preparation process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000023,classified data set,Violation,Class 'OBI_0000023' ('classified data set') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0060008,recipe,Violation,Class 'PMD_0060008' ('recipe') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000798,ion microscopy,Violation,Class 'PMD_0000798' ('ion microscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000894,precision lathe,Violation,Class 'PMD_0000894' ('precision lathe') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000956,structural optimization simulation,Violation,Class 'PMD_0000956' ('structural optimization simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000502,2D,Violation,Class 'PMD_0000502' ('2D') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020248,diffusion flux,Violation,Class 'PMD_0020248' ('diffusion flux') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010021,portion of tellurium,Violation,Class 'PMD_0010021' ('portion of tellurium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33363,palladium,Violation,Class 'CHEBI_33363' ('palladium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000847,measuring function,Violation,Class 'PMD_0000847' ('measuring function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000526,atomic structure,Violation,Class 'PMD_0000526' ('atomic structure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020174,foil,Violation,Class 'PMD_0020174' ('foil') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001022,x-ray computed tomography system,Violation,Class 'PMD_0001022' ('x-ray computed tomography system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000587,crack growth,Violation,Class 'PMD_0000587' ('crack growth') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_24870,ion,Violation,Class 'CHEBI_24870' ('ion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+COB_0000035,completely executed planned process,Violation,Class 'COB_0000035' ('completely executed planned process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001023,x-ray mapping device,Violation,Class 'PMD_0001023' ('x-ray mapping device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000979,thermal conductivity measurement process,Violation,Class 'PMD_0000979' ('thermal conductivity measurement process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0001241,physical object quality [pato],Violation,Class 'PATO_0001241' ('physical object quality [pato]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090013,biological composite,Violation,Class 'PMD_0090013' ('biological composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050157,shape 3d,Violation,Class 'PMD_0050157' ('shape 3d') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000645,formation of notch or scratch,Violation,Class 'PMD_0000645' ('formation of notch or scratch') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020087,portion of bromine,Violation,Class 'PMD_0020087' ('portion of bromine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000637,fatigue testing machine,Violation,Class 'PMD_0000637' ('fatigue testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010004,tool steel,Violation,Class 'PMD_0010004' ('tool steel') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33324,strontium atom,Violation,Class 'CHEBI_33324' ('strontium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000995,torsion testing process,Violation,Class 'PMD_0000995' ('torsion testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050050,glass-ceramic,Violation,Class 'PMD_0050050' ('glass-ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050035,ethylene propylene diene monomer,Violation,Class 'PMD_0050035' ('ethylene propylene diene monomer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050059,magnesia-stabilized zirconia ceramic,Violation,Class 'PMD_0050059' ('magnesia-stabilized zirconia ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000971,temperature measuring function,Violation,Class 'PMD_0000971' ('temperature measuring function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020239,small angle grain boundary,Violation,Class 'PMD_0020239' ('small angle grain boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050014,rigid polyvinyl chloride,Violation,Class 'PMD_0050014' ('rigid polyvinyl chloride') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020003,crystal,Violation,Class 'PMD_0020003' ('crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000797,ion microscope,Violation,Class 'PMD_0000797' ('ion microscope') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000810,joining by welding,Violation,Class 'PMD_0000810' ('joining by welding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050025,novolac epoxy,Violation,Class 'PMD_0050025' ('novolac epoxy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000878,optical property analyzing process,Violation,Class 'PMD_0000878' ('optical property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0060006,device specification,Violation,Class 'PMD_0060006' ('device specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000951,stochastic simulation,Violation,Class 'PMD_0000951' ('stochastic simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0060007,material specification,Violation,Class 'PMD_0060007' ('material specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000035,process boundary,Violation,Class 'BFO_0000035' ('process boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020053,portion of zirconium,Violation,Class 'PMD_0020053' ('portion of zirconium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050037,polylactic acid,Violation,Class 'PMD_0050037' ('polylactic acid') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000947,service provider role,Violation,Class 'OBI_0000947' ('service provider role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000104,plan specification,Violation,Class 'IAO_0000104' ('plan specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000925,scratch testing machine,Violation,Class 'PMD_0000925' ('scratch testing machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33675,p-block molecular entity,Violation,Class 'CHEBI_33675' ('p-block molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000813,knife,Violation,Class 'PMD_0000813' ('knife') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020147,eutectoid phase transformation,Violation,Class 'PMD_0020147' ('eutectoid phase transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000013,parameter specification,Violation,Class 'PMD_0000013' ('parameter specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000633,environmental chamber,Violation,Class 'PMD_0000633' ('environmental chamber') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050047,mullite ceramic,Violation,Class 'PMD_0050047' ('mullite ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_26708,sodium atom,Violation,Class 'CHEBI_26708' ('sodium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49631,gallium atom,Violation,Class 'CHEBI_49631' ('gallium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000141,immaterial entity,Violation,Class 'BFO_0000141' ('immaterial entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30563,silicon dioxide,Violation,Class 'CHEBI_30563' ('silicon dioxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000875,optical microscopy,Violation,Class 'PMD_0000875' ('optical microscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000641,filling,Violation,Class 'PMD_0000641' ('filling') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000576,colorimeter,Violation,Class 'PMD_0000576' ('colorimeter') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001025,assay,Violation,Class 'PMD_0001025' ('assay') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PATO_0000122,length [pato],Violation,Class 'PATO_0000122' ('length [pato]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025009,material reacting process,Violation,Class 'PMD_0025009' ('material reacting process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050134,conductive glass,Violation,Class 'PMD_0050134' ('conductive glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020104,volume proportion,Violation,Class 'PMD_0020104' ('volume proportion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000075,mould,Violation,Class 'PMD_0000075' ('mould') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050065,tungsten carbide ceramic,Violation,Class 'PMD_0050065' ('tungsten carbide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020181,pipe,Violation,Class 'PMD_0020181' ('pipe') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000984,thermocycler,Violation,Class 'PMD_0000984' ('thermocycler') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000007,vector field specification,Violation,Class 'PMD_0000007' ('vector field specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020192,macrosection (metallography),Violation,Class 'PMD_0020192' ('macrosection (metallography)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000000,material,Violation,Class 'PMD_0000000' ('material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000777,heat capacity,Violation,Class 'PMD_0000777' ('heat capacity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000876,optical profilometer,Violation,Class 'PMD_0000876' ('optical profilometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000646,forming,Violation,Class 'PMD_0000646' ('forming') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000051,simulation entity role,Violation,Class 'PMD_0000051' ('simulation entity role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000611,dimension measuring process,Violation,Class 'PMD_0000611' ('dimension measuring process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000895,pressing on - in,Violation,Class 'PMD_0000895' ('pressing on - in') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020089,portion of hafnium,Violation,Class 'PMD_0020089' ('portion of hafnium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000101,image,Violation,Class 'IAO_0000101' ('image') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+GO_0008150,biological process,Violation,Class 'GO_0008150' ('biological process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+GO_0008150,biological process,Violation,Class 'GO_0008150' ('biological_process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020153,technical system,Violation,Class 'PMD_0020153' ('technical system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020163,eutectic phase transformation,Violation,Class 'PMD_0020163' ('eutectic phase transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000767,hacksaw,Violation,Class 'PMD_0000767' ('hacksaw') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020168,magnetic boundary,Violation,Class 'PMD_0020168' ('magnetic boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000579,compounding machine,Violation,Class 'PMD_0000579' ('compounding machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_23367,molecular entity,Violation,Class 'CHEBI_23367' ('molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_23367,molecular entity,Violation,Class 'CHEBI_23367' ('molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020128,thermodynamic system,Violation,Class 'PMD_0020128' ('thermodynamic system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33302,pnictogen molecular entity,Violation,Class 'CHEBI_33302' ('pnictogen molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025011,cooling,Violation,Class 'PMD_0025011' ('cooling') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010101,compound semiconductor,Violation,Class 'PMD_0010101' ('compound semiconductor') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000975,test piece role,Violation,Class 'PMD_0000975' ('test piece role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000004,independent continuant,Violation,Class 'BFO_0000004' ('independent continuant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020216,order scale value,Violation,Class 'PMD_0020216' ('order scale value') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000539,bulk modulus,Violation,Class 'PMD_0000539' ('bulk modulus') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000024,fiat object part,Violation,Class 'BFO_0000024' ('fiat object part') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000986,thermogravimetric analysis process,Violation,Class 'PMD_0000986' ('thermogravimetric analysis process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000028,symbol,Violation,Class 'IAO_0000028' ('symbol') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020099,bravais lattice (3D),Violation,Class 'PMD_0020099' ('bravais lattice (3D)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000962,supercritical fluid chromatography process,Violation,Class 'PMD_0000962' ('supercritical fluid chromatography process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020038,portion of nitrogen,Violation,Class 'PMD_0020038' ('portion of nitrogen') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000647,forming by bending,Violation,Class 'PMD_0000647' ('forming by bending') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010026,organic composition,Violation,Class 'PMD_0010026' ('organic composition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000504,ab initio molecular dynamics simulation,Violation,Class 'PMD_0000504' ('ab initio molecular dynamics simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000122,laminate ply role,Violation,Class 'PMD_0000122' ('laminate ply role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000809,joining by soldering,Violation,Class 'PMD_0000809' ('joining by soldering') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000179,histogram,Violation,Class 'IAO_0000179' ('histogram') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000010,workflow function,Violation,Class 'PMD_0000010' ('workflow function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000109,measurement datum,Violation,Class 'IAO_0000109' ('measurement datum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000016,disposition,Violation,Class 'BFO_0000016' ('disposition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30440,thallium atom,Violation,Class 'CHEBI_30440' ('thallium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000666,gravimetrical analyzing process,Violation,Class 'PMD_0000666' ('gravimetrical analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000977,textile joining,Violation,Class 'PMD_0000977' ('textile joining') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000552,chemical composition analyzing process,Violation,Class 'PMD_0000552' ('chemical composition analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010034,curing,Violation,Class 'PMD_0010034' ('curing') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_22977,cadmium atom,Violation,Class 'CHEBI_22977' ('cadmium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050049,non-clay ceramic,Violation,Class 'PMD_0050049' ('non-clay ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28694,copper atom,Violation,Class 'CHEBI_28694' ('copper atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000121,polymer matrix composite,Violation,Class 'PMD_0000121' ('polymer matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000791,induction furnace,Violation,Class 'PMD_0000791' ('induction furnace') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050113,non-silicate glass,Violation,Class 'PMD_0050113' ('non-silicate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000848,mechanical property,Violation,Class 'PMD_0000848' ('mechanical property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000009,datum label,Violation,Class 'IAO_0000009' ('datum label') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050003,ionic bond,Violation,Class 'PMD_0050003' ('ionic bond') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050101,silicate glass,Violation,Class 'PMD_0050101' ('silicate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000648,clustered data set,Violation,Class 'OBI_0000648' ('clustered data set') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050138,iron-borosilicate glass,Violation,Class 'PMD_0050138' ('iron-borosilicate glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050063,carbide ceramic,Violation,Class 'PMD_0050063' ('carbide ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000926,scratch testing process,Violation,Class 'PMD_0000926' ('scratch testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020113,fluid (object),Violation,Class 'PMD_0020113' ('fluid (object)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050098,bioresorbable ceramic,Violation,Class 'PMD_0050098' ('bioresorbable ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33359,rhodium atom,Violation,Class 'CHEBI_33359' ('rhodium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000904,primary shaping from the granular or powdered state,Violation,Class 'PMD_0000904' ('primary shaping from the granular or powdered state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020048,portion of boron,Violation,Class 'PMD_0020048' ('portion of boron') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020066,portion of ruthenium,Violation,Class 'PMD_0020066' ('portion of ruthenium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020083,portion of hydrogen,Violation,Class 'PMD_0020083' ('portion of hydrogen') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33579,main group molecular entity,Violation,Class 'CHEBI_33579' ('main group molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_68452,azole,Violation,Class 'CHEBI_68452' ('azole') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050018,high impact polystyrene,Violation,Class 'PMD_0050018' ('high impact polystyrene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050126,toughened (tempered) glass,Violation,Class 'PMD_0050126' ('toughened (tempered) glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000002,continuant,Violation,Class 'BFO_0000002' ('continuant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30687,osmium atom,Violation,Class 'CHEBI_30687' ('osmium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33379,erbium,Violation,Class 'CHEBI_33379' ('erbium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33331,yttrium atom,Violation,Class 'CHEBI_33331' ('yttrium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020105,geogenic mineral,Violation,Class 'PMD_0020105' ('geogenic mineral') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000946,sterilization function,Violation,Class 'OBI_0000946' ('sterilization function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000371,heat function,Violation,Class 'OBI_0000371' ('heat function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090050,thermosetting polyurethane,Violation,Class 'PMD_0090050' ('thermosetting polyurethane') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000896,pressure,Violation,Class 'PMD_0000896' ('pressure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020088,portion of tin,Violation,Class 'PMD_0020088' ('portion of tin') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_38106,organosulfur heterocyclic compound,Violation,Class 'CHEBI_38106' ('organosulfur heterocyclic compound') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050152,zirconium-based metallic glass,Violation,Class 'PMD_0050152' ('zirconium-based metallic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30682,ruthenium atom,Violation,Class 'CHEBI_30682' ('ruthenium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000835,mass spectrometer,Violation,Class 'PMD_0000835' ('mass spectrometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000829,magneto electrical property analyzing process,Violation,Class 'PMD_0000829' ('magneto electrical property analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020091,portion of oxygen,Violation,Class 'PMD_0020091' ('portion of oxygen') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000783,high throughput simulation,Violation,Class 'PMD_0000783' ('high throughput simulation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_26835,sulfur molecular entity,Violation,Class 'CHEBI_26835' ('sulfur molecular entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_60004,mixture [chebi],Violation,Class 'CHEBI_60004' ('mixture [chebi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000550,changing properties of material,Violation,Class 'PMD_0000550' ('changing properties of material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33357,hassium atom,Violation,Class 'CHEBI_33357' ('hassium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_36358,polyatomic ion,Violation,Class 'CHEBI_36358' ('polyatomic ion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000553,chemical potential,Violation,Class 'PMD_0000553' ('chemical potential') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020240,twin boundary,Violation,Class 'PMD_0020240' ('twin boundary') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_24061,fluorine atom,Violation,Class 'CHEBI_24061' ('fluorine atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27568,selenium atom,Violation,Class 'CHEBI_27568' ('selenium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33323,francium atom,Violation,Class 'CHEBI_33323' ('francium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090012,biological material,Violation,Class 'PMD_0090012' ('biological material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200000,data transformation,Violation,Class 'OBI_0200000' ('data transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000629,emission of radiation,Violation,Class 'PMD_0000629' ('emission of radiation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050026,phenolic resin,Violation,Class 'PMD_0050026' ('phenolic resin') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000591,crystal structure,Violation,Class 'PMD_0000591' ('crystal structure') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27007,tin atom,Violation,Class 'CHEBI_27007' ('tin atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050011,syndiotactic polypropylene,Violation,Class 'PMD_0050011' ('syndiotactic polypropylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050124,ion-exchanged glass,Violation,Class 'PMD_0050124' ('ion-exchanged glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000565,coating by soldering,Violation,Class 'PMD_0000565' ('coating by soldering') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000522,mechanical process,Violation,Class 'PMD_0000522' ('mechanical process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020076,portion of silver,Violation,Class 'PMD_0020076' ('portion of silver') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020150,volume,Violation,Class 'PMD_0020150' ('volume') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020115,aerosol,Violation,Class 'PMD_0020115' ('aerosol') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000889,pore growth,Violation,Class 'PMD_0000889' ('pore growth') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000630,emission of wave radiation,Violation,Class 'PMD_0000630' ('emission of wave radiation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_25555,nitrogen atom,Violation,Class 'CHEBI_25555' ('nitrogen atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001006,water purification system,Violation,Class 'PMD_0001006' ('water purification system') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+APOLLO_SV_00000796,dataset creating,Violation,Class 'APOLLO_SV_00000796' ('dataset creating') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000806,joining,Violation,Class 'PMD_0000806' ('joining') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000015,process,Violation,Class 'BFO_0000015' ('process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_18291,manganese atom,Violation,Class 'CHEBI_18291' ('manganese atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000019,quality,Violation,Class 'BFO_0000019' ('quality') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020160,microconstituent (phase mixture),Violation,Class 'PMD_0020160' ('microconstituent (phase mixture)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020082,portion of neodymium,Violation,Class 'PMD_0020082' ('portion of neodymium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000923,pair of scissors,Violation,Class 'PMD_0000923' ('pair of scissors') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050144,silicate-based bioactive glass,Violation,Class 'PMD_0050144' ('silicate-based bioactive glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020135,stimulation target role,Violation,Class 'PMD_0020135' ('stimulation target role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020080,portion of beryllium,Violation,Class 'PMD_0020080' ('portion of beryllium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020049,portion of helium,Violation,Class 'PMD_0020049' ('portion of helium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050009,polypropylene,Violation,Class 'PMD_0050009' ('polypropylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020047,portion of phosphorus,Violation,Class 'PMD_0020047' ('portion of phosphorus') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33273,polyatomic anion,Violation,Class 'CHEBI_33273' ('polyatomic anion') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000651,forming under shearing conditions,Violation,Class 'PMD_0000651' ('forming under shearing conditions') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0025014,single crystal,Violation,Class 'PMD_0025014' ('single crystal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001998,cutting device,Violation,Class 'PMD_0001998' ('cutting device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+NCBITaxon_9606,Homo sapiens,Violation,Class 'NCBITaxon_9606' ('Homo sapiens') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+NCBITaxon_9606,Homo sapiens,Violation,Class 'NCBITaxon_9606' ('homo sapiens') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000078,curation status specification,Violation,Class 'IAO_0000078' ('curation status specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33397,lawrencium atom,Violation,Class 'CHEBI_33397' ('lawrencium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000805,irradiation function,Violation,Class 'PMD_0000805' ('irradiation function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020039,portion of cobalt,Violation,Class 'PMD_0020039' ('portion of cobalt') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000610,dimension measuring function,Violation,Class 'PMD_0000610' ('dimension measuring function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000245,organization,Violation,Class 'OBI_0000245' ('organization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000769,hand holdable disposition,Violation,Class 'PMD_0000769' ('hand holdable disposition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020156,peritectic phase transformation,Violation,Class 'PMD_0020156' ('peritectic phase transformation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49696,krypton atom,Violation,Class 'CHEBI_49696' ('krypton atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000972,temporal property,Violation,Class 'PMD_0000972' ('temporal property') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050075,oxide-oxide composite,Violation,Class 'PMD_0050075' ('oxide-oxide composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000148,zero-dimensional temporal region,Violation,Class 'BFO_0000148' ('zero-dimensional temporal region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33367,darmstadtium,Violation,Class 'CHEBI_33367' ('darmstadtium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000980,thermal conductivity measuring function,Violation,Class 'PMD_0000980' ('thermal conductivity measuring function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090005,titanium matrix composite,Violation,Class 'PMD_0090005' ('titanium matrix composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010007,non-ferrous metal,Violation,Class 'PMD_0010007' ('non-ferrous metal') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000531,biocompatibility analyzing process,Violation,Class 'PMD_0000531' ('biocompatibility analyzing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33393,einsteinium atom,Violation,Class 'CHEBI_33393' ('einsteinium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27563,arsenic atom,Violation,Class 'CHEBI_27563' ('arsenic atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_49666,iridium atom,Violation,Class 'CHEBI_49666' ('iridium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000833,manufacturing process,Violation,Class 'PMD_0000833' ('manufacturing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000582,computing device,Violation,Class 'PMD_0000582' ('computing device') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090010,aramid fiber composite,Violation,Class 'PMD_0090010' ('aramid fiber composite') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000182,history,Violation,Class 'BFO_0000182' ('history') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050150,iron-based metallic glass,Violation,Class 'PMD_0050150' ('iron-based metallic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020064,portion of thallium,Violation,Class 'PMD_0020064' ('portion of thallium') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000018,material supplier role,Violation,Class 'OBI_0000018' ('material supplier role') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_30163,diboron trioxide,Violation,Class 'CHEBI_30163' ('diboron trioxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000011,workflow node,Violation,Class 'PMD_0000011' ('workflow node') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050002,metallic bond,Violation,Class 'PMD_0050002' ('metallic bond') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33330,scandium atom,Violation,Class 'CHEBI_33330' ('scandium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000946,spectrum,Violation,Class 'PMD_0000946' ('spectrum') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050081,electroceramic,Violation,Class 'PMD_0050081' ('electroceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000799,ion spectrometer,Violation,Class 'PMD_0000799' ('ion spectrometer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020232,substitutional solid solution,Violation,Class 'PMD_0020232' ('substitutional solid solution') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050073,zirconium diboride ceramic,Violation,Class 'PMD_0050073' ('zirconium diboride ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000518,impact,Violation,Class 'PMD_0000518' ('impact') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050095,bioactive ceramic,Violation,Class 'PMD_0050095' ('bioactive ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000530,bending testing process,Violation,Class 'PMD_0000530' ('bending testing process') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_194539,tennessine atom,Violation,Class 'CHEBI_194539' ('tennessine atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020126,foam,Violation,Class 'PMD_0020126' ('foam') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+BFO_0000018,zero-dimensional spatial region,Violation,Class 'BFO_0000018' ('zero-dimensional spatial region') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050010,isotactic polypropylene,Violation,Class 'PMD_0050010' ('isotactic polypropylene') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0200003,injection-compression molding,Violation,Class 'PMD_0200003' ('injection-compression molding') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050132,transparent glass-ceramic,Violation,Class 'PMD_0050132' ('transparent glass-ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_28798,rubber particle [chebi],Violation,Class 'CHEBI_28798' ('rubber particle [chebi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000570,coating from the granular or powdery state,Violation,Class 'PMD_0000570' ('coating from the granular or powdery state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020196,recrystallization,Violation,Class 'PMD_0020196' ('recrystallization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050045,porcelain,Violation,Class 'PMD_0050045' ('porcelain') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000976,testing function,Violation,Class 'PMD_0000976' ('testing function') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33341,titanium atom,Violation,Class 'CHEBI_33341' ('titanium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050040,natural ceramic,Violation,Class 'PMD_0050040' ('natural ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0000272,protocol [obi],Violation,Class 'OBI_0000272' ('protocol [obi]') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_27214,uranium atom,Violation,Class 'CHEBI_27214' ('uranium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000572,coating from the liquid state,Violation,Class 'PMD_0000572' ('coating from the liquid state') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0090051,unsaturated polyester resins,Violation,Class 'PMD_0090051' ('unsaturated polyester resins') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050129,photochromic glass,Violation,Class 'PMD_0050129' ('photochromic glass') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0050058,yttria-stabilized zirconia ceramic,Violation,Class 'PMD_0050058' ('yttria-stabilized zirconia ceramic') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000521,generation of magnetic field,Violation,Class 'PMD_0000521' ('generation of magnetic field') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000519,flow of electric charge,Violation,Class 'PMD_0000519' ('flow of electric charge') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0001021,x-ray analyzer,Violation,Class 'PMD_0001021' ('x-ray analyzer') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020146,catalyst,Violation,Class 'PMD_0020146' ('catalyst') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33310,neon atom,Violation,Class 'CHEBI_33310' ('neon atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000816,laser spectroscopy,Violation,Class 'PMD_0000816' ('laser spectroscopy') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000002,engineered material,Violation,Class 'PMD_0000002' ('engineered material') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000618,elastic modulus,Violation,Class 'PMD_0000618' ('elastic modulus') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020154,precipitation (phase),Violation,Class 'PMD_0020154' ('precipitation (phase)') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000068,temporally qualified continuant,Violation,Class 'PMD_0000068' ('temporally qualified continuant') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000542,cnc welding machine,Violation,Class 'PMD_0000542' ('cnc welding machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+IAO_0000030,information content entity,Violation,Class 'IAO_0000030' ('information content entity') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0010027,inorganic composition,Violation,Class 'PMD_0010027' ('inorganic composition') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000869,chemical reaction,Violation,Class 'PMD_0000869' ('chemical reaction') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020234,screw dislocation,Violation,Class 'PMD_0020234' ('screw dislocation') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020178,rod,Violation,Class 'PMD_0020178' ('rod') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000549,change of temperature,Violation,Class 'PMD_0000549' ('change of temperature') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000014,input specification,Violation,Class 'PMD_0000014' ('input specification') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+OBI_0200190,clustered data visualization,Violation,Class 'OBI_0200190' ('clustered data visualization') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0020004,composition data item,Violation,Class 'PMD_0020004' ('composition data item') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_33375,gadolinium atom,Violation,Class 'CHEBI_33375' ('gadolinium atom') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+PMD_0000615,drilling machine,Violation,Class 'PMD_0000615' ('drilling machine') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.
+CHEBI_32145,sodium hydroxide,Violation,Class 'CHEBI_32145' ('sodium hydroxide') is missing BOTH oboInOwl:creation_date and pav:lastUpdateOn.

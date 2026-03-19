@@ -1,6 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000016,distance between sensor and extrudate [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000003,geometry [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000006,triangulation [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000017,extrudate norm [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).
-DIGITRUBBER_000009,surface of extrudate [imr],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

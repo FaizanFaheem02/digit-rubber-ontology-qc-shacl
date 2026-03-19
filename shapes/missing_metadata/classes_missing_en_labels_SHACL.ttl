@@ -1,0 +1,28 @@
+@prefix :     <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+:ClassMissingEnglishLabelShape
+    a sh:NodeShape ;
+    sh:severity sh:Violation ;
+
+    sh:target [
+        a sh:SPARQLTarget ;
+        sh:select """
+            SELECT ?this WHERE {
+              ?this rdf:type owl:Class .
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
+            }
+        """ ;
+    ] ;
+
+    sh:property [
+        sh:path rdfs:label ;
+        sh:qualifiedValueShape [
+            sh:languageIn ( "en" ) ;
+        ] ;
+        sh:qualifiedMinCount 1 ;
+        sh:message "Class is missing an English (en) label." ;
+    ] .

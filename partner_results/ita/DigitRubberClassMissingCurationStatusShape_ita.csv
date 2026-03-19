@@ -1,2 +1,0 @@
-Class Suffix,Label,Severity,Message
-DIGITRUBBER_000026,agent [ita],Violation,DIGITRUBBER class is missing curation status (obo:IAO_0000114).

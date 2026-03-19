@@ -20,6 +20,12 @@ for dt in (XSD.date, XSD.dateTime, XSD.decimal):
 data_graph = Graph()
 data_graph.parse( "ontology/digitrubber-edit.owl", format="xml")
 
+for o in data_graph.objects(None, Namespace("http://www.w3.org/2002/07/owl#").imports):
+    try:
+        data_graph.parse(str(o))
+    except Exception as e:
+        print(f"Could not load import {o}: {e}")
+
 shacl_graph = Graph()
 for shape_file in shapes_dir.rglob("*.ttl"):
     shacl_graph.parse(shape_file, format="turtle")
@@ -30,6 +36,7 @@ conforms, results_graph, results_text = validate(
     shacl_graph=shacl_graph,
     ont_graph=None,
     inference="rdfs",
+    do_owl_imports=True,
     abort_on_first=False,
     allow_infos=False,
     allow_warnings=False,
@@ -45,6 +52,7 @@ RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 
 rows_by_shape = {}
 
+full_graph = data_graph + results_graph
 
 for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
@@ -64,10 +72,15 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
     class_id = str(focus_node).split("/")[-1]
 
     label = None
-    for l in data_graph.objects(focus_node, RDFS.label):
+    for l in full_graph.objects(focus_node, RDFS.label):
         if getattr(l, "language", None) == "en":
            label = l
            break
+
+    if not label:
+        for l in full_graph.objects(focus_node, RDFS.label):
+            label = l
+            break
 
     label = str(label) if label else ""
 
