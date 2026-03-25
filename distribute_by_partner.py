@@ -27,12 +27,12 @@ for PARTNER_NAME in PARTNERS:
         path = os.path.join(INPUT_FOLDER, file)
         df = pd.read_csv(path)
 
-        if "DuplicateBaseLabels" in file:
+        if "DigitRubberClassesWithDuplicateBaseLabels" in file:
 
-            filtered = df[df["Message"].str.contains(fr"\[{PARTNER_NAME}\]", na=False)]
+            if "Message" not in df.columns:
+                continue
 
-            if not filtered.empty:
-                filtered = filtered[["Message"]]
+            filtered = df[["Message"]]
 
         else:
 
@@ -42,13 +42,14 @@ for PARTNER_NAME in PARTNERS:
             df["Partner"] = df["Label"].str.extract(r"\[(.*?)\]")
 
             filtered = df[df["Partner"] == PARTNER_NAME]
-            filtered = filtered.drop(columns=["Partner"])
+            if not filtered.empty:
+                filtered = filtered[["Label", "Parent", "Contributor", "Definition"]]
 
             unknown_rows = df[df["Partner"].isna()]
 
             if not unknown_rows.empty and PARTNER_NAME == PARTNERS[0]:
 
-                unknown_rows = unknown_rows.drop(columns=["Partner"])
+                unknown_rows = unknown_rows[["Label", "Parent", "Contributor", "Definition"]]
 
                 unknown_file = file.replace(".csv", "_unknown.xlsx")
                 unknown_path = os.path.join(UNKNOWN_FOLDER, unknown_file)
@@ -59,7 +60,10 @@ for PARTNER_NAME in PARTNERS:
 
         if not filtered.empty:
 
-            output_file = file.replace(".csv", f"_{PARTNER_NAME}.xlsx")
+            if "DigitRubberClassesWithDuplicateBaseLabels" in file:
+                output_file = file.replace(".csv", ".xlsx")
+            else:
+                 output_file = file.replace(".csv", f"_{PARTNER_NAME}.xlsx")
             output_path = os.path.join(OUTPUT_FOLDER, output_file)
 
             filtered.to_excel(output_path, index=False)
