@@ -1,156 +1,156 @@
 Class Suffix,Contributor,Label,Parent,Definition
-CHEBI_30187,,aluminium oxide,molecular entity,
-CHEBI_33322,,rubidium atom,metal atom,
-CHEBI_29287,,gold atom,metal atom,
-CHEBI_33392,,californium atom,metal atom,
-CHEBI_194541,,oganesson atom,nonmetal atom,A p-block element atom with a symbol Og and atomic number 118.
-CHEBI_33390,,curium atom,metal atom,
-CHEBI_33517,,copernicium atom,metal atom,"A zinc group element atom with a symbol Cn and atomic number 112. All its isotopes are intensely radioactive. Prior to its discovery, it had the placeholder name ununbium (in accordance with IUPAC recommendations). Following its discovery (in Darmstadt, 1996) and subsequent confirmation, the name copernicium was adopted in 2010."
-CHEBI_33389,,americium atom,metal atom,
-CHEBI_27007,,tin atom,metal atom,
-CHEBI_28112,,nickel atom,metal atom,Chemical element (nickel group element atom) with atomic number 28.
-CHEBI_17051,,fluoride,molecular entity,
-CHEBI_30501,,beryllium atom,metal atom,Alkaline earth metal atom with atomic number 4.
-CHEBI_25555,,nitrogen atom,nonmetal atom,
-CHEBI_33382,,lutetium atom,lanthanoid atom,
-CHEBI_49882,,rhenium atom,metal atom,
-CHEBI_74236,,polymerisation monomer,role,Any compound used as a monomer for a polymerisation process. The term is generally used in relation to industrial polymerisation processes.
-UO_0000076,,mole fraction,mole fraction based unit,A concentration unit which denotes the number of moles of solute as a proportion of the total number of moles in a solution.
-CHEBI_27594,,carbon atom,nonmetal atom,
-CHEBI_33367,,darmstadtium,metal atom,
-CHEBI_24061,,fluorine atom,nonmetal atom,
-UO_0000000,,unit,measurement unit label,A unit of measurement is a standardized quantity of a physical quality.
-CHEBI_30145,,lithium atom,metal atom,
-CHEBI_33368,,roentgenium atom,metal atom,"A copper group element atom with atomic number 111. The the ninth member of the 6d series of transition metals, it is an extremely radioactive, synthetic element. Average mass is around 281."
-CHEBI_33385,,thorium,metal atom,
-CHEBI_33364,,platinum,metal atom,
-CHEBI_49828,,praseodymium atom,lanthanoid atom,
-CHEBI_33344,,niobium atom,metal atom,
-CHEBI_194533,,nihonium atom,metal atom,A boron group element atom with a symbol Nh and atomic number 113.
-CHEBI_30452,,tellurium atom,metalloid atom,
-CHEBI_22984,,calcium atom,metal atom,
-CHEBI_28694,,copper atom,metal atom,
-CHEBI_29362,,ethylene group,group [chebi],
-CHEBI_33353,,technetium atom,metal atom,
-CHEBI_28659,,phosphorus atom,nonmetal atom,
-CHEBI_30163,,diboron trioxide,molecular entity,A boron oxide with formula B<small><sub>2</sub></small>O<small><sub>3</sub></small>.
-CHEBI_30440,,thallium atom,metal atom,"A metallic element first identified and named from the brilliant green line in its flame spectrum (from Greek θαλλοσ, a green shoot)."
-CHEBI_30563,,silicon dioxide,molecular entity,A silicon oxide made up of linear triatomic molecules in which a silicon atom is covalently bonded to two oxygens.
-CHEBI_49957,,xenon atom,molecular entity,
-CHEBI_49696,,krypton atom,molecular entity,
-CHEBI_33357,,hassium atom,metal atom,
-PMD_0010000,,corrosion resistant,material property,a disposition to withstand corrosive attack to a certain extend
-UO_0000163,,mass percentage,mass percentage based unit,A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.
-CHEBI_27563,,arsenic atom,metalloid atom,
-CHEBI_25805,,oxygen atom,chalcogen,
-OBI_0002201,,determination if assay will provide reliable results,planned process,"A planned process that is used to assess whether an assay will provide reliable results based on the conditions or qualities of the inputs, devices, and other participants of the assay."
-CHEBI_27998,,tungsten,metal atom,
-UO_1000163,,mass percentage based unit,unit,
-CHEBI_33355,,bohrium atom,metal atom,
-CHEBI_33330,,scandium atom,metal atom,
-CHEBI_24859,,iodine atom,nonmetal atom,Chemical element with atomic number 53.
-CHEBI_33395,,mendelevium atom,metal atom,
-CHEBI_33331,,yttrium atom,metal atom,
-CHEBI_49475,,argon atom,molecular entity,
-CHEBI_33374,,samarium atom,lanthanoid atom,
-CHEBI_33376,,terbium atom,lanthanoid atom,
-CHEBI_33379,,erbium,lanthanoid atom,
-CHEBI_30415,,astatine atom,nonmetal atom,
-CHEBI_30514,,caesium atom,metal atom,
-NCBITaxon_9606,,Homo sapiens,material entity,
-CHEBI_33380,,thulium atom,lanthanoid atom,
-UO_1000076,,mole fraction based unit,unit,
-PMD_0010022,,containing magnetic species,material property,"A material property that inheres in a material entity in virtue of the presence of one or more magnetic species (e.g. ferromagnetic, paramagnetic, or diamagnetic particles or atoms), and that manifests under appropriate conditions as the ability of that material entity to exhibit a magnetic response or influence in a magnetic field."
-CHEBI_33381,,ytterbium,lanthanoid atom,
-CHEBI_30430,,indium atom,metal atom,A metallic element first identified and named from the brilliant indigo (Latin <em>indicum</em>) blue line in its flame spectrum.
-CHEBI_18291,,manganese atom,metal atom,
-CHEBI_33324,,strontium atom,metal atom,
-PMD_0010023,,bioactive,disposition,"A disposition that inheres in a material entity and is realized in an organismal context as a specific interaction with one or more biological systems, producing a measurable biological effect (e.g., therapeutic, toxic, or signaling outcome)."
-CHEBI_25016,,lead atom,metal atom,
-CHEBI_49648,,holmium atom,lanthanoid atom,
-CHEBI_33336,,lanthanum atom,lanthanoid atom,
-CHEBI_31344,,calcium oxide,molecular entity,A member of the class of calcium oxides of calcium and oxygen in a 1:1 ratio.
-CHEBI_33343,,hafnium atom,metal atom,
-CHEBI_33337,,actinium atom,metal atom,
-CHEBI_32145,,sodium hydroxide,molecular entity,
-CHEBI_33349,,dubnium atom,metal atom,
-CHEBI_33319,,lanthanoid atom,metal atom,
-PMD_0000881,,,object,
-CHEBI_33325,,radium atom,metal atom,
-CHEBI_33363,,palladium,metal atom,Chemical element (nickel group element atom) with atomic number 46.
-CHEBI_18248,,iron atom,metal atom,An iron group element atom that has atomic number 26.
-CHEBI_30513,,antimony atom,metalloid atom,
-CHEBI_27638,,cobalt atom,metal atom,A cobalt group element atom that has atomic number 27.
-CHEBI_28685,,molybdenum atom,metal atom,
-CHEBI_33521,,metal atom,atom,"An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity."
-CHEBI_30687,,osmium atom,metal atom,
-CHEBI_23116,,chlorine atom,nonmetal atom,
-OBI_0000202,,investigation agent role,role,"A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing."
-CHEBI_27698,,vanadium atom,metal atom,
-CHEBI_33394,,fermium,metal atom,
-CHEBI_33303,,chalcogen,atom,Any p-block element belonging to the group 16 family of the periodic table.
-CHEBI_53284,,polyurethane macromolecule,macromolecule,A homopolymer macromolecule composed of units connected by carbamate (-O-CO-NH-) linkages.
-CHEBI_22927,,bromine atom,nonmetal atom,
-CHEBI_30217,,helium atom,nonmetal atom,
-CHEBI_33387,,neptunium atom,metal atom,
-CHEBI_194535,,moscovium atom,metal atom,A pnictogen atom with a symbol Mc and atomic number 115.
-CHEBI_33301,,bismuth atom,metal atom,
-CHEBI_26708,,sodium atom,metal atom,
-CHEBI_33369,,cerium,lanthanoid atom,
-CHEBI_33388,,plutonium atom,metal atom,
-UO_1000164,,mass volume percentage based unit,unit,
-CHEBI_22977,,cadmium atom,metal atom,
-CHEBI_33375,,gadolinium atom,lanthanoid atom,
-CHEBI_33313,,polonium atom,chalcogen,"A radioactive metallic element discovered in 1898 by Marie Sklodowska Curie and named after her home country, Poland (Latin <em>Polonia</em>)."
-CHEBI_137980,,metalloid atom,atom,"An atom of an element that exhibits properties that are between those of metals and nonmetals, or that has a mixture of them. The term generally includes boron, silicon, germanium, arsenic, antimony, and tellurium, while carbon, aluminium, selenium, polonium, and astatine are less commonly included."
-CHEBI_33377,,dysprosium atom,lanthanoid atom,
-CHEBI_32999,,europium atom,lanthanoid atom,
-CHEBI_33341,,titanium atom,metal atom,
-CHEBI_32594,,barium atom,metal atom,
-CHEBI_28073,,chromium atom,metal atom,A chromium group element atom that has atomic number 24.
-CHEBI_25195,,mercury atom,metal atom,
-PMD_0000112,,dielectric disposition,disposition,The disposition of an electric insulator to be polarized when subjected to an electric field.
-CHEBI_33314,,radon atom,nonmetal atom,
-CHEBI_33348,,tantalum atom,metal atom,
-OBI_0001931,,scalar value specification,value specification,A value specification that consists of two parts: a numeral and a unit label
-CHEBI_49631,,gallium atom,metal atom,"A metallic element predicted as eka-aluminium by Mendeleev in 1870 and discovered by Paul-Emile Lecoq de Boisbaudran in 1875. Named in honour of France (Latin <em>Gallia</em>) and perhaps also from the Latin <em>gallus</em> cock, a translation of Lecoq."
-CHEBI_194531,,flerovium atom,metal atom,A carbon group element atom with a symbol Fl and atomic number 114.
-CHEBI_60003,,pure substance,chemical substance,"A pure substance is a chemical substance composed of multiple molecules, which are all of the same kind."
-CHEBI_33361,,meitnerium atom,metal atom,
-CHEBI_33373,,promethium atom,lanthanoid atom,
-CHEBI_27214,,uranium atom,metal atom,
-CHEBI_27560,,boron atom,nonmetal atom,
-UO_0000003,,time unit,unit,A unit which is a standard measure of the dimension in which events occur in sequence.
-CHEBI_27573,,silicon atom,nonmetal atom,
-CHEBI_30441,,germanium atom,metalloid atom,
-CHEBI_28984,,aluminium atom,metal atom,
-CHEBI_25107,,magnesium atom,metal atom,
-CHEBI_33346,,rutherfordium atom,metal atom,
-CHEBI_30512,,silver atom,metal atom,
-CHEBI_33396,,nobelium,metal atom,
-CHEBI_49666,,iridium atom,metal atom,
-CHEBI_33250,,atom,chemical entity,A chemical entity constituting the smallest component of an element having the chemical properties of the element.
-CHEBI_33397,,lawrencium atom,metal atom,
-CHEBI_26216,,potassium atom,metal atom,
-CHEBI_25585,,nonmetal atom,atom,
-CHEBI_81045,,lead oxide,molecular entity,An inorganic lead salt composed from lead(2+) and oxide.
-CHEBI_33359,,rhodium atom,metal atom,A cobalt group element atom of atomic number 45.
-CHEBI_26833,,sulfur atom,nonmetal atom,
-CHEBI_37376,,tetraphosphorus decaoxide,molecular entity,
-CHEBI_33393,,einsteinium atom,metal atom,
-PMD_0000873,,,deprecated class,
-CHEBI_33310,,neon atom,nonmetal atom,
-CHEBI_30682,,ruthenium atom,metal atom,
-CHEBI_49637,,hydrogen atom,nonmetal atom,
-UO_0000164,,mass volume percentage,mass volume percentage based unit,A dimensionless concentration unit which denotes the mass of the substance in a mixture as a percentage of the volume of the entire mixture.
-CHEBI_33342,,zirconium atom,metal atom,
-CHEBI_33372,,neodymium atom,lanthanoid atom,
-PMD_0010013,,hardenable,material property,a disposition to gain a greatly increased hardness at the surface or entire volume by the process of hardening
-CHEBI_33323,,francium atom,metal atom,
-CHEBI_27568,,selenium atom,chalcogen,
-CHEBI_33391,,berkelium atom,metal atom,
-CHEBI_33351,,seaborgium atom,metal atom,
-CHEBI_194537,,livermorium atom,chalcogen,A chalcogen atom with a symbol Lv and atomic number 116.
-CHEBI_33839,,macromolecule,molecular entity,"A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass."
-CHEBI_33386,,protactinium atom,metal atom,
+CHEBI_33319,,lanthanoid atom,metal atom,Definition not available
+CHEBI_33336,,lanthanum atom,lanthanoid atom,Definition not available
+CHEBI_32594,,barium atom,metal atom,Definition not available
 CHEBI_194539,,tennessine atom,nonmetal atom,A halogen atom with a symbol Ts and atomic number 117.
+CHEBI_33364,,platinum,metal atom,Definition not available
+CHEBI_17051,,fluoride,molecular entity,Definition not available
+CHEBI_25107,,magnesium atom,metal atom,Definition not available
+CHEBI_30514,,caesium atom,metal atom,Definition not available
+CHEBI_33337,,actinium atom,metal atom,Definition not available
+CHEBI_33330,,scandium atom,metal atom,Definition not available
+OBI_0000202,,investigation agent role,role,"A role borne by an entity and that is realized in a process that is part of an investigation in which an objective is achieved. These processes include, among others: planning, overseeing, funding, reviewing."
+CHEBI_30217,,helium atom,molecular entity,Definition not available
+NCBITaxon_9606,,Homo sapiens,material entity,Definition not available
+CHEBI_33380,,thulium atom,lanthanoid atom,Definition not available
+CHEBI_31344,,calcium oxide,molecular entity,A member of the class of calcium oxides of calcium and oxygen in a 1:1 ratio.
+CHEBI_22984,,calcium atom,metal atom,Definition not available
+CHEBI_22927,,bromine atom,nonmetal atom,Definition not available
+UO_0000000,,unit,measurement unit label,A unit of measurement is a standardized quantity of a physical quality.
+CHEBI_37376,,tetraphosphorus decaoxide,molecular entity,Definition not available
+CHEBI_53284,,polyurethane macromolecule,macromolecule,A homopolymer macromolecule composed of units connected by carbamate (-O-CO-NH-) linkages.
+CHEBI_25585,,nonmetal atom,atom,Definition not available
+CHEBI_33839,,macromolecule,molecular entity,"A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass."
+CHEBI_49637,,hydrogen atom,nonmetal atom,Definition not available
+CHEBI_30563,,silicon dioxide,molecular entity,A silicon oxide made up of linear triatomic molecules in which a silicon atom is covalently bonded to two oxygens.
+CHEBI_29287,,gold atom,metal atom,Definition not available
+CHEBI_32999,,europium atom,lanthanoid atom,Definition not available
+CHEBI_33355,,bohrium atom,metal atom,Definition not available
+CHEBI_33372,,neodymium atom,lanthanoid atom,Definition not available
+CHEBI_33397,,lawrencium atom,metal atom,Definition not available
+OBI_0001931,,scalar value specification,value specification,A value specification that consists of two parts: a numeral and a unit label
+CHEBI_33391,,berkelium atom,metal atom,Definition not available
+PMD_0000112,,dielectric disposition,disposition,The disposition of an electric insulator to be polarized when subjected to an electric field.
+CHEBI_33388,,plutonium atom,metal atom,Definition not available
+CHEBI_30441,,germanium atom,metalloid atom,Definition not available
+CHEBI_33379,,erbium,lanthanoid atom,Definition not available
+CHEBI_194533,,nihonium atom,metal atom,A boron group element atom with a symbol Nh and atomic number 113.
+CHEBI_30145,,lithium atom,metal atom,Definition not available
+CHEBI_33376,,terbium atom,lanthanoid atom,Definition not available
+CHEBI_23116,,chlorine atom,nonmetal atom,Definition not available
+CHEBI_18291,,manganese atom,metal atom,Definition not available
+CHEBI_30687,,osmium atom,metal atom,Definition not available
+CHEBI_49882,,rhenium atom,metal atom,Definition not available
+CHEBI_33374,,samarium atom,lanthanoid atom,Definition not available
+CHEBI_27638,,cobalt atom,metal atom,A cobalt group element atom that has atomic number 27.
+CHEBI_27573,,silicon atom,nonmetal atom,Definition not available
+UO_1000164,,mass volume percentage based unit,unit,Definition not available
+CHEBI_27563,,arsenic atom,metalloid atom,Definition not available
+CHEBI_33314,,radon atom,molecular entity,Definition not available
+CHEBI_49648,,holmium atom,lanthanoid atom,Definition not available
+CHEBI_33381,,ytterbium,lanthanoid atom,Definition not available
+UO_0000163,,mass percentage,mass percentage based unit,A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.
+CHEBI_33349,,dubnium atom,metal atom,Definition not available
+UO_0000076,,mole fraction,mole fraction based unit,A concentration unit which denotes the number of moles of solute as a proportion of the total number of moles in a solution.
+CHEBI_30513,,antimony atom,metalloid atom,Definition not available
+CHEBI_33382,,lutetium atom,lanthanoid atom,Definition not available
+CHEBI_28685,,molybdenum atom,metal atom,Definition not available
+CHEBI_81045,,lead oxide,molecular entity,An inorganic lead salt composed from lead(2+) and oxide.
+CHEBI_30187,,aluminium oxide,molecular entity,Definition not available
+CHEBI_27568,,selenium atom,chalcogen,Definition not available
+CHEBI_25805,,oxygen atom,chalcogen,Definition not available
+CHEBI_33377,,dysprosium atom,lanthanoid atom,Definition not available
+PMD_0010023,,bioactive,disposition,"A disposition that inheres in a material entity and is realized in an organismal context as a specific interaction with one or more biological systems, producing a measurable biological effect (e.g., therapeutic, toxic, or signaling outcome)."
+CHEBI_22977,,cadmium atom,metal atom,Definition not available
+CHEBI_194537,,livermorium atom,chalcogen,A chalcogen atom with a symbol Lv and atomic number 116.
+CHEBI_49696,,krypton atom,molecular entity,Definition not available
+CHEBI_24859,,iodine atom,nonmetal atom,Chemical element with atomic number 53.
+CHEBI_49828,,praseodymium atom,lanthanoid atom,Definition not available
+CHEBI_27560,,boron atom,nonmetal atom,Definition not available
+CHEBI_33396,,nobelium,metal atom,Definition not available
+UO_0000164,,mass volume percentage,mass volume percentage based unit,A dimensionless concentration unit which denotes the mass of the substance in a mixture as a percentage of the volume of the entire mixture.
+CHEBI_28984,,aluminium atom,metal atom,Definition not available
+CHEBI_74236,,polymerisation monomer,role,Any compound used as a monomer for a polymerisation process. The term is generally used in relation to industrial polymerisation processes.
+CHEBI_33346,,rutherfordium atom,metal atom,Definition not available
+CHEBI_27698,,vanadium atom,metal atom,Definition not available
+CHEBI_30501,,beryllium atom,metal atom,Alkaline earth metal atom with atomic number 4.
+CHEBI_33390,,curium atom,metal atom,Definition not available
+CHEBI_30430,,indium atom,metal atom,A metallic element first identified and named from the brilliant indigo (Latin <em>indicum</em>) blue line in its flame spectrum.
+CHEBI_25016,,lead atom,metal atom,Definition not available
+PMD_0010013,,hardenable,material property,a disposition to gain a greatly increased hardness at the surface or entire volume by the process of hardening
+CHEBI_32145,,sodium hydroxide,molecular entity,Definition not available
+PMD_0000881,,,object,Definition not available
+CHEBI_33363,,palladium,metal atom,Chemical element (nickel group element atom) with atomic number 46.
+CHEBI_28659,,phosphorus atom,nonmetal atom,Definition not available
+CHEBI_28112,,nickel atom,metal atom,Chemical element (nickel group element atom) with atomic number 28.
+CHEBI_30440,,thallium atom,metal atom,"A metallic element first identified and named from the brilliant green line in its flame spectrum (from Greek θαλλοσ, a green shoot)."
+CHEBI_26833,,sulfur atom,nonmetal atom,Definition not available
+CHEBI_33393,,einsteinium atom,metal atom,Definition not available
+CHEBI_30682,,ruthenium atom,metal atom,Definition not available
+CHEBI_33373,,promethium atom,lanthanoid atom,Definition not available
+CHEBI_60003,,pure substance,chemical substance,"A pure substance is a chemical substance composed of multiple molecules, which are all of the same kind."
+CHEBI_28694,,copper atom,metal atom,Definition not available
+CHEBI_137980,,metalloid atom,atom,"An atom of an element that exhibits properties that are between those of metals and nonmetals, or that has a mixture of them. The term generally includes boron, silicon, germanium, arsenic, antimony, and tellurium, while carbon, aluminium, selenium, polonium, and astatine are less commonly included."
+CHEBI_33348,,tantalum atom,metal atom,Definition not available
+CHEBI_33324,,strontium atom,metal atom,Definition not available
+CHEBI_33323,,francium atom,metal atom,Definition not available
+CHEBI_33343,,hafnium atom,metal atom,Definition not available
+CHEBI_33322,,rubidium atom,metal atom,Definition not available
+CHEBI_33521,,metal atom,atom,"An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity."
+CHEBI_25195,,mercury atom,metal atom,Definition not available
+CHEBI_27214,,uranium atom,metal atom,Definition not available
+CHEBI_33386,,protactinium atom,metal atom,Definition not available
+CHEBI_33357,,hassium atom,metal atom,Definition not available
+CHEBI_26708,,sodium atom,metal atom,Definition not available
+CHEBI_33517,,copernicium atom,metal atom,"A zinc group element atom with a symbol Cn and atomic number 112. All its isotopes are intensely radioactive. Prior to its discovery, it had the placeholder name ununbium (in accordance with IUPAC recommendations). Following its discovery (in Darmstadt, 1996) and subsequent confirmation, the name copernicium was adopted in 2010."
+CHEBI_30452,,tellurium atom,metalloid atom,Definition not available
+CHEBI_194541,,oganesson atom,molecular entity,A p-block element atom with a symbol Og and atomic number 118.
+CHEBI_33331,,yttrium atom,metal atom,Definition not available
+CHEBI_33313,,polonium atom,metal atom,"A radioactive metallic element discovered in 1898 by Marie Sklodowska Curie and named after her home country, Poland (Latin <em>Polonia</em>)."
+CHEBI_33303,,chalcogen,atom,Any p-block element belonging to the group 16 family of the periodic table.
+UO_1000163,,mass percentage based unit,unit,Definition not available
+CHEBI_27998,,tungsten,metal atom,Definition not available
+CHEBI_49631,,gallium atom,metal atom,"A metallic element predicted as eka-aluminium by Mendeleev in 1870 and discovered by Paul-Emile Lecoq de Boisbaudran in 1875. Named in honour of France (Latin <em>Gallia</em>) and perhaps also from the Latin <em>gallus</em> cock, a translation of Lecoq."
+CHEBI_49475,,argon atom,molecular entity,Definition not available
+CHEBI_33341,,titanium atom,metal atom,Definition not available
+CHEBI_33389,,americium atom,metal atom,Definition not available
+CHEBI_29362,,ethylene group,group [chebi],Definition not available
+UO_1000076,,mole fraction based unit,unit,Definition not available
+CHEBI_24061,,fluorine atom,nonmetal atom,Definition not available
+CHEBI_33387,,neptunium atom,metal atom,Definition not available
+CHEBI_30163,,diboron trioxide,molecular entity,A boron oxide with formula B<small><sub>2</sub></small>O<small><sub>3</sub></small>.
+CHEBI_33342,,zirconium atom,metal atom,Definition not available
+PMD_0010022,,containing magnetic species,material property,"A material property that inheres in a material entity in virtue of the presence of one or more magnetic species (e.g. ferromagnetic, paramagnetic, or diamagnetic particles or atoms), and that manifests under appropriate conditions as the ability of that material entity to exhibit a magnetic response or influence in a magnetic field."
+CHEBI_33351,,seaborgium atom,metal atom,Definition not available
+CHEBI_26216,,potassium atom,metal atom,Definition not available
+CHEBI_33310,,neon atom,nonmetal atom,Definition not available
+CHEBI_33353,,technetium atom,metal atom,Definition not available
+CHEBI_33368,,roentgenium atom,metal atom,"A copper group element atom with atomic number 111. The the ninth member of the 6d series of transition metals, it is an extremely radioactive, synthetic element. Average mass is around 281."
+CHEBI_33361,,meitnerium atom,metal atom,Definition not available
+UO_0000003,,time unit,unit,A unit which is a standard measure of the dimension in which events occur in sequence.
+CHEBI_33367,,darmstadtium,metal atom,Definition not available
+CHEBI_25555,,nitrogen atom,nonmetal atom,Definition not available
+CHEBI_33375,,gadolinium atom,lanthanoid atom,Definition not available
+OBI_0002201,,determination if assay will provide reliable results,planned process,"A planned process that is used to assess whether an assay will provide reliable results based on the conditions or qualities of the inputs, devices, and other participants of the assay."
+CHEBI_49957,,xenon atom,molecular entity,Definition not available
+CHEBI_30415,,astatine atom,nonmetal atom,Definition not available
+PMD_0000873,,,deprecated class,Definition not available
+CHEBI_33301,,bismuth atom,metal atom,Definition not available
+CHEBI_33369,,cerium,lanthanoid atom,Definition not available
+CHEBI_194535,,moscovium atom,metal atom,A pnictogen atom with a symbol Mc and atomic number 115.
+CHEBI_33344,,niobium atom,metal atom,Definition not available
+CHEBI_28073,,chromium atom,metal atom,A chromium group element atom that has atomic number 24.
+CHEBI_33395,,mendelevium atom,metal atom,Definition not available
+CHEBI_30512,,silver atom,metal atom,Definition not available
+CHEBI_18248,,iron atom,metal atom,An iron group element atom that has atomic number 26.
+CHEBI_33359,,rhodium atom,metal atom,A cobalt group element atom of atomic number 45.
+CHEBI_27594,,carbon atom,nonmetal atom,Definition not available
+CHEBI_49666,,iridium atom,metal atom,Definition not available
+PMD_0010000,,corrosion resistant,material property,a disposition to withstand corrosive attack to a certain extend
+CHEBI_33392,,californium atom,metal atom,Definition not available
+CHEBI_33325,,radium atom,metal atom,Definition not available
+CHEBI_33394,,fermium,metal atom,Definition not available
+CHEBI_27007,,tin atom,metal atom,Definition not available
+CHEBI_194531,,flerovium atom,metal atom,A carbon group element atom with a symbol Fl and atomic number 114.
+CHEBI_33385,,thorium,metal atom,Definition not available
+CHEBI_33250,,atom,chemical entity,A chemical entity constituting the smallest component of an element having the chemical properties of the element.

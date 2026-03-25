@@ -74,25 +74,20 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
     class_id = str(focus_node).split("/")[-1]
 
-    # multiple labels start here
-
     labels = []
 
     shape_name_tmp = str(shape)
 
-# Multiple English labels
     if "ClassesWithMultipleEnglishLabels" in shape_name_tmp:
         for l in full_graph.objects(focus_node, RDFS.label):
             if getattr(l, "language", None) == "en":
                 labels.append(str(l))
 
-# Multiple German labels
     elif "ClassesWithMultipleGermanLabels" in shape_name_tmp:
         for l in full_graph.objects(focus_node, RDFS.label):
             if getattr(l, "language", None) == "de":
                 labels.append(str(l))
 
-# Default behavior (keep your old logic)
     else:
         for l in full_graph.objects(focus_node, RDFS.label):
             if getattr(l, "language", None) == "en":
@@ -104,18 +99,12 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
                 labels.append(str(l))
                 break
 
-# Join labels
     label = " | ".join(labels) if labels else ""
-
-    # multiple labels ends here
-
-    # starts here (def.)
 
     definitions = []
 
     shape_name_tmp = str(shape)
 
-# 🔹 Multiple English definitions
     if "ClassMoreThanOneEnglishDefinition" in shape_name_tmp:
         for d in full_graph.objects(focus_node, OBO.IAO_0000115):
             if getattr(d, "language", None) == "en":
@@ -124,7 +113,6 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
             if getattr(d, "language", None) == "en":
                 definitions.append(str(d))
 
-# 🔹 Multiple German definitions
     elif "ClassMoreThanOneGermanDefinition" in shape_name_tmp:
         for d in full_graph.objects(focus_node, OBO.IAO_0000115):
             if getattr(d, "language", None) == "de":
@@ -133,11 +121,9 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
             if getattr(d, "language", None) == "de":
                 definitions.append(str(d))
 
-# 🔹 Default behavior (your existing logic)
     else:
         definition = None
 
-    # OBO (en)
         for d in full_graph.objects(focus_node, OBO.IAO_0000115):
             if getattr(d, "language", None) == "en":
                 definition = d
@@ -148,7 +134,6 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
                 definition = d
                 break
 
-    # SKOS
         if not definition:
             for d in full_graph.objects(focus_node, SKOS.definition):
                 if getattr(d, "language", None) == "en":
@@ -160,7 +145,6 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
                 definition = d
                 break
 
-    # rdfs:comment
         if not definition:
             for d in full_graph.objects(focus_node, RDFS.comment):
                 if getattr(d, "language", None) == "en":
@@ -174,43 +158,31 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
         definitions = [str(definition)] if definition else []
 
-# 🔹 Final join
-    definition = " | ".join(definitions) if definitions else ""
-
-# ends here (def.)
-
-# starts here (parent check)
+    definition = " | ".join(definitions) if definitions else "Definition not available"
 
     parent_label = None
 
     for parent in full_graph.objects(focus_node, RDFS.subClassOf):
-    # skip blank nodes (restrictions, etc.)
+
         if isinstance(parent, rdflib.term.BNode):
             continue
 
-    # try to get English label of parent
         for l in full_graph.objects(parent, RDFS.label):
             if getattr(l, "language", None) == "en":
                 parent_label = l
                 break
 
-    # fallback: any label
         if not parent_label:
             for l in full_graph.objects(parent, RDFS.label):
                 parent_label = l
                 break
 
-    # fallback: URI suffix
         if not parent_label:
             parent_label = str(parent).split("/")[-1]
 
-        break  # only take first parent
+        break  
 
     parent_label = str(parent_label) if parent_label else ""
-
-# ends here (parent)
-
-    # starts here (contributor)
 
     contributor = None
 
@@ -221,10 +193,7 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
     contributor = str(contributor) if contributor else ""
 
-# ends here
 
-    
-    
 
     severity = results_graph.value(result, SH.resultSeverity)
     severity = str(severity).split("#")[-1]

@@ -18,7 +18,7 @@ RESOLUTION_MAP = {
     "ClassMoreThanOneEnglishDefinition": "Keep one English definition",
     "ClassMoreThanOneGermanDefinition": "Keep one German definition",
 
-    "DigitRubberClassesWithDuplicateBaseLabels": "Pick one label"
+    "DigitRubberClassesWithDuplicateBaseLabels": "Pick one class (Decision to remove duplicates)"
 }
 
 INPUT_FOLDER = "output_files"
@@ -82,7 +82,11 @@ for PARTNER_NAME in PARTNERS:
 
             filtered = df[df["Partner"] == PARTNER_NAME]
             if not filtered.empty:
-                cols = ["Label", "Parent", "Contributor", "Definition"]
+                #cols = ["Label", "Parent", "Contributor", "Definition"]
+                cols = ["Label", "Parent", "Contributor"]
+
+                if "ClassMissingEnglishDefinition" not in file:
+                    cols.append("Definition")
 
                 if resolution_text:
                     cols.append(resolution_text)
@@ -107,7 +111,6 @@ for PARTNER_NAME in PARTNERS:
 
                 print(f"unknown: Created {unknown_file}")
 
-                # 🔹 UNKNOWN DIGITRUBBER (ADD HERE)
                 dr_rows = df[df["Class Suffix"].str.startswith("DIGITRUBBER_", na=False) & df["Partner"].isna()]
 
                 if not dr_rows.empty and PARTNER_NAME == PARTNERS[0]:
@@ -127,8 +130,6 @@ for PARTNER_NAME in PARTNERS:
                     dr_rows.to_excel(dr_path, index=False)
 
                     print(f"unknown_digitrubber: Created {dr_file}")
-
-    # ends here
 
         if not filtered.empty:
 

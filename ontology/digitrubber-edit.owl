@@ -13431,7 +13431,8 @@ information_encoding
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:language>English</dc:language>
-        <pav:lastUpdateOn>18.08.2022</pav:lastUpdateOn>
+        <pav:lastUpdateOn rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">25.03.2026</pav:lastUpdateOn>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">25.03.2026</oboInOwl:creation_date>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <rdfs:label xml:lang="en">shape [imr]</rdfs:label>
         <rdfs:label xml:lang="en">shape [pato]</rdfs:label>
