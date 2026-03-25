@@ -1,9 +1,0 @@
-Class Suffix,Label,Severity,Message
-PATO_0000052,shape [pato],Violation,Class has more than one English label.
-PMD_0000125,sandwich core role,Violation,Class has more than one English label.
-PMD_0000107,optical non-linearity,Violation,Class has more than one English label.
-OBI_0000070,assay,Violation,Class has more than one English label.
-OBI_0302911,validation [obi],Violation,Class has more than one English label.
-PMD_0000124,sandwich sheet,Violation,Class has more than one English label.
-PMD_0000075,mould,Violation,Class has more than one English label.
-NCIT_C48834,correlation [ifnano],Violation,Class has more than one English label.

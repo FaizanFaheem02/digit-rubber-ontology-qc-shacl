@@ -6,7 +6,7 @@
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
-:ClassInvalidCreationDateShape
+:ClassInvalidCreationDate
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 

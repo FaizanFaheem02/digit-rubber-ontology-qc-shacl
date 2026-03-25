@@ -3,22 +3,31 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClassMoreThanOneGermanDefinitionShape
+:ClassMoreThanOneGermanDefinition
     a sh:NodeShape ;
     sh:targetClass owl:Class ;
     sh:severity sh:Violation ;
 
-    sh:property [
-        sh:path obo:IAO_0000115 ;
+    sh:sparql [
+        a sh:SPARQLConstraint ;
 
-        sh:qualifiedValueShape [
-            sh:datatype rdf:langString ;
-            sh:languageIn ( "de" ) ;
-        ] ;
+        sh:message "Class has more than one German definition." ;
 
-        sh:qualifiedMaxCount 1 ;
+        sh:select """
+            SELECT ?this (COUNT(?def) AS ?count)
+            WHERE {
 
-        sh:message "Class has more than one German definition (obo:IAO_0000115)." ;
+              {
+                { ?this obo:IAO_0000115 ?def }
+                UNION
+                { ?this <http://www.w3.org/2004/02/skos/core#definition> ?def }
+              }
+
+              FILTER (LANG(?def) = "de")
+
+            }
+            GROUP BY ?this
+            HAVING (COUNT(?def) > 1)
+        """ ;
     ] .

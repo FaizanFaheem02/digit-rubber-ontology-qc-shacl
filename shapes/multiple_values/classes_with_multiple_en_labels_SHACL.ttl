@@ -3,7 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-:ClassesWithMultipleEnglishLabelsShape
+:ClassesWithMultipleEnglishLabels
     a sh:NodeShape ;
     sh:targetClass owl:Class ;
     sh:severity sh:Violation ;
@@ -12,7 +12,10 @@
         sh:path rdfs:label ;
 
         sh:qualifiedValueShape [
-            sh:languageIn ("en") ;
+            sh:or (
+                [ sh:languageIn ("en") ]   # English labels
+                [ sh:languageIn ("") ]     # no language tag
+            ) ;
         ] ;
 
         sh:qualifiedMaxCount 1 ;

@@ -3539,6 +3539,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/CHEBI_29853</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:preliminary_broad_class_assigned>
+        <pav:lastUpdateOn>24.3.2026</pav:lastUpdateOn>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">21.05.2022</oboInOwl:creation_date>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label xml:lang="de">Ethylidengruppe [dik]</rdfs:label>
@@ -13430,7 +13431,6 @@ information_encoding
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <obo:preliminary_broad_class_assigned rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:preliminary_broad_class_assigned>
         <dc:language>English</dc:language>
-        <pav:lastUpdateOn>15.08.2022</pav:lastUpdateOn>
         <pav:lastUpdateOn>18.08.2022</pav:lastUpdateOn>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <rdfs:label xml:lang="en">shape [imr]</rdfs:label>

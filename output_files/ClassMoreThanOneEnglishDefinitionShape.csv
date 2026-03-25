@@ -1,5 +1,0 @@
-Class Suffix,Label,Severity,Message
-OBI_0000070,assay,Violation,Class has more than one English definition (obo:IAO_0000115).
-OBI_0302911,validation [obi],Violation,Class has more than one English definition (obo:IAO_0000115).
-NCIT_C48834,correlation [ifnano],Violation,Class has more than one English definition (obo:IAO_0000115).
-OBI_0000835,manufacturer,Violation,Class has more than one English definition (obo:IAO_0000115).

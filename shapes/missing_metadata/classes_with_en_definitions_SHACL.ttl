@@ -1,0 +1,53 @@
+@prefix : <https://www.tib.eu/digitrubber/shapes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:ClassMissingEnglishDefinition
+    a sh:NodeShape ;
+    sh:severity sh:Violation ;
+
+    sh:target [
+        a sh:SPARQLTarget ;
+        sh:select """
+            SELECT ?this WHERE {
+              ?this rdf:type owl:Class .
+              FILTER (
+                STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") ||
+                STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") ||
+                STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") ||
+                STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/")
+              )
+            }
+        """ ;
+    ] ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+
+        sh:message "Class '{$label}' is missing an English definition (obo:IAO_0000115)." ;
+
+        sh:select """
+            SELECT ?this ?label
+            WHERE {
+              OPTIONAL {
+                ?this rdfs:label ?label .
+                FILTER (LANG(?label) = "en")
+              }
+
+              # but NO English definition
+              FILTER NOT EXISTS {
+  {
+    ?this obo:IAO_0000115 ?enDef .
+  }
+  UNION
+  {
+    ?this <http://www.w3.org/2004/02/skos/core#definition> ?enDef .
+  }
+  FILTER (LANG(?enDef) = "en" || LANG(?enDef) = "co" || LANG(?enDef) = "")
+}
+            }
+        """ ;
+    ] .

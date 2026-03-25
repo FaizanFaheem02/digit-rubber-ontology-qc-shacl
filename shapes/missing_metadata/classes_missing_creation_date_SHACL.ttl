@@ -5,7 +5,7 @@
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 
-:ClassMissingCreationDateShape
+:ClassMissingCreationDate
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 

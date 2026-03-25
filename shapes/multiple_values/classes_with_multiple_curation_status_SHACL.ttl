@@ -2,7 +2,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 
-:ClassMoreThanOneCurationStatusShape
+:ClassMoreThanOneCurationStatus
     a sh:NodeShape ;
     sh:targetSubjectsOf obo:IAO_0000114 ;
     sh:severity sh:Violation ;

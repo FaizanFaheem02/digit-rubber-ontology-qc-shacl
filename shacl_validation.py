@@ -4,6 +4,9 @@ from rdflib.namespace import RDF
 import rdflib.term
 import csv
 from pathlib import Path
+SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
+OBO = Namespace("http://purl.obolibrary.org/obo/")
+OBOINOWL = Namespace("http://www.geneontology.org/formats/oboInOwl#")
 
 
 root_dir = Path(__file__).resolve().parent
@@ -84,13 +87,115 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
     label = str(label) if label else ""
 
+    # starts here (def.)
+
+    definition = None
+
+# 0. Try OBO definition first (most important for your data)
+    for d in full_graph.objects(focus_node, OBO.IAO_0000115):
+        if getattr(d, "language", None) == "en":
+            definition = d
+            break
+
+# Fallback: any OBO definition
+    if not definition:
+        for d in full_graph.objects(focus_node, OBO.IAO_0000115):
+            definition = d
+            break
+
+
+# 1. Try SKOS definition
+    if not definition:
+        for d in full_graph.objects(focus_node, SKOS.definition):
+            if getattr(d, "language", None) == "en":
+                definition = d
+                break
+
+# Fallback: any SKOS definition
+    if not definition:
+        for d in full_graph.objects(focus_node, SKOS.definition):
+            definition = d
+            break
+
+
+# 2. Optional fallback: rdfs:comment
+    if not definition:
+        for d in full_graph.objects(focus_node, RDFS.comment):
+            if getattr(d, "language", None) == "en":
+                definition = d
+                break
+
+# Fallback: any comment
+    if not definition:
+        for d in full_graph.objects(focus_node, RDFS.comment):
+            definition = d
+            break
+
+
+    definition = str(definition) if definition else ""
+  #  definition = str(definition) if definition else "No definition available"
+# ends here (def.)
+
+# starts here (parent check)
+
+    parent_label = None
+
+    for parent in full_graph.objects(focus_node, RDFS.subClassOf):
+    # skip blank nodes (restrictions, etc.)
+        if isinstance(parent, rdflib.term.BNode):
+            continue
+
+    # try to get English label of parent
+        for l in full_graph.objects(parent, RDFS.label):
+            if getattr(l, "language", None) == "en":
+                parent_label = l
+                break
+
+    # fallback: any label
+        if not parent_label:
+            for l in full_graph.objects(parent, RDFS.label):
+                parent_label = l
+                break
+
+    # fallback: URI suffix
+        if not parent_label:
+            parent_label = str(parent).split("/")[-1]
+
+        break  # only take first parent
+
+    parent_label = str(parent_label) if parent_label else ""
+
+# ends here (parent)
+
+    # starts here (contributor)
+
+    contributor = None
+
+    for p, o in full_graph.predicate_objects(focus_node):
+        if "creator" in str(p).lower() or "contributor" in str(p).lower() or "IAO_0000117" in str(p):
+            contributor = o
+            break
+
+    contributor = str(contributor) if contributor else ""
+
+# ends here
+
+    
+    
+
     severity = results_graph.value(result, SH.resultSeverity)
     severity = str(severity).split("#")[-1]
 
     message = results_graph.value(result, SH.resultMessage)
     message = str(message) if message else ""
 
-    rows_by_shape.setdefault(shape, []).append( [class_id, label, severity, message])
+    if str(shape).endswith("DigitRubberClassesWithDuplicateBaseLabels"):
+        rows_by_shape.setdefault(shape, []).append([class_id, contributor, label, parent_label, definition, message])
+    else:
+        rows_by_shape.setdefault(shape, []).append([class_id, contributor, label, parent_label, definition])
+
+   # rows_by_shape.setdefault(shape, []).append( [class_id, label, severity, message])
+   # rows_by_shape.setdefault(shape, []).append( [class_id, contributor, label, parent_label, definition])
 
 
 for shape, rows in rows_by_shape.items():
@@ -100,7 +205,13 @@ for shape, rows in rows_by_shape.items():
 
     with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Class Suffix", "Label", "Severity", "Message"])
+
+        if shape_name == "DigitRubberClassesWithDuplicateBaseLabels":
+            writer.writerow(["Class Suffix", "Contributor", "Label", "Parent", "Definition", "Message"])
+        else:
+            writer.writerow(["Class Suffix", "Contributor", "Label", "Parent", "Definition"])
+       # writer.writerow(["Class Suffix", "Label", "Severity", "Message"])
+       # writer.writerow(["Class Suffix", "Contributor", "Label", "Parent", "Definition"])
         writer.writerows(rows)
 
     print(f"Table written: {output_csv} ({len(rows)} violations)")

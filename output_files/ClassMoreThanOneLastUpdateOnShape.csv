@@ -1,2 +1,0 @@
-Class Suffix,Label,Severity,Message
-PATO_0000052,shape [pato],Violation,Class has more than one pav:lastUpdateOn value.

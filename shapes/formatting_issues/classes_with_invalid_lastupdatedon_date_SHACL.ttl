@@ -5,7 +5,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 
-:ClassInvalidLastUpdateOnShape
+:ClassInvalidLastUpdateOn
     a sh:NodeShape ;
     sh:severity sh:Violation ;
 

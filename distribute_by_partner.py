@@ -11,7 +11,7 @@ UNKNOWN_FOLDER = os.path.join(BASE_OUTPUT_FOLDER, "unknown")
 if not os.path.exists(INPUT_FOLDER):
     raise FileNotFoundError(f"Input folder '{INPUT_FOLDER}' does not exist.")
 
-os.makedirs(BASE_OUTPUT_FOLDER, exist_ok=True)
+os.makedirs(BASE_OUTPUT_FOLDER, exist_ok=True) 
 os.makedirs(UNKNOWN_FOLDER, exist_ok=True)
 
 for PARTNER_NAME in PARTNERS:

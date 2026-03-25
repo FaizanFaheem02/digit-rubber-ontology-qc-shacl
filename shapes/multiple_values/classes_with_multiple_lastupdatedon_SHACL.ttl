@@ -2,7 +2,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix pav: <http://purl.org/pav/> .
 
-:ClassMoreThanOneLastUpdateOnShape
+:ClassMoreThanOneLastUpdateOn
     a sh:NodeShape ;
     sh:targetSubjectsOf pav:lastUpdateOn ;
     sh:severity sh:Violation ;
