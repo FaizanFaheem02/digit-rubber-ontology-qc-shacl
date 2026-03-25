@@ -108,25 +108,25 @@ for PARTNER_NAME in PARTNERS:
                 print(f"unknown: Created {unknown_file}")
 
                 # 🔹 UNKNOWN DIGITRUBBER (ADD HERE)
-            dr_rows = df[df["Class Suffix"].str.startswith("DIGITRUBBER_", na=False) & df["Partner"].isna()]
+                dr_rows = df[df["Class Suffix"].str.startswith("DIGITRUBBER_", na=False) & df["Partner"].isna()]
 
-            if not dr_rows.empty and PARTNER_NAME == PARTNERS[0]:
+                if not dr_rows.empty and PARTNER_NAME == PARTNERS[0]:
 
-                cols = ["Label", "Parent", "Contributor", "Definition"]
+                    cols = ["Label", "Parent", "Contributor", "Definition"]
 
-                if resolution_text:
-                    cols.append(resolution_text)
+                    if resolution_text:
+                        cols.append(resolution_text)
 
-                cols = [c for c in cols if c in dr_rows.columns]
+                    cols = [c for c in cols if c in dr_rows.columns]
 
-                dr_rows = dr_rows[cols]
+                    dr_rows = dr_rows[cols]
 
-                dr_file = file.replace(".csv", "_unknown_digitrubber.xlsx")
-                dr_path = os.path.join(UNKNOWN_DR_FOLDER, dr_file)
+                    dr_file = file.replace(".csv", "_unknown_digitrubber.xlsx")
+                    dr_path = os.path.join(UNKNOWN_DR_FOLDER, dr_file)
 
-                dr_rows.to_excel(dr_path, index=False)
+                    dr_rows.to_excel(dr_path, index=False)
 
-                print(f"unknown_digitrubber: Created {dr_file}")
+                    print(f"unknown_digitrubber: Created {dr_file}")
 
     # ends here
 

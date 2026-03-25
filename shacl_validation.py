@@ -74,66 +74,109 @@ for result in results_graph.subjects(RDF.type, object=SH.ValidationResult):
 
     class_id = str(focus_node).split("/")[-1]
 
-    label = None
-    for l in full_graph.objects(focus_node, RDFS.label):
-        if getattr(l, "language", None) == "en":
-           label = l
-           break
+    # multiple labels start here
 
-    if not label:
+    labels = []
+
+    shape_name_tmp = str(shape)
+
+# Multiple English labels
+    if "ClassesWithMultipleEnglishLabels" in shape_name_tmp:
         for l in full_graph.objects(focus_node, RDFS.label):
-            label = l
-            break
+            if getattr(l, "language", None) == "en":
+                labels.append(str(l))
 
-    label = str(label) if label else ""
+# Multiple German labels
+    elif "ClassesWithMultipleGermanLabels" in shape_name_tmp:
+        for l in full_graph.objects(focus_node, RDFS.label):
+            if getattr(l, "language", None) == "de":
+                labels.append(str(l))
+
+# Default behavior (keep your old logic)
+    else:
+        for l in full_graph.objects(focus_node, RDFS.label):
+            if getattr(l, "language", None) == "en":
+                labels.append(str(l))
+                break
+
+        if not labels:
+            for l in full_graph.objects(focus_node, RDFS.label):
+                labels.append(str(l))
+                break
+
+# Join labels
+    label = " | ".join(labels) if labels else ""
+
+    # multiple labels ends here
 
     # starts here (def.)
 
-    definition = None
+    definitions = []
 
-# 0. Try OBO definition first (most important for your data)
-    for d in full_graph.objects(focus_node, OBO.IAO_0000115):
-        if getattr(d, "language", None) == "en":
-            definition = d
-            break
+    shape_name_tmp = str(shape)
 
-# Fallback: any OBO definition
-    if not definition:
+# 🔹 Multiple English definitions
+    if "ClassMoreThanOneEnglishDefinition" in shape_name_tmp:
         for d in full_graph.objects(focus_node, OBO.IAO_0000115):
-            definition = d
-            break
-
-
-# 1. Try SKOS definition
-    if not definition:
+            if getattr(d, "language", None) == "en":
+                definitions.append(str(d))
         for d in full_graph.objects(focus_node, SKOS.definition):
+            if getattr(d, "language", None) == "en":
+                definitions.append(str(d))
+
+# 🔹 Multiple German definitions
+    elif "ClassMoreThanOneGermanDefinition" in shape_name_tmp:
+        for d in full_graph.objects(focus_node, OBO.IAO_0000115):
+            if getattr(d, "language", None) == "de":
+                definitions.append(str(d))
+        for d in full_graph.objects(focus_node, SKOS.definition):
+            if getattr(d, "language", None) == "de":
+                definitions.append(str(d))
+
+# 🔹 Default behavior (your existing logic)
+    else:
+        definition = None
+
+    # OBO (en)
+        for d in full_graph.objects(focus_node, OBO.IAO_0000115):
             if getattr(d, "language", None) == "en":
                 definition = d
                 break
 
-# Fallback: any SKOS definition
-    if not definition:
-        for d in full_graph.objects(focus_node, SKOS.definition):
-            definition = d
-            break
-
-
-# 2. Optional fallback: rdfs:comment
-    if not definition:
-        for d in full_graph.objects(focus_node, RDFS.comment):
-            if getattr(d, "language", None) == "en":
+        if not definition:
+            for d in full_graph.objects(focus_node, OBO.IAO_0000115):
                 definition = d
                 break
 
-# Fallback: any comment
-    if not definition:
-        for d in full_graph.objects(focus_node, RDFS.comment):
-            definition = d
-            break
+    # SKOS
+        if not definition:
+            for d in full_graph.objects(focus_node, SKOS.definition):
+                if getattr(d, "language", None) == "en":
+                    definition = d
+                    break
 
+        if not definition:
+            for d in full_graph.objects(focus_node, SKOS.definition):
+                definition = d
+                break
 
-    definition = str(definition) if definition else ""
-  #  definition = str(definition) if definition else "No definition available"
+    # rdfs:comment
+        if not definition:
+            for d in full_graph.objects(focus_node, RDFS.comment):
+                if getattr(d, "language", None) == "en":
+                    definition = d
+                    break
+
+        if not definition:
+            for d in full_graph.objects(focus_node, RDFS.comment):
+                definition = d
+                break
+
+        definitions = [str(definition)] if definition else []
+
+# 🔹 Final join
+    definition = " | ".join(definitions) if definitions else ""
+
 # ends here (def.)
 
 # starts here (parent check)
