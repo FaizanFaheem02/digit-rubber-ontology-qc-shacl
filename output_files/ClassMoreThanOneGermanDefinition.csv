@@ -1,5 +1,5 @@
 Class Suffix,Contributor,Label,Parent,Definition
-PMD_0000997,,ultrasonic cleaner,cleaning device,An Ultrasonic Cleaner is a Cleaning Device that uses high-frequency sound waves and a cleaning solvent to remove contaminants from delicate or complex items.
-PMD_0000590,,cryogenic freezer,temperature change device,"A cryogenic freezer is a temperature change device that preserves materials at extremely low temperatures, often below -150°C."
 PMD_0000920,,saw,,"A saw is a device used to cut materials, especially wood. It usually consists of a thin, sharp metal blade fitted with teeth and a handle or frame that allows the user to guide the saw. There are different types of saws designed for different applications, including handsaws, circular saws, hacksaws and band saws. Each type of saw is designed for specific tasks and materials to enable efficient cutting."
-PMD_0000858,,microtome,device,"A device used to cut extremely thin slices of material, often for microscopic examination."
+PMD_0000997,,ultrasonic cleaner,cleaning device,A device that uses ultrasound and a cleaning solvent to clean delicate or complex items.
+PMD_0000590,,cryogenic freezer,temperature change device,"A cryogenic freezer is a temperature change device that preserves materials at extremely low temperatures, often below -150°C."
+PMD_0000858,,microtome,device,"A Microtome is a Measuring Device that cuts extremely thin slices of material, often for examination under a microscope."

@@ -1,9 +1,9 @@
 Class Suffix,Contributor,Label,Parent,Definition
+PMD_0000107,,nonlinear optical property,optical property,Optical property that is dependent on the intensity of the input light.
+PMD_0000125,,sandwich core,role,"a lightweight, low-density material that maintains the separation of face sheets and withstands transverse shear stresses"
+NCIT_C48834,,correlation [ifnano],measurement datum,"The degree to which two or more quantities or events are associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others. The collelation can be described by mathematical functions  (often a linear function is used). It’s a common tool for describing simple relationships without making a statement about cause and effect."
+PMD_0000124,,sandwich sheet role,role,"a stiff, strong material that carries bending loads through tensile and compressive stresses when integrated into a panel assembly"
+PATO_0000052,,shape [imr],intensive quality,"A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)."
+OBI_0000070,PlanAndPlannedProcess Branch,assay [obi],completely executed planned process,"A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies."
+OBI_0302911,,validation [obi],completely executed planned process,a planned process with objective to check that the accuracy or the quality of a claim or prediction satisfies some criteria and which is assessed by comparing with independent results
 PMD_0000075,,mould,device,A device consisting of a hollowed-out cavity that shapes fluid or plastic material into a specific form through the process of solidification or cooling.
-OBI_0302911,,validation [obi],process,a planned process with objective to check that the accuracy or the quality of a claim or prediction satisfies some criteria and which is assessed by comparing with independent results
-PATO_0000052,,shape [pato],intensive quality,"A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)."
-PMD_0000124,,sandwich sheet,role,"a stiff, strong material that carries bending loads through tensile and compressive stresses when integrated into a panel assembly"
-PMD_0000107,,optical non-linearity,optical property,Optical property that is dependent on the intensity of the input light.
-NCIT_C48834,,correlation [ifnano],measurement datum,"The degree to which two or more quantities or events are linearly associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others."
-OBI_0000070,PlanAndPlannedProcess Branch,assay,completely executed planned process,A planned process that has the objective to produce information about a material entity (the evaluant) by examining it.
-PMD_0000125,,sandwich core role,role,"a lightweight, low-density material that maintains the separation of face sheets and withstands transverse shear stresses"
