@@ -43,4 +43,6 @@ python shacl_validation.py
 - ontology/        → Active DigitRubber ontology
 - shapes/          → SHACL-based quality checks
 - output_files/    → CSV reports
-- shacl_validation.py    → Executes SHACL-based quality control checks
+- partner_results/ → partner specific reports
+- shacl_validation.py    → Script for executing SHACL-based data quality checks
+- distribute_by_partner.py → Script to generate partner-specific reports from the produced CSV files
