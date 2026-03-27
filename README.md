@@ -36,6 +36,8 @@ python shacl_validation.py
 - Multiple German (de) definitions
 - Multiple English (en) definitions
 - Multiple last updated on dates
+- Multiple German (de) labels
+- Multiple English (en) labels
 
 ## Project Folder Structure
 - ontology/        → Active DigitRubber ontology
