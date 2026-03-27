@@ -14,12 +14,7 @@
         sh:select """
             SELECT ?this WHERE {
               ?this rdf:type owl:Class .
-              FILTER (
-                STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") ||
-                STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") ||
-                STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") ||
-                STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/")
-              )
+              FILTER (STRSTARTS(STR(?this), "http://purl.obolibrary.org/obo/") || STRSTARTS(STR(?this), "https://w3id.org/pmd/co/") || STRSTARTS(STR(?this), "http://purl.allotrope.org/ontologies/") || STRSTARTS(STR(?this), "http://ncicb.nci.nih.gov/xml/owl/EVS/"))
             }
         """ ;
     ] ;
